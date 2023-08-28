@@ -1,0 +1,59 @@
+http://www.tradelive.ai/cpanel
+tradeliv
++m34y6mH3bL-KF
+------------------------------
+
+bank
+salse onlie
+add email and name
+-------------------
+visa 
+back
+----------
+cirpto
+add pdf file
+ass phone number to 2 form
+send send
+
+send => green
+back => red
+---------
+
+
+
+ALTER TABLE `users` ADD `passport` TEXT NULL AFTER `settings`, ADD `emirates_id` TEXT NULL AFTER `passport`, ADD `driving_license` TEXT NULL AFTER `emirates_id`, ADD `bank_statement` TEXT NULL AFTER `driving_license`, ADD `utility_bill` TEXT NULL AFTER `bank_statement`, ADD `other_documents` TEXT NULL AFTER `utility_bill`;
+ALTER TABLE `users` ADD `doc_profile` BOOLEAN NOT NULL DEFAULT FALSE AFTER `other_documents`;
+ALTER TABLE `users` ADD `is_admin` INT NULL AFTER `doc_profile`;
+ALTER TABLE `users` ADD `message` TEXT NULL AFTER `doc_profile`;
+
+
+riverxne_highness
+
+riverxne_root
+9ijJxxuo=Vv*
+
+----- cpanel
+https://highnessltd.com:2083
+riverxne
+fY6@6]Kp9o1YPl
+
+--
+
+iecfedu_root
+XDhzTHB8NDS9
+
+iecfedu_abdo
+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
+asd
+
+
+SENDER_EMAIL_ADDRESS=supsup@TradeLive AI.com
+MAIL_MAILER=smtp
+MAIL_HOST=mail.TradeLive AI.com
+MAIL_PORT=465
+MAIL_USERNAME=supsup@TradeLive AI.com
+MAIL_PASSWORD='123asdASD!#'
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=supsup@TradeLive AI.com
+MAIL_FROM_NAME="${APP_NAME}"
+

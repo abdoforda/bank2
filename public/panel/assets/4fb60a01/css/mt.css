@@ -1,0 +1,104 @@
+#group_form .has-success .select2-container--krajee .select2-selection
+{
+    border-color: lightgrey;
+}
+
+#DataTables_Table_0 > thead > tr > th.group_id
+{
+    width: 20%;
+}
+#DataTables_Table_0 > thead > tr > th.action-column
+{
+    width: 20%;
+}
+
+.input-group.deposit .inputLabel.addLabel {
+    width: auto;
+    margin-right: 1rem;
+    margin-bottom: 0;
+}
+.account-settings .docs_info {
+    padding-left: 0;
+    margin-bottom: 0.5rem;
+}
+.account-settings .docs_info .d-flex {
+    margin-bottom: 0.5rem;
+}
+.account-settings .docs_info .d-flex, .account-settings .input-group.deposit  {
+    align-items: center;
+}
+#mttransactions-transaction_type [value="8"] {
+    font-style: italic;
+}
+.kv-drp-container .kv-drp-dropdown{
+	margin-right: 5px;
+}
+
+.table.table-hover tr.new {
+    background-color: var(--accent);
+}
+
+.error_container {
+    width: 100%;
+    height: calc( 100vh - 115px );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.close_error_container {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    transform: rotate(-45deg);
+}
+
+.close_error_container i {
+    font-size: 26px;
+}
+
+/* .history td {
+    font-size: 14px;
+    color: #16223B;
+    text-align: center;
+}  */
+
+.history .status .text-secondary {
+    color: #ffc107 !important;
+}
+
+select option:not(:disabled) {
+    font-weight: 600;
+}
+
+.field-mttransactions-country, .field-mttransactions-local_currency  {
+    display: none;
+}
+
+#evirtualpay .field-mttransactions-country {
+    display: block;
+}
+
+.transaction_local_currency_input {
+    min-width: unset;
+}
+
+#cashier-block {
+    width: 100% !important;
+}
+
+#passwordChangeRequest .modal-content .text {
+    color: var(--font-color);
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#passwordChangeRequest .modal-content {
+    background-color: #fff;
+}
+
+#passwordChangeRequest .modal-body {
+    padding-top: 30px;
+    padding-bottom: 5px;
+}

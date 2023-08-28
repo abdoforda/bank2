@@ -1,0 +1,275 @@
+
+
+.bt01{
+    background: #ddd0;
+    border-radius: 50px;
+    border: 1px solid #7ae367;
+    color: #4b4b4c;
+    min-width: 130px;
+}
+
+.bt02{
+    background: rgb(55,185,14);
+    background: linear-gradient(90deg, rgba(55,185,14,1) 0%, rgba(204,236,116,1) 100%);
+    border-radius: 50px;
+    border: 0px solid #7ae367;
+    color: #ffffff;
+    min-width: 130px;
+}
+
+.bg01{
+    width: 50%;
+}
+
+.div-footer{
+    position: relative;
+    overflow: hidden;
+}
+
+.div-fotter2{
+    position: absolute;
+    bottom: -100px;
+    left: -30px;
+}
+
+.btn:first-child:hover, :not(.btn-check)+.btn:hover{
+    background-color: #bee76a;
+    border-color: #3ba515;
+}
+
+.splide__slide img {
+    vertical-align: bottom;
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 10px;
+}
+
+.h2{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+
+.bg02{
+    position: relative;
+}
+
+.div_slid{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+p{
+    margin: 0;
+}
+
+.padding16{
+    padding: 16px;
+}
+
+.slidf1{
+    text-align: center;
+}
+
+
+.tx1{
+    text-transform: uppercase;
+    color: #8b8b8b;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.tx2{
+    font-size: 1.6rem;
+    background-image: -webkit-gradient(linear, left top, right top, from(#456422), color-stop(51%, #8cdd2f), to(#456422));
+    background-image: linear-gradient(90deg, #456422 0%, #8cdd2f 51%, #456422 100%)
+    text-transform: uppercase;
+    line-height: 1.5;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.tx3{
+    text-transform: uppercase;
+    color: white;
+}
+
+.bt03{
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bt04{
+    margin-top: 20px;
+}
+
+
+.splide__pagination {
+    bottom: -1.4em !important;
+}
+.margin_top_50{
+    margin-top: 50px;
+}
+.div_slid2{
+    left: 14%;
+    top: 5%;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.div_slid2{
+    left: 8%;
+    color: #fff;
+    text-align: left;
+}
+
+.div_slid2 h2{
+    font-size: 4rem;
+    color: #44bd17;
+    font-weight: bold;
+}
+
+.div_slid2 h3{
+    font-size: 3rem;
+    color: #c5ea6f;
+}
+
+.div_slid2 p{
+    font-size: 1.7rem;
+    color: #e0ff97;
+    font-weight: 300;
+}
+
+.lang_icon{
+    height: 30px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+#navbarSupportedContent{
+    position: relative;
+}
+
+.dropdown2 {
+    position: inherit;
+}
+.dropdown-menu2{
+    min-width: 100%;
+}
+
+ul h5{
+    color: #82bd3c;
+}
+.lang02{
+    display: table;
+    float: right;
+    margin: 0px 8px;
+}
+.lang02 #dr01{
+    background: #f9f9f9;
+    border: 0;
+    color: #333;
+}
+.dropdown-menu.show.sub_lang{
+    right: 0;
+    left: auto;
+}
+.ul01{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.language-dropdown .language-icon {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	.dropdown-menu li{ position: relative; 	}
+	.nav-item .submenu{ 
+		display: none;
+		position: absolute;
+		left:100%; top:-7px;
+	}
+	.nav-item .submenu-left{ 
+		right:100%; left:auto;
+	}
+	.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+	.dropdown-menu > li:hover > .submenu{ display: block; }
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+  .dropdown-menu .dropdown-menu{
+      margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+  }
+}	
+/* ============ small devices .end// ============ */
+
+.splide__arrows button{
+    display: none;
+}
+
+.margin-top-20{
+    margin-top: 22px;
+}
+
+header{
+    padding-top: 66px;
+}
+
+nav.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.full-width-box {
+    width: 100%;
+    box-sizing: border-box;
+}
+.login-legend {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #e4e4e4;
+    line-height: .1em;
+    margin: 10px 0 10px;
+    background: #fafafa;
+    font-size: 16px;
+}
+.login-legend span {
+    padding: 0 10px;
+    background: inherit;
+}
+
+.icon{
+    height: 36px;
+    width: 36px;
+    background: url(https://cdn-icons-png.flaticon.com/512/2991/2991148.png);
+    background-size: 100%;
+    border: 0;
+    margin: 12px;
+}
+
+.ic-face{
+    background: url(https://cdn-icons-png.flaticon.com/512/3128/3128304.png);
+    background-size: 100%;
+}
+
+.ic-appl{
+    background: url(https://cdn-icons-png.flaticon.com/512/731/731985.png);
+    background-size: 100%;
+}

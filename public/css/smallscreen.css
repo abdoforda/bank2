@@ -1,0 +1,77 @@
+main{
+    padding-top: 28px;
+}
+header nav{
+    background: #4c5764;
+}
+.lang02 #dr01 {
+    margin-top: 6px;
+}
+.bt09 {
+    margin: 2px;
+    margin-top: 16px;
+}
+.prim-six-box .six-boxes .feature-box{
+    min-height: 86px;
+}
+
+.prim-six-box .six-boxes .feature-box svg, .prim-six-box .six-boxes .feature-box img {
+    top: 16px;
+}
+
+.icon .img-fluid {
+    padding: 0px 4px;
+    max-width: 32px;
+}
+
+iframe{
+    width: 100%;
+}
+.hide_in_mobile{
+    display: none;
+}
+.registerFormFixed{
+    width: 90%;
+    right: -90%;
+}
+
+.show_in_mobile{
+    display: block;
+}
+.padding-start-5-pc{
+    padding-left: 0rem !important;
+}
+ul.steps.listDownInMobile{
+    display: block;
+}
+ul.steps.listDownInMobile li{
+    width: 100%;
+    height: 110px;
+}
+ul.steps.listDownInMobile .steps_item-2{
+    padding-left: 3rem;
+}
+ul.steps.listDownInMobile .steps_item-2:after{
+    display: none;
+}
+ul.steps.listDownInMobile .steps_item-2:before{
+    left: 0px;
+}
+
+ul.steps.listDownInMobile .steps_item-3{
+    padding-left: 3rem;
+}
+ul.steps.listDownInMobile .steps_item-3:after{
+    display: none;
+}
+ul.steps.listDownInMobile .steps_item-3:before{
+    left: 0px;
+}
+.centerIsMobile{
+    margin: auto;
+    float: inherit;
+}
+.button60{
+    width: 60%;
+    margin: 8px;
+}

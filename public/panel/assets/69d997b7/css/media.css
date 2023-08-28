@@ -1,0 +1,453 @@
+
+@media (max-width: 1920px) {
+}
+
+@media (max-width: 1680px) {
+	/* .belleo-table .payment-link {
+		max-width: 180px;
+		margin-left: 10px;
+	} */
+}
+
+@media (max-width: 1440px) {
+	.belleo-table .payments__table .payment-img {
+		gap: 22px;
+	}
+	.belleo-table .payment-link {
+		margin-left: 10px;
+	}
+}
+
+@media (max-width: 1366px) {
+	.belleo-table .payments__table .time-td .time {
+		padding-left: 25px;
+	}
+	.belleo-table .table-titles td:first-child,
+	.belleo-table .table-titles td:nth-child(2) {
+		width: auto;
+	}
+	.belleo-table .payments__table .payment-img .title,
+	.belleo-table .payments__table .t-title,
+	.belleo-table .payments__table td {
+		font-size: 14px;
+	}
+	.belleo-table .payments__table .payment-img {
+		gap: 12px;
+	}
+}
+
+@media (max-width: 1280px) {
+	.dropdown.dropdownAccounts::after {
+		right: 0;
+	}
+	/* .belleo-table .payments__table .t-title {
+		font-size: 16px;
+		line-height: 22px;
+		margin-bottom: 30px;
+	} */
+	.belleo-table .payments__table td {
+		padding: 10px 5px !important;
+	}
+	.belleo-table .payments__table .line td {
+		padding: 5px !important;
+	}
+	.belleo-table .payment-link {
+		font-size: 14px;
+		min-width: 100px;
+	}
+	.belleo-table .payments__table .payment-img .title {
+		min-width: 80px;
+	}
+	.belleo-table .payments__table .payment-img .icon {
+		min-width: 80px;
+		max-width: 85px;
+	}
+	/* .belleo-table .payments__table td {
+		font-size: 16px;
+		line-height: 21px;
+	} */
+	/* .belleo-table .payment-link {
+		font-size: 18px;
+		max-width: 160px;
+		margin-left: 5px;
+		margin-right: 5px;
+	} */
+	.account-type {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 1024px) {
+	.card-account{
+		flex: 1 0 auto;
+		min-width: 280px;
+		max-width: 25%;
+	}
+	.account-score_info-score__item{
+		margin-bottom: 20px;
+	}
+	.upload-documents .h2{
+		margin-top: 20px !important;
+	}
+	.belleo-table .payments__table .payment-img .icon {
+		min-width: 101px;
+		max-width: 106px;
+	}
+	.account-type {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (max-width: 992px) {
+	.account-type {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 768px) {
+	.card-account_outer{
+		justify-content: center;
+	}
+	/* .account-type{
+		display: block;
+	} */
+	/* .account-type_body{
+		display: none;
+	} */
+	/* .account-type_item{
+		display: flex;
+		justify-content: space-between;
+		padding: 0 0 0 20px;
+		margin: 5px 15px;
+	} */
+	/* .account-type_footer{
+		border-top: none;
+		background: #F8FAFD;
+		width: 60px;
+	} */
+	/* .account-type_header{
+		margin: 20px 0;
+	} */
+	.account-type_outer .btn{
+		margin: 15px 15px 0 auto;
+	}
+	.account-leverage{
+	  padding: 30px 20px;
+	}
+	.account-leverage_body{
+		margin-top: 10px;
+	}
+	.download-mt{
+		margin: 0 10px;
+	}
+
+	.account-score_info-score__balance{
+		padding: 0;
+		margin: 0;
+		flex: 0 0 50%;
+	}
+	.account-score_info-score__credit{
+		padding: 0 0 0 20px;
+	}
+	.account-score_btn__block{
+		border-bottom: none;
+	}
+	.account-score_info-score__item{
+		font-size: 12px;
+	}
+	.transfer_method_item__outer{
+		display: block;
+	}
+	.account-score_info-score__item .fz-18{
+		font-size: 14px;
+	}
+
+	/* .upload-documents_ind-verification{
+	 	flex-direction: column;
+	} */
+	.upload-documents_ind-verification_item {
+		height: 120px;
+		margin: 0 auto 15px;
+		width: 220px;
+		padding: 0 10px;
+	}
+	.upload-documents_ind-verification_item > img{
+		max-width: 42px;
+	}
+	.upload-documents .account-score_btn{
+		font-size: 13px;
+	}
+	.upload-documents_info-block{
+		font-size: 14px;
+		position: relative;
+		margin-top: 40px;
+	}
+	.upload-documents_info-block__list_outer{
+		margin: 0 25px ;
+		position: relative;
+	}
+	.upload-documents__control-block{
+		margin-bottom: 30px;
+		justify-content: flex-end;
+	}
+	.upload-documents_info-block__icon{
+		position: absolute;
+		width: 50px;
+		top: -17px;
+		left: -35px;
+	}
+	/* .upload-documents_info-block__icon ~ b{
+		padding-inline-start: 20px;
+	} */
+
+	.file-preview-thumbnails{
+		align-items: flex-start !important;
+	}
+	.transfer_method_item__outer:nth-child(2):after,
+	.transfer_method_item__outer:nth-child(4):after{
+		display: none;
+	}
+	.upload-documents .account-score_btn{
+		padding: 10px;
+		margin: 0 2px
+	}
+	.dropdownAccounts .dropdown-toggle::after {
+		display: block;
+	}
+	.account-info .dropdown.dropdownAccounts {
+		max-width: 150px;
+	}
+	.dropdown.dropdownAccounts::after {
+		right: 0;
+	}
+	.account-info .account-score_info-score {
+		margin-top: 15px;
+	}
+	.deposit__wrap .transfer_method_body {
+		display: block;
+	}
+	.transfer_method_item__outer:nth-child(1), 
+	.transfer_method_item__outer:nth-child(2), 
+	.transfer_method_item__outer:nth-child(3), 
+	.transfer_method_item__outer:nth-child(4) {
+		display: block;
+	}
+	.belleo-table .payments__container {
+		overflow: hidden;
+	}
+	.belleo-table .payments__block {
+		overflow-x: auto;
+		padding-bottom: 20px;
+	}
+	.belleo-table .payments__table td {
+		min-width: 150px;
+	}
+	.belleo-table .payment-link {
+		min-width: 160px;
+		margin-left: 10px;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 600px) {
+	h1, .h1, h2, .h2 {
+		font-size: 20px !important;
+		font-weight: 900;
+	}
+	.form-control{
+		font-size: 0.9rem;
+	}
+	.control-label{
+		font-size: 14px;
+	}
+	.transfer_method {
+		padding: 10px 20px 40px;
+	}
+	.type-checkbox_footer__checkbox{
+		margin: 0;
+	}
+	.transfer_method_item__outer:nth-child(1),
+	.transfer_method_item__outer:nth-child(2),
+	.transfer_method_item__outer:nth-child(3),
+	.transfer_method_item__outer:nth-child(4) {
+		display: block;
+	}
+
+	.transfer_method_item{
+		flex-direction: row;
+		box-shadow: 6px 1px 14px #a5aab717;
+		background: #4848485e;
+		border: 3px solid #D0DFEF33;
+		padding-inline-end: 20px;
+		margin: 10px 0;
+		display: flex;
+		align-items: center;
+	}
+	.transfer_method_item__body{
+		flex-direction: row;
+		height: 70px;
+		box-shadow: none;
+		border: none;
+		justify-content: start;
+	}
+	.transfer_method_item__title{
+		margin-top: 0;
+	}
+	.account-type_item:hover,
+	.account-type_item__checked,
+	.transfer_method_item:hover .transfer_method_item__body,
+	.transfer_method_item__cheked .transfer_method_item__body,
+	.transfer_method_item__body:hover{
+		box-shadow: none !important;
+	}
+	.account-type_item:hover, .account-type_item__checked, .transfer_method_item:hover, .transfer_method_item__cheked{
+		box-shadow: 6px 6px 16px #d0dfef;
+	}
+	.transfer_method_item__outer__header{
+		text-align: left;
+	}
+	.transfer_method_item__img{
+		flex: 0 1 70px;
+		text-align: start;
+	}
+	.transfer_method input{
+		max-width: 100%;
+		min-width: auto;
+	}
+
+	.banks-info .input-group{
+		display: block;
+	}
+	.banks-info .input-group input,
+	.banks-info .input-group select{
+		width: 100%;
+	}
+
+ .history .account-score_btn{
+		width: auto;
+	}
+	.file-preview_upload-documents .file-drop-zone-title{
+		padding-bottom: 0;
+		padding-top: 40px;
+	}
+
+	.account-type_item .type-checkbox_footer__checkbox {
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 575px) {
+	.account-types .account-type_outer .h2 {
+		font-size: 36px !important;
+		margin-bottom: 24px;
+		max-width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.account-type {
+		grid-template-columns: 1fr;
+		max-width: 311px;
+	}
+	.account-type_outer .btn {
+	    margin: 0 auto;
+	}
+}
+
+@media (max-width: 533px) {
+	.profile .profile_nav {
+		flex-wrap: nowrap;
+		width: 320px;
+		overflow: hidden;
+		overflow-x: scroll;
+	}
+	.profile_nav a,
+	.profile_nav a.active{
+		font-size: 14px;
+		padding-inline-start: 0;
+		padding-inline-end: 30px;
+		white-space: nowrap;
+	}
+	.profile .nav-item{      
+		min-width: auto;
+	}
+	.belleo-table .payments__table td {
+		min-width: 160px;
+	}
+	.belleo-table .payments__table .t-title.arrow::before {
+		content: "";
+	}
+	.belleo-table .payments__table-fixed {
+		display: flex;
+	}
+	.belleo-table .payments__table td {
+		height: 75px;
+	}
+	.belleo-table .payments__table .payment-img .title {
+		font-size: 12px;
+	}
+	.belleo-table .payments__table .payment-img img {
+		max-height: 39px;
+	}
+	.deposit .ctm-group .accent-label {
+		line-height: 25px;
+		padding: 10px;
+		top: 43px;
+		max-width: 100px;
+	}
+	.deposit .set-input-link {
+		word-break: break-all;
+	}
+	.deposit .qr-code {
+		max-width: 200px;
+	}
+}
+
+@media (max-width: 360px) {
+	.upload-documents_ind-verification__loaded-block{
+		max-width: 100%;
+		overflow: hidden;
+	}
+
+}
+@media (max-width: 320px) {
+}
+
+
+
+@media (min-width: 320px) {
+}
+
+@media (min-width: 360px) {
+}
+
+@media (min-width: 533px) {
+}
+
+@media (min-width: 600px) {
+}
+
+@media (min-width: 768px) {
+	.transfer_method_item__outer:nth-child(1),
+	.transfer_method_item__outer:nth-child(3),
+	.transfer_method_item__outer:nth-child(4) {
+		width: 260px;
+	}
+}
+
+@media (min-width: 800px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1366px) {
+}
+
+@media (min-width: 1680px) {
+}
+
+@media (min-width: 1920px) {
+}

@@ -1,0 +1,2416 @@
+.card-account {
+	margin: 0 10px 20px;
+	flex: 0 0 311px;
+	background: #4848485e;
+	border-radius: 8px;
+	box-shadow: 4px 4px 16px #A5AAB721;
+	min-height: 240px;
+	transition: all .4s ease-in-out;
+}
+
+/* .card-account:not(.card-account__open-account):hover {
+	box-shadow: 0 30px 25px rgba( 0, 0, 0, 0.2);
+
+} */
+
+.card-account_outer {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card-account_outer-notupload .img-circle {
+	background: linear-gradient(90deg, #0269c7 0%, #4088d7 100.02%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.card-account_outer-notupload .img-circle img {
+	opacity: .5;
+}
+
+.card-account_outer-notupload .btn-primary-main {
+	background: transparent;
+	color: #007aff;
+    border: 2px solid var(--hr-color-2);
+	font-weight: 700;
+}
+
+.card-account_outer-notupload .btn-primary-main:hover {
+	background: #007aff;
+	color: #fff;
+    border: 2px solid var(--hr-color-2);
+}
+
+.card-account_outer-notupload .h2 {
+	font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+
+.card-account_header {
+	/* background: linear-gradient(45deg, rgba(32, 51, 90, 1) 0%, rgba(53, 112, 167, 1) 100%); */
+	border-radius: 12px 12px 0 0;
+	background: #dbccf8;
+	/* box-shadow: 4px 4px 16px #A5AAB721; */
+	font-size: 18px;
+}
+
+.card-account_header__inner {
+	min-height: 100px;
+	color: #fff;
+	padding: 20px;
+	width: 100%;
+	position: relative;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-account_header__inner .card-account__top {
+    width: 100%;
+    max-width: 200px;
+    margin-top: -20px;
+}
+
+.card-account_header__inner .card-account__top .account-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000;
+    border-radius: 0 0 8px 8px;
+    background-color: #fff;
+    padding: 13px 5px;
+	padding-top: 6px;
+    padding-bottom: 10px;
+    max-width: 149px;
+    width: 100%;
+	margin: 0 auto;
+    text-align: center;
+}
+
+.card-account_header__inner .card-account__top a img {
+	filter: invert(1);
+}
+
+.card-account_header__inner .card-account__top a {
+	position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.card-account_ecn .card-account_header {
+	background: linear-gradient(45deg, rgba(32, 51, 90, 1) 0%, rgba(53, 112, 167, 1) 100%);
+}
+
+.card-account_islamic .card-account_header {
+	background: linear-gradient(45deg, #EE743B 0%, rgba(255, 166, 98, 1) 100%);
+}
+
+.card-account_standard .card-account_header {
+	/* background: linear-gradient(45deg, rgba(30, 47, 81, 1) 0%, rgba(27, 42, 74, 1) 100%); */
+	background: #dbccf8;
+}
+.card-account_swap-free .card-account_header {
+	background: #b395f1;
+}
+.card-account_zero .card-account_header {
+	background: #9970ec;
+}
+.card-account_pro .card-account_header {
+	background: #875be7;
+}
+
+/* .card-account_ecn .card-account_header__inner {
+	background: url(../img/account-bg/account-bg-enc.svg) right/cover;
+}
+
+.card-account_islamic .card-account_header__inner {
+	background: url(../img/account-bg/account-bg-islamic.svg) right/cover;
+}
+
+.card-account_standard .card-account_header__inner {
+	background: url(../img/account-bg/account-bg-standard.svg) right/cover;
+
+} */
+
+.card-account__name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+	color: #070417;
+    text-align: center;
+    margin-top: 12px;
+	text-transform: capitalize;
+}
+
+.card-account_body {
+	padding: 25px 20px;
+}
+
+
+/* .card-account__row {
+	margin-bottom: 20px;
+} */
+
+.card-account__row_header {
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	font-weight: 700;
+	color: var(--background-color-dark);
+	margin-bottom: 20px;
+}
+
+.card-account__row_header,
+.card-account__row_info {
+	padding-left: 20px;
+	position: relative;
+}
+
+.card-account__row_header::before,
+.card-account__row_info::before {
+	content: "";
+	position: absolute;
+	background-image: url('../img/icon/checked-accent.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 14px;
+    height: 10px;
+    left: 0;
+    top: calc(50% - 6px);
+}
+
+.card-account__row_header .title,
+.card-account__row_info .title {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.card-account__row_info {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.card-account__row_info .value {
+	font-weight: 600;
+}
+
+/* .card-account__open-account {
+	box-shadow: inset 0px 0px 0px 8px #ffffff, inset 0px 0px 0px 9px rgba(165, 170, 183, 0.05), 4px 4px 16px #a5aab721;
+} */
+
+.card-account__open-account .card-account_body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 240px;
+	justify-content: center;
+}
+
+.card-account__open-account .btn-primary_transparent {
+	max-width: 200px;
+}
+
+.dashboard_btn__block {
+	display: flex;
+}
+
+.dashboard_btn {
+	color: #000;
+	font-size: 16px;
+	padding: 20px 50px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.dashboard_window {
+
+}
+
+.dashboard_btn__active {
+	background: linear-gradient(90deg, #0269c7 0%, #4088d7 100.02%);
+    border-radius: 4px 4px 0px 0px;
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.dashboard_window__active {
+
+}
+
+.transfer_method {
+	padding: 10px 30px 40px;
+}
+.account-type {
+	display: grid;
+	display: -ms-grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 965px;
+    margin: 0 auto;
+	gap: 16px;
+}
+
+.account-type_item,
+.transfer_method_item__body {
+	cursor: pointer;
+	transition: all 0.4s;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 15%);
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+	border: 3px solid #D0DFEF33;
+    border-radius: 10px;
+    padding: 40px 40px 30px 40px;
+}
+
+/* .account-type_item {
+	flex: 0 1 275px;
+	padding: 25px 50px;
+	margin: 0 7px 20px;
+} */
+
+.account-type_item .type-checkbox_footer__checkbox {
+	margin-top: 20px;
+}
+
+.account-type_item:hover,
+.account-type_item__checked,
+.transfer_method_item:hover .transfer_method_item__body,
+.transfer_method_item__cheked .transfer_method_item__body,
+.upload-documents_ind-verification_item__checked,
+.upload-documents_ind-verification_item:hover {
+	box-shadow: 6px 6px 16px #D0DFEF !important;
+}
+
+.account-type_item__checked .type-checkbox_footer__checkbox,
+.transfer_method_item__checked .type-checkbox_footer__checkbox,
+.upload-documents_ind-verification_item__checked .type-checkbox_footer__checkbox{
+	background: var(--hr-color-2);
+	opacity: 1;
+	box-shadow: 0 0 0 3px var(--hr-color-2), inset 0 0 0 3px #fff;
+}
+
+.account-type_header {
+	text-align: center;
+	margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    font-family: 'Cairo', sans-serif;
+    color: #070417;
+}
+
+.account-type_body {
+	margin-bottom: 10px;
+}
+
+.account-type_row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 16px;
+}
+
+.account-type_row__hd {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000;
+}
+
+.account-type_row__td {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.account-type_footer {
+	/* border-top: 1px solid var(--grey-text); */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.account-types .account-type_outer .h2 {
+	font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 35px;
+}
+
+.type-checkbox_footer__checkbox {
+	width: 19px;
+	height: 19px;
+	background: var(--grey-text);
+	border-radius: 50%;
+	margin: 10px auto 0;
+	opacity: .1;
+	display: block;
+}
+
+.account-leverage_outer {
+	display: none;
+}
+
+.account-leverage {
+	background: #4848485e;
+	text-align: center;
+	box-shadow: 6px 1px 14px #A5AAB717;
+	border: 3px solid #D0DFEF33;
+	border-radius: 4px;
+	padding: 30px 45px;
+}
+
+.account-leverage-box {
+	margin: 0 auto 15px;
+	width: 90%;
+	max-width: 480px;
+}
+
+.account-leverage_body {
+	display: flex;
+	justify-content: center;
+}
+
+.account-leverage_footer {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.account-leverage_footer .btn {
+	margin: 10px;
+}
+
+.account-leverage_item {
+	position: relative;
+	background: transparent;
+	flex: 0 1 55px;
+	flex-direction: column;
+	height: 90px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--text-color);
+	border-radius: 26px;
+	font-weight: 600;
+	transition: all 0.6s;
+	cursor: pointer;
+	background-size: 100% 0;
+}
+
+.account-leverage_item:after {
+	width: 10px;
+	height: 10px;
+	content: '';
+	background: var(--grey-text);
+	position: relative;
+	display: block;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+
+.account-leverage_item__checked {
+	background: linear-gradient(180deg, var(--hr-color-2) 0%, var(--hr-color-2) 100%);
+	color: #fff;
+	background-size: 100% 90px;
+	background-repeat: no-repeat;
+}
+
+.account-leverage_item__checked:after {
+	background: #4848485e;
+}
+
+.download-mt {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 0 1 15%;
+	font-weight: 600;
+}
+
+.download-mt__icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0 1 50px;
+	height: 50px;
+	width: 50px;
+	background: var(--text-color);
+	border-radius: 50%;
+	transition: all 0.4s;
+	margin: 10px auto;
+}
+
+.download-mt:hover .download-mt__icon {
+	background: var(--accent);
+}
+
+.download-mt:hover .download-mt__title {
+	color: var(--text-color);
+	font-weight: 600;
+}
+
+.download-mt__title {
+	color: var(--grey-text);
+	font-size: 14px;
+}
+
+.modal__create-account .modal_body {
+	padding-top: 60px;
+	position: relative;
+}
+
+.modal__create-account .close-modal-create-account {
+	background: transparent;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.modal__create-account .close-modal-create-account::before,
+.modal__create-account .close-modal-create-account::after {
+	content: "";
+	position: absolute;
+	width: 2px;
+	height: 20px;
+	background: #2B63AD;
+	top: calc(50% - 10px);
+}
+
+.modal__create-account .close-modal-create-account::before {
+	transform: rotate(-45deg);
+}
+
+.modal__create-account .close-modal-create-account::after {
+	transform: rotate(45deg);
+}
+
+.modal__create-account .modal_body:before {
+	width: 110px;
+	height: 110px;
+	background: var(--them-color-2)  url(../img/check.svg) no-repeat center;
+	content: '';
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	border-radius: 50%;
+	border: 10px solid #fff;
+}
+
+.modal__create-account .btn-close {
+	position: static;
+}
+
+.modal__create-account .modal_title {
+	font-size: 18px;
+}
+
+.account-score_btn__block {
+	display: flex;
+	justify-content: center;
+	gap: 90px;
+	/* border-bottom: 1px solid var(--grey-text); */
+}
+
+.account-score_btn {
+	font-family: 'Cairo', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: #070417;
+	/* width: 120px; */
+	text-align: center;
+	padding: 10px;
+	/* border: 1px solid var(--grey-text); */
+	cursor: pointer;
+	/* margin: 0 5px; */
+	position: relative;
+	border-radius: 4px;
+	border: 1px solid #070417;
+	transition: all 0.4s;
+}
+
+.account-score_btn:hover {
+	color: #1b7dd9;
+}
+
+/* .account-score_btn:after {
+	content: '';
+	border: 7px solid transparent;
+	border-top: 7px solid var(--accent);
+	position: absolute;
+	bottom: -14px;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 0;
+} */
+
+.account-score_btn__active {
+	background: linear-gradient(90deg, #0269c7 0%, #4088d7 100.02%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	border: 1px solid #056ac8;
+	border-radius: 4px;
+}
+/* .account-score_btn__active:after {
+	opacity: 1;
+} */
+
+.account-score_btn-deposit__blok .btn {
+	margin: 0;
+}
+
+.account-score_btn-deposit__blok .btn {
+	margin: 0 0 0 auto;
+}
+
+.account-score_info-score {
+	/* background: var(--background-color-dark); */
+	color: #fff;
+	/* padding: 30px 40px; */
+	/* border-radius: 8px; */
+	display: flex;
+	align-items: center;
+	/* margin: 20px 0; */
+}
+
+.account-score_info-score__balance {
+	border-right: 1px solid var(--grey);
+	padding-inline-end: 90px;
+	margin-inline-end: 90px;
+}
+
+.account-score_info-score__credit {
+
+}
+
+.account-score__tab-block {
+	display: none;
+	/* margin-top: 20px; */
+}
+
+.account-score__tab-block__active {
+	display: block;
+}
+
+.account-score_info-score__item {
+	border-radius: 8px;
+	padding: 40px 30px;
+}
+
+.dropdownAccounts {
+	cursor: pointer;
+}
+
+.dropdownAccounts.show .account-score_btn__integer {
+	color: var(--accent);
+}
+
+.dropdownAccounts.show .dropdown-toggle::after {
+	transform: rotate(180deg);
+	color: var(--accent);
+}
+
+.dropdownAccounts .h-card {
+	background: url(../img/icon/cart.svg) center bottom no-repeat;
+	background-size: 18px;
+	width: 20px;
+	height: 20px;
+}
+
+.account-score_btn__integer {
+	transition: all .4s ease-in-out;
+}
+
+.account-score_btn__integer:hover {
+	color: var(--hr-color-2);
+}
+
+.dropdown.dropdownAccounts {
+	position: relative;
+}
+
+.dropdown.dropdownAccounts::after {
+	content: '';
+    position: absolute;
+	right: 20px;
+    top: 50%;
+	transform-origin: top;
+    width: 12px;
+    height: 12px;
+    border-width: 3px 0 0 3px;
+    border-style: solid;
+    border-color: var(--hr-color-2);
+    transform: rotate(-135deg) translate(0, -50%);
+	pointer-events: none;
+	transition: all ease-in-out .4s;
+}
+
+.dropdown.dropdownAccounts.show::after {
+    transform: rotate(45deg) translate(0, -50%);
+} 
+
+.transfer_method_header {
+
+}
+
+.transfer_method_body {
+	margin-top: 30px;
+	padding: 10px 0px 0px;
+	text-align: center;
+}
+.transfer_method-payments .transfer_method_body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    gap: 10px 50px;
+}
+
+.transfer_method_item__outer__header {
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.transfer_method_item__outer {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	position: relative;
+}
+
+.transfer_method_items__outer{
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.transfer_method_item__outer:nth-child(1),
+.transfer_method_item__outer:nth-child(2),
+.transfer_method_item__outer:nth-child(3),
+.transfer_method_item__outer:nth-child(4) {
+	display: inline-flex;
+	margin: 0 5px;
+}
+
+.transfer_method_item__outer:nth-child(2):after,
+.transfer_method_item__outer:nth-child(4):after {
+/* .transfer_method_item__outer:nth-child(2):before { */
+	content: '';
+	width: 1px;
+	height: 115px;
+	border-left: 2px dashed var(--hr-color);
+	position: absolute;
+	top: 50%;
+	transform: translateY(-60%);
+}
+.transfer_method_item__outer:nth-child(2):after {
+	left: -30px;
+}
+.transfer_method_item__outer:nth-child(4):after {
+	left: -30px;
+}
+/* .transfer_method_item__outer:nth-child(2):before{
+	right: -5px;
+} */
+
+.transfer_method_item {
+	flex: 0 0 120px;
+	flex-direction: column;
+	margin: 0 5px 20px;
+	min-width: 120px;
+}
+
+.transfer_method_item__body {
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.transfer_method_item__cheked {
+
+}
+
+.transfer_method_item__title {
+	color: var(--grey-text);
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.control-label {
+	font-weight: 600;
+}
+
+.transfer_method__outer-block,
+.amount_credited {
+	display: none;
+}
+
+.banks-info label {
+	flex: 0 1 200px;
+}
+
+.banks-info .input-group {
+	margin-bottom: 10px;
+	align-items: center;
+}
+
+.max-withdrawal {
+	font-size: 14px;
+	color: var(--accent);
+	text-align: end;
+	margin-top: 14px;
+}
+
+.profile_nav__outer {
+	overflow-x: auto;
+}
+
+.profile .profile_nav {
+	/* border-bottom: 1px solid var(--box-shadow); */
+	/* margin-bottom: 10px; */
+	/* flex-wrap: nowrap; */
+}
+
+.profile .nav-item {
+	text-align: center;
+	min-width: 120px;
+}
+
+.profile_nav a {
+	color: var(--text-color);
+	font-size: 16px;
+	border-bottom: 2px solid transparent;
+	transition: all 0.4s;
+	transform: translateY(2px);
+
+}
+
+/* .profile_nav a.active {
+	color: var(--accent);
+	font-size: 16px;
+	border-bottom: 2px solid;
+	font-weight: 600;
+} */
+
+.profile_user-view {
+	text-align: center;
+	margin-top: 20px;
+	position: relative;
+}
+
+.profile_user-view .user-photo {
+	width: 95px;
+	height: 95px;
+}
+
+.profile .control-label {
+	font-size: 14px;
+	color: var(--grey);
+	font-weight: 400;
+}
+
+.profile .form-control {
+	font-weight: 600;
+
+}
+
+.form-group_psevdo .form-control {
+	background: #efefef;
+	height: 50px;
+	padding-top: 14px;
+}
+
+.modal.show {
+	z-index: 900;
+	position: fixed;
+}
+
+.modal-backdrop.show {
+	z-index: 800;
+}
+
+.profile .btn_loud-foto {
+	width: 32px;
+	height: 32px;
+	background: linear-gradient(180deg, #EE743B 0%, #FFA662 100%) 0% 0%;
+	border-radius: 50%;
+	position: absolute;
+	min-height: auto;
+	border: transparent;
+	bottom: 0;
+	right: 0;
+	margin: 0;
+
+}
+
+.profile .btn_loud-foto:after {
+	position: absolute;
+	height: 100px;
+	content: '';
+	width: 100%;
+	background: url(../img/icon/pen-1.svg) no-repeat center;
+}
+
+.upload-documents .h2{
+	margin-top: -20px !important;
+}
+
+.upload-documents .account-score_btn{
+	padding: 10px 15px;
+	font-weight: 400;
+	border: 2px solid #E5EDF5;
+}
+.upload-documents .account-score_btn__active{
+	font-weight: 500;
+	/* border: 2px solid #F4B79B; */
+}
+
+.upload-documents .upload-documents__window{
+	display: none;
+}
+
+.upload-documents .upload-documents__window.active {
+	display: block;
+}
+.upload-documents .account-score_btn {
+	width: auto;
+}
+
+.upload-documents .account-score_btn__block {
+	border-bottom: 1px solid var(--border-color);
+	/* pointer-events: none; */
+}
+
+.upload-documents_ind-verification {
+	display: flex;
+	justify-content: center;
+}
+
+.upload-documents_ind-verification_item {
+	box-shadow: 6px 6px 14px #a5aab733;
+	height: 200px;
+	width: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: #4848485e;
+	margin: 10px;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+.upload-documents_ind-verification_item__title{
+	font-size: 16px;
+	font-weight: 600;
+}
+.upload-documents_ind-verification_item__checked{
+
+}
+.upload-documents_info-block{
+	margin-top: 60px;
+}
+.upload-documents_info-block__list_outer{
+	flex: 1 0 auto;
+}
+.upload-documents_info-block__list{
+	flex: 1 0 50%;
+	line-height: 26px;
+	max-width: 190px;
+}
+.upload-documents_info-block__list li {
+	list-style: disc;
+}
+.upload-documents_ind-verification_bnt_files{
+	display: flex;
+	background: #F4F5F7;
+	border-radius: 3px;
+	height: 71px;
+	width: 71px;
+	margin: 10px auto;
+	align-items: center;
+	justify-content: center;
+}
+.upload-documents_ind-verification__loaded-block{
+	font-family: Poppins;
+	display: none;
+}
+.upload-documents_ind-verification__loaded-block__active{
+	display: block;
+}
+.upload-documents_ind-verification__loaded-block .file-input .color-blue {
+	transition: all 0.4s;
+}
+.upload-documents_ind-verification__loaded-block .file-input:hover  .color-blue {
+	color: #92c0e6;
+}
+
+.has-error,
+.has-error .control-label {
+	color: red !important;
+}
+
+
+
+.file-preview_upload-documents{
+	border: none !important;
+	padding: 0 !important;
+	margin-bottom: 0 !important;
+	position: relative;
+	z-index: 10;
+}
+.file-preview_upload-documents .file-drop-zone{
+	border: none;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+.file-preview_upload-documents  .file-drop-zone.clickable:hover{
+	border: none !important;
+}
+.file-preview_upload-documents .file-drop-zone-title{
+	opacity: 0;
+	padding-bottom: 40px;
+
+}
+.upload-documents .btn_add-files{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+.file-preview_upload-documents .kv-file-zoom,
+.file-preview_upload-documents .file-size-info,
+.file-preview_upload-documents .file-upload-indicator{
+	display: none;
+}
+.file-preview_upload-documents  .file-caption-info{
+	text-align: left;
+}
+.file-preview_upload-documents .file-caption-info{
+	font-style: italic;
+	color: var(--grey-text);
+	font-size: 14px;
+}
+.upload-documents .btn_remove-files{
+	background: url(../img/icon/remove-file.svg) no-repeat center;
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: none;
+	border-radius: 50%;
+	color: #fff;
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	z-index: 10;
+	cursor: pointer;
+}
+.type-files__info{
+	font-size: 13px;
+	color: var(--grey-text);
+	font-style: italic;
+	text-align: center;
+	font-family: Poppins;
+	margin-top: 10px;
+}
+.upload-documents .form-group{
+	margin-bottom: 0;
+}
+
+.upload-documents__control-block{
+	display: flex;
+}
+.upload-documents__control-block .icon_btn-next{
+	 background-position: 9px -6px;
+}
+.upload-documents__control-block .btn-back,
+.upload-documents__control-block .btn-next{
+	display: none;
+}
+.upload-documents__control-block .btn-next,
+.upload-documents__window__birthday .btn-next,
+.upload-documents_info-block .btn-preloader:disabled {
+	background: #eee !important;
+	border: 1px solid transparent !important;
+	box-shadow: none !important;
+	cursor: auto !important;
+}
+
+.upload-documents__control-block .btn.btn-preloader {
+	background: linear-gradient(90deg, #0269c7 0%, #4088d7 100.02%);
+    border-radius: 4px;
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 16px 10px;
+	max-width: 200px;
+    width: 100%;
+    transition: all ease-in-out .4s;
+}
+
+.upload-documents__control-block .btn.btn-preloader .icon_btn-back.next {
+	display: none;
+}
+
+.upload-documents__control-block .btn.btn-preloader:hover {
+	background: transparent;
+    color: #007aff;
+    border: 2px solid var(--hr-color-2);
+}
+
+.upload-documents__window__birthday .h2{
+	margin-top: 80px !important;
+}
+#rateBlock{
+	color: var(--grey-text);
+	font-size: 14px;
+}
+#rate{
+	padding-inline-start: 5px;
+	font-weight: 600;
+	color: var(--background-color-dark);
+}
+
+.icon_btn-back{
+	background: url(../img/arrow-back.svg) no-repeat 6px 2px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+.icon_btn-next{
+	background: url(../img/arrow-back.svg) no-repeat 4px -1px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	transform: rotate(180deg);
+	filter: brightness(0) invert(1);
+}
+
+.file-preview .clickable {
+	transition: all .4s ease-in-out;
+}
+
+.file-preview .clickable:hover {
+	background: #EE743B20;
+}
+
+#amount.input-group-text  {
+	margin-left: 10px;
+}
+
+.updBank i {
+	margin-left: 5px;
+}
+
+.account-types .btn-primary-main {
+	align-self: center;
+    background: linear-gradient(90deg, #0269c7 0%, #4088d7 100.02%);
+}
+
+.account-types .btn-primary-main:hover {
+    background: transparent;
+    color: #007aff;
+    border: 2px solid var(--hr-color-2);
+}
+
+.error_container {
+	background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 8%);
+    border-radius: 12px;
+    max-width: 775px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-direction: column;
+    margin: 0 auto;
+    height: auto;
+    padding: 40px;
+	margin-top: 230px;
+}
+
+.close_error_container {
+	position: static;
+    transform: rotate(0);
+}
+
+.error_container .image-circle {
+	width: 100px;
+    height: 100px;
+    background: linear-gradient(90deg, #0269c7 0%, #4088d7 100.02%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.error_container .image-circle img {
+	opacity: .5;
+}
+
+.error_container h2 {
+	font-family: 'Cairo', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	color: #000000;
+	margin-top: 22px;
+	margin-bottom: 41px;
+}
+
+.error_container h2 .accent {
+	font-weight: 700;
+	font-size: 24px;
+	display: block;
+	margin-bottom: 12px;
+}
+
+.withdraw .belleo-block {
+    max-width: 774px;
+    margin: 0 auto;
+	background-color: transparent;
+	box-shadow: none;
+	border-radius: none;
+}
+
+.withdraw .transfer_method_header .h2,
+.history .h2,
+.profile .h2 {
+	font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.withdraw .transfer_method_header .subtitle {
+	font-family: 'Cairo', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 34px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #000000;
+	margin-top: 16px;
+	margin-bottom: 24px;
+}
+
+.withdraw {
+	margin-top: 50px;
+}
+
+.withdraw .transfer_method {
+	background: #FFFFFF;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+	border-radius: 12px;
+	padding: 60px;
+}
+
+.withdraw .transfer_method .form-group {
+	text-align: left;
+	position: relative;
+}
+
+.withdraw .btn-primary-main-accent {
+	background: linear-gradient(90deg, #0269c7 0%, #4088d7 100.02%);
+}
+
+.withdraw .btn-primary-main-accent:hover {
+	background: transparent;
+	color: #007aff;
+	border: 2px solid var(--hr-color-2);
+}
+
+.withdraw .btn.btn-usd {
+	font-family: 'Cairo', sans-serif;
+	font-weight: 400;
+    max-width: 140px;
+	border-radius: 2px;
+	line-height: 100%;
+	font-size: 16px;
+	position: relative;
+}
+
+.withdraw .btn.btn-usd::after {
+	content: "";
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	right: 24px;
+}
+
+.withdraw .control-label {
+	font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+	background: #F5F5F5;
+    padding: 18px;
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 0;
+    pointer-events: none;
+	left: 0;
+	display: none;
+}
+
+.withdraw .field-mttransactions-details .control-label {
+	display: block;
+    position: relative;
+    text-align: left;
+    background: transparent;
+    padding-left: 0;
+}
+
+.withdraw .form-control,
+.withdraw .form-control::placeholder {
+	font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.withdraw .form-control {
+	height: 60px;
+    border-radius: 2px;
+    background-color: #F5F5F5;
+    border: none;
+}
+
+.history {
+	margin-top: 50px;
+}
+
+.history .account-score_info-score {
+	max-width: 1148px;
+    margin: 0 auto;
+}
+
+.history .account-score_btn__block  {
+	margin-top: 40px;
+	margin-bottom: 24px;
+}
+
+.history .transfer-block {
+	background: #FFFFFF;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+	border-radius: 12px;
+	padding: 32px;
+}
+
+.history .transfer-block__amount {
+	font-family: 'Cairo', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	color: #202020;	
+}
+
+.history .transfer-block__name {
+	font-family: 'Cairo', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+	margin-top: 8px;
+	margin-bottom: 18px;
+}
+
+.history .transfer-block__percent {
+	display: flex;
+    align-items: center;
+}
+
+.history .transfer-block__percent .line {
+	background: #DCDCDC;
+	border-radius: 2px;
+	width: 100%;
+	height: 4px;
+	width: 100%;
+}
+
+.history .transfer-block__percent .line-bg {
+	border-radius: 2px;
+	background: linear-gradient(90deg, #0269c7 0%, #4088d7 100.02%);
+	width: 0;
+	height: 4px;
+}
+
+.history .transfer-block__percent .amount {
+	font-family: 'Cairo', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 14px;
+	color: #898989;
+	margin-left: 23px;
+
+}
+
+.history .history-flex {
+	display: flex;
+    flex-direction: column;
+    height: 83vh;
+}
+
+.history .history-table {
+	margin-top: auto;
+}
+
+.history .account-score__tab-block {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 8%);
+    padding: 20px 40px 40px 40px;
+	max-width: 1480px;
+    margin: 0 auto;
+}
+
+.profile .profile__tabs {
+	margin-top: 44px;
+	margin-bottom: 24px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 700px;
+}
+
+.profile .profile_nav {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile .profile__tabs .profile_nav a {
+	font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    border-bottom: 0;
+    transform: translateY(0);
+}
+
+.profile .profile__tabs .profile_nav a.active {
+	background: linear-gradient(90deg, #0269c7 0%, #4088d7 100.02%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.profile .profile__tabs .nav-link {
+	padding: .2rem;
+}
+
+.profile .profile__personal,
+.profile .profile__documents {
+	box-shadow: 0px 1px 3px rgb(0 0 0 / 8%);
+    border-radius: 12px;
+	max-width: 774px;
+	margin: 0 auto;
+	padding: 50px 25px;
+}
+
+.profile .add-document .title {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.profile .add-document .form-control {
+	background: transparent !important;
+    padding-top: 0;
+}
+
+.profile .add-document .control-label {
+	min-width: 100px;
+}
+
+.profile .profile_user-view {
+	margin-top: 0;
+}
+
+.profile .profile_user-view .user-photo {
+	width: 100px;
+    height: 100px;
+	/*filter: brightness(0) invert(1);*/
+}
+
+.profile .profile_user-view .circle-image {
+	background: linear-gradient(90deg, #0269c7 0%, #4088d7 100.02%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile .profile_user-view .name {
+	font-family: 'Cairo', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	text-transform: capitalize;
+	color: #000000;
+	margin-top: 14px;
+    margin-bottom: 34px;
+}
+
+.profile .btn_loud-foto {
+	width: 40px;
+    height: 40px;
+    background: var(--accent);
+}
+
+.profile .btn_loud-foto:after {
+    height: 100%;
+}
+
+.profile .form-group_psevdo .form-control,
+.profile .form-control:not(.select_arrow-btn) {
+	background: #F5F5F5;
+}
+
+.profile .form-group_psevdo .form-control,
+.profile .form-control {
+    border-radius: 2px;
+    border: none;
+    padding: 18px 16px;
+    height: 60px;
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--accent);
+}
+
+.profile .form-group.field-userform-middle_name .control-label,
+.profile .form-group.field-userform-gender .control-label,
+.profile .form-group.field-userform-country .control-label,
+.profile .form-group.form-group_psevdo .control-label,
+.profile .form-group.field-userform-birthday .control-label {
+	display: none;
+}
+
+.profile .form-control::placeholder {
+	color: #9DA4B7;
+}
+
+.profile .textBottomForm {
+	font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #666666;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.profile .btn-primary-main {
+	max-width: 240px;
+	font-weight: 700;
+}
+
+.profile .new_bank_details .btn-primary-main,
+.profile .modal-dialog .btn-primary-main {
+	max-width: 150px;
+	width: 100%;
+	line-height: 25px;
+    padding: 17px 10px;
+}
+
+.profile .open-file__btn {
+	font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+	color: #666666;
+    background: #F9F9F9;
+    border: 1px solid #CFD4E9;
+    border-radius: 2px;
+    max-width: 200px;
+    width: 100%;
+    padding: 12px 10px;
+    transition: all ease-in-out .4s;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.profile .open-file__btn:hover {
+    background: var(--hr-color-2);
+    color: var(--white);
+}
+
+.profile #userform-file_avatar {
+	display: none;
+}
+
+.profile .modal-dialog .btn-main {
+	margin-right: 0;
+}
+
+.profile .modal-dialog .modal-title {
+	font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.dropdown-menu.datepicker {
+	top: inherit !important;
+	bottom: 0;
+}
+
+.profile .profile__banks {
+	padding: 40px;
+}
+
+.profile .profile__banks .docs_info {
+	margin: 0;
+}
+
+.profile .profile__banks .ver_stat {
+	max-width: 120px;
+    width: 100%;
+}
+
+.profile .profile__banks .updBank i {
+	font-size: 14px;
+}
+
+.profile .profile__settings .control-label {
+	display: none;
+}
+
+.profile .profile__settings .block_btnForm {
+	margin-top: 40px;
+}
+
+.profile .profile__lang .form-control {
+	color: #9DA4B7;
+}
+
+.dashboard .not-verif-doc {
+	max-width: 400px;
+    margin: 0 auto;
+	margin-top: 40px;
+}
+
+.dashboard .not-verif-doc .card-account_body {
+	padding: 0;
+}
+
+.dashboard .not-verif-doc .image-circle {
+	margin: 0 auto;
+}
+
+.dashboard .not-verif-doc .image-circle img {
+	opacity: .5;
+}
+
+.dashboard .not-verif-doc-info .h2 {
+	font-family: 'Cairo', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 34px;
+	color: #000000;	
+	margin-top: 16px;
+	margin-bottom: 10px;
+}
+
+.dashboard .not-verif-doc-info .text {
+	font-family: 'Cairo', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	color: #000000;	
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.upload-documents .h2 {
+	font-family: 'Cairo', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 34px;
+	color: #000000;
+	margin-bottom: 24px;
+}
+
+.upload-documents .upload-documents__container {
+	margin-top: 80px;
+}
+
+.upload-documents .upload-doc-top {
+	margin-bottom: 24px;
+}
+
+.upload-documents .upload-doc-top .text {
+	font-family: 'Cairo', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 34px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #000000;
+}
+
+.upload-documents .upload-doc-top .account-score_btn__block {
+	max-width: 500px;
+    margin-left: auto;
+	margin-right: auto;
+    gap: 20px;
+	margin-bottom: 40px;
+}
+
+.upload-documents .upload-doc-top .account-score_btn {
+	font-weight: 700;
+	width: 100%;
+    max-width: 240px;
+    padding: 16px 10px;
+	border: 2px solid #070417;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.upload-documents .upload-doc-top  .account-score_btn__active {
+	border: 2px solid var(--hr-color-2);
+}
+
+.upload-documents .upload-documents_ind-verification {
+	max-width: 510px;
+	margin: 0 auto;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.upload-documents .upload-choose-wrap .upload-documents_ind-verification_item {
+    margin: 0;
+    background: linear-gradient(90deg, #0269c7 0%, #4088d7 100.02%);
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 8%);
+    border-radius: 12px;
+    max-width: 156px;
+    width: 100%;
+    height: 156px;
+    padding: 28px 22px 24px 22px;
+    justify-content: space-between;
+}
+
+.upload-documents .upload-documents_ind-verification_item__title {
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+}
+
+.upload-documents .upload-documents__control-block {
+	display: none;
+}
+
+.upload-documents .upload-documents_info-block {
+	margin-top: 24px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #FFFFFF;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+	border-radius: 12px;	
+	max-width: 390px;
+	padding: 20px;
+}
+
+.upload-documents .upload-documents_info-block .image-circle {
+	background: linear-gradient(90deg, #0269c7 0%, #4088d7 100.02%);
+    border-radius: 8px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-documents .upload-documents_info-block .upload-doc-icon {
+	display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.upload-documents .upload-documents_info-block__list_outer b,
+.deposit .upload-documents div b {
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #202020;
+}
+
+.upload-documents .upload-documents_info-block__list li {
+	font-family: 'Cairo', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	text-transform: capitalize;
+	color: #202020;
+}
+
+.upload-documents .upload-documents_info-block__list {
+	max-width: inherit;
+    padding-left: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+	gap: 14px 23px;
+}
+
+.upload-documents .upload-documents_info-block__list.identity-list {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.upload-documents .upload-documents_info-block__list_outer {
+	flex: 1 0 100%;
+}
+
+.upload-documents .upload-documents_ind-verification__loaded-block {
+	max-width: 774px;
+    margin: 0 auto;
+    font-family: 'Cairo', sans-serif;
+}
+
+.upload-documents .upload-documents_ind-verification__loaded-block div b {
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.upload-documents .upload-documents__control-block {
+	/* display: flex !important; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.upload-documents .upload-documents__control-block .btn-back,
+.upload-documents .btn.btn-next {
+	font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.upload-documents .upload-documents__control-block .btn-back {
+	background: linear-gradient(90deg, #0269c7 0%, #4088d7 100.02%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.upload-documents .btn.btn-next {
+	color: #CFD3E9;
+	background: transparent !important;
+}
+
+
+.upload-documents .icon_btn-back {
+	background: url('../img/arrow-back2.svg') no-repeat 0 5px;
+}
+
+.upload-documents .icon_btn-back.next {
+	background: url('../img/arrow-next.svg') no-repeat 0 5px;
+}
+
+.upload-documents .upload-drag {
+	box-shadow: 0px 1px 3px rgb(0 0 0 / 8%);
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.upload-documents .upload-drag .upload-drag-dash {
+	background: #FAFBFC;
+	border: 2px dashed #D2D2D2;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+	border-radius: 8px;
+}
+
+.upload-documents .file-preview_upload-documents .file-drop-zone-title {
+	padding: 41px;
+}
+.upload-documents .btn_add-files {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    top: calc(50% - 32px);
+}
+
+.upload-documents .upload-documents_ind-verification_bnt_files {
+	width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 3px solid #056ac8;
+    background: transparent;
+    margin: 0;
+	margin-right: 16px;
+}
+
+.upload-documents .btn_add-files .color-grey {
+	font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.upload-documents .btn_add-files .color-blue {
+    color: #2B63AD;
+}
+
+.upload-documents .btn_add-files .type-files__info {
+	margin-bottom: 0;
+    margin-top: 5px;
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #CFD3E9;
+}
+
+.account-info {
+	margin-top: 50px;
+}
+
+.account-info .account-score_info-score {
+	color: #000;
+	margin-bottom: 15px;
+	padding-left: 30px;
+}
+
+.deposit .btn.btn-primary-main {
+    box-shadow: none;
+}
+
+.deposit .form-control {
+	height: 60px;
+    border-radius: 2px;
+    background-color: #F5F5F5;
+    border: none;
+    color: #000000;
+}
+
+.deposit .form-control::placeholder {
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+	color: #9DA4B7;
+}
+
+.deposit .h2 {
+	font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.deposit .subtitle {
+	font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.account-info .dropdown.dropdownAccounts {
+	padding-left: 30px;
+}
+
+.account-info .account-score_btn__block {
+	gap: 20px;
+}
+
+.deposit .qr-code {
+	max-width: 350px;
+}
+
+.deposit .copied {
+	color: var(--hr-color-2);
+	display: inline-block;
+}
+
+.profile .new_bank_details .modal-footer {
+	align-items: inherit;
+	flex-wrap: wrap;
+}
+
+.belleo-table .transfer_method {
+	padding: 10px;
+}
+
+.belleo-table .payments__container {
+    position: relative;
+	/* padding: 40px 0; */
+}
+
+.belleo-table .payments__table.table table {
+    width: 100%;
+	text-align: center;
+}
+
+.belleo-table .payments__table td {
+    /* min-width: 330px; */
+    /* padding: 8px; */
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+	/* height: 82px; */
+}
+
+.belleo-table .payments__table .t-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 40px;
+    display: block;
+}
+
+/* .belleo-table .payments__table .line {
+    border-bottom: 13px solid #fff;
+} */
+
+/* .belleo-table .payments__table table .line:nth-child(even) td {
+    background: #F2F6FA;
+}
+
+.belleo-table .payments__table table .line:nth-child(odd) td {
+	background: #FBFBFB;
+} */
+
+.belleo-table .transfer_method_item {
+	flex: none;
+    margin: 0;
+    min-width: inherit;
+}
+
+.belleo-table .payment-link {
+	background: linear-gradient(90deg, #0269c7 0%, #4088d7 100.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+	line-height: 140%;
+    border-radius: 4px;
+    border: 2px solid #884EDC;
+    padding: 12px 5px;
+    /* min-width: 317px;
+    max-width: 317px; */
+	max-width: 180px;
+	min-width: 120px;
+    width: 100%;
+    text-align: center;
+    margin-left: 20px;
+	display: flex;
+    align-items: center;
+	margin-bottom: 0;
+	cursor: pointer;
+    transition: all ease-in-out .4s;
+}
+
+.belleo-table .payment-link:hover {
+	-webkit-background-clip: inherit;
+    -webkit-text-fill-color: #fff;
+	border: 2px solid transparent;
+}
+
+.belleo-table td {
+	padding: 8px !important;
+	vertical-align: inherit !important;
+}
+
+.belleo-table .table td, 
+.belleo-table .table th {
+	padding: 0;
+	border-top: none;
+	border-bottom: none !important;
+	vertical-align: inherit;
+}
+
+.belleo-table th {
+	border-bottom: none;
+	background: none;
+}
+
+.belleo-table .payments__table .time-td .time {
+    padding-left: 35px;
+    position: relative;
+    max-width: 180px;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.belleo-table .payments__table .time-td .time::before {
+    content: "";
+    position: absolute;
+    background-image: url('../img/time.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 19px;
+    height: 18px;
+    left: 0;
+    top: calc(50% - 9px);
+}
+
+.belleo-table .payments__table .payment-img {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+	justify-content: center;
+    gap: 42px;
+}
+
+.belleo-table .payments__table .payment-img .title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+	min-width: 101px;
+}
+
+.belleo-table .table-text {
+    margin-top: 30px;
+	margin-bottom: 0;
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+}
+
+.belleo-table tr:hover td:not(.belleo-table tr:first-child:hover td) {
+    background: var(--box-shadow) !important;
+}
+
+.belleo-table .payments__table-fixed {
+    display: none;
+    position: absolute;
+    background: #4848485e;
+    padding: 20px;
+    padding-top: 45px;
+    padding-bottom: 5px;
+	padding-left: 10px;
+    top: 0;
+    align-items: center;
+    flex-direction: column;
+}
+
+.belleo-table .payments__table-fixed .p-title, 
+.belleo-table .payments__table-fixed .payment-img {
+    height: 65px;
+    margin-bottom: 10px;
+}
+
+.belleo-table .payments__table-fixed .p-title {
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.belleo-table .payments__table .t-title.arrow {
+    position: relative;
+}
+
+.belleo-table .payments__table .t-title.arrow::before {
+    content: none;
+    position: absolute;
+    background-image: url('../img/arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 10px;
+    height: 10px;
+    left: 25px;
+    top: calc(50% - 5px);
+}
+
+.belleo-table .payments__table .t-title.arrow-revert::before {
+    left: inherit;
+    right: 0;
+    transform: rotate(180deg);
+    top: calc(50% - 6px);
+}
+
+.deposit .transfer_method__outer-block__finish-block .transfer_method {
+	max-width: 574px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+
+.deposit .transfer_method__outer-block__finish-block .transfer_method .transfer_method_body {
+	text-align: left;
+}
+
+.deposit .ctm-group .form-control::placeholder {
+	color: #000;
+}
+
+.deposit .ctm-group.deposit_transaction_amount {
+	width: 100%;
+}
+
+.deposit .ctm-group.deposit_transaction_amount .form-group {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.deposit .ctm-group {
+	position: relative;
+}
+
+.deposit .ctm-group .accent-label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #070417 !important;
+    border-radius: 2px;
+    padding: 18px 10px;
+    max-width: 140px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 26px;
+	cursor: pointer;
+}
+
+.deposit .ctm-group .accent-label.disabled {
+	background: #070417 !important;
+	cursor: default;
+}
+
+.deposit .ctm-group.deposit_transaction_amount .accent-label {
+    top: 0;
+	right: 10px;
+}
+
+#passwordChangeRequest .btn-primary {
+	max-width: 80px;
+}
+
+
+/* Choose deposit method table redesign  START */
+.belleo-table {
+	margin-top: 50px;
+    margin-bottom: 80px;
+} 
+
+.deposit .belleo-table .h2 {
+	color: #070417;
+	margin-bottom: 40px;
+}
+
+.belleo-table .payments__table .t-title {
+	margin-bottom: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+}
+
+.belleo-table tr {
+	background: #000000;
+    border-radius: 12px;
+}
+
+.belleo-table tr .radius-left {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.belleo-table tr .radius-right {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.belleo-table tr .radius-top-left {
+    border-top-left-radius: 12px;
+}
+
+.belleo-table tr .radius-top-right {
+    border-top-right-radius: 12px;
+}
+
+.belleo-table tr .radius-bottom-left {
+    border-bottom-left-radius: 12px;
+}
+
+.belleo-table tr .radius-bottom-right {
+    border-bottom-right-radius: 12px;
+}
+
+.belleo-table .table-titles:hover {
+	background: #000 !important;
+}
+
+.belleo-table .payments__table table .line {
+	background: #FFFFFF;
+	/* box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15); */
+}
+
+.belleo-table .payments__table td {
+	height: auto;
+    padding: 18px 24px !important;
+}
+
+.belleo-table .payments__table .line td {
+	padding: 15px 10px !important;
+}
+
+.belleo-table .payments__table .table-titles td:first-child,
+.belleo-table .payments__table .line td:first-child {
+	padding-left: 24px !important;
+	text-align: left;
+	font-weight: 600;
+}
+
+.belleo-table .payments__table .line td:last-child {
+	padding-right: 24px !important;
+}
+
+.belleo-table .table-space {
+	display: block;
+	margin: 20px;
+}
+
+.belleo-table .text-accent {
+	background: linear-gradient(90deg, #0269c7 0%, #4088d7 100.02%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.belleo-table .payments__table .payment-img .icon {
+	min-width: 101px;
+	max-width: 106px;
+}
+
+.belleo-table .table-titles td:first-child {
+    width: 140px;
+    padding-right: 10px !important;
+}
+
+.belleo-table .table-titles td:nth-child(2) {
+    width: 280px;
+}
+
+.belleo-table .line.border-bottom .border-bottom {
+    border-bottom: 1px solid #D0D0D0 !important;
+}
+.belleo-table .line.border-bottom {
+	border-bottom: 0 !important;
+}
+.file-input .btn_add-files.btn-file {
+    display: none;
+}
+.file-input.file-input-ajax-new .btn_add-files.btn-file {
+	display: flex;
+}
+/* Choose deposit method table redesign  END */ 
+
+.wpwl-control {
+	min-width: inherit;
+}
+
+.modal.show {
+	z-index: 9999;
+}

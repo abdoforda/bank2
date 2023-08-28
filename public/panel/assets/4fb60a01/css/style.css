@@ -1,0 +1,665 @@
+/* Market map dashbord */
+:root {
+    --temp-folder: url('../img/time.svg');
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	/* display: none; <- Crashes Chrome on hover */
+	-webkit-appearance: none;
+	margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+	-moz-appearance:textfield; /* Firefox */
+}
+.new_bank_details .row, .modal-footer {
+    width: 100%;
+}
+.modal-footer {
+    border: none !important;
+}
+.title-but {
+    width: auto;
+    align-items: center;
+    display: flex;
+    flex-wrap:  wrap;
+}
+.cmn-toggle-switch.cmn-toggle-switch__htla {
+    background: #1cb09a;
+    border: inherit;
+    padding: 5px 20px;
+    color: #fcfcfc;
+    text-transform: uppercase;
+    font-family: 'Arimo', sans-serif !important;
+}
+
+.cmn-toggle-switch.cmn-toggle-switch__htla:hover {
+    background: #188776;
+}
+
+
+.block-time-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:  wrap;
+}
+
+.but-tab{
+    float: left;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+#big .block_map1 {
+    padding: 0 10px 10px;
+}
+#big .block_map2 {
+    height: 100%;
+    display: inline-block;
+}
+#big .region_map {
+    height: 100%;
+}
+#big .block_region {
+    position: relative;
+    height: 100%;
+}
+#big .time_active {
+    height: calc(100% - -20px);
+}
+
+#big #NYSE_poloska {
+    top: 40.5%;
+}
+#big #London_poloska {
+    top: 22.5%;
+}
+#big #Tokyo_poloska1, #big #Tokyo_poloska2 {
+    top: 34.3%;
+}
+#big #Sydney_poloska1, #big #Sydney_poloska2 {
+    bottom: 23%;
+    top: inherit;
+}
+
+#big{
+	position: relative;
+}
+.markets-off__message{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: #4848485e;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding: 10px 40px;
+	border-radius: 8px;
+	-webkit-transform: translateX(-50%) rotate(-22deg);
+	-ms-transform: translateX(-50%) rotate(-22deg	);
+	transform: translateX(-50%) rotate(-22deg	);
+	z-index: 100;
+	-webkit-box-shadow: 0 0 10px #484848;
+	box-shadow: 0 0 10px #484848;
+	color: #e53a0e;
+	font-weight: 600;
+	display: none;
+}
+.markets-off__message__active{
+	display: block;
+}
+
+
+
+
+
+@media (max-width: 991px) {
+    #big #NYSE_poloska {
+        top: 38.5%;
+    }
+}
+@media (max-width: 620px) {
+    .title-but {
+        margin-bottom: 20px;
+    }
+    #big #NYSE_poloska {
+        top: 36.5%;
+    }
+    .big_img {
+        top: 20px;
+    }
+}
+@media (max-width: 440px) {
+    .block-time-title {
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+    .block-time-title .panel-title {
+        margin: 15px 0;
+    }
+    .title-but {
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        margin-bottom: 0;
+    }
+    .but-tab {
+        margin-right: 0;
+        width: 100%;
+    }
+    .cmn-toggle-switch.cmn-toggle-switch__htla {
+        width: 100%;
+    }
+	.markets-off__message{
+		font-size: 14px;
+		padding: 10px;
+		top: 60%;
+	}
+}
+/* end */
+
+
+/*------начало модуля бирж-------*/
+@media only screen and (max-width : 1200px) {
+    .chas{ font-size: 12px !important; }
+}
+@media only screen and (max-width : 740px) {
+    .chas{ font-size: 10px !important; }
+    .cifra_time_GMT{ font-size: 12px !important; }
+}
+
+.clear_GMT{
+    clear:both;
+}
+
+/* ++++++++ */
+.block_map1{
+    padding: 0 10px 0;
+    position: relative;
+}
+.cifra_time_GMT{
+    float: right;
+    width: auto;
+    line-height: 1;
+    cursor: default;
+    text-align: right;
+}
+.clock_grean1{
+    width: 14px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    /*outline: 1px solid red;	*/
+    float: left;
+    background-size: 14px;
+}
+.text_cifra_time{
+    padding-left: 5px;
+}
+
+/* ++++++++ */
+.block_map2{
+    padding: 0;
+    width: 100%;
+    height: 108px;
+    position: relative;
+}
+/* 1 */
+.map_ul{
+    /* display: none !important; */
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+.chas{
+    height: 18px;
+    border-left: 1px solid #ccc;
+    float: left;
+    position: relative;
+}
+.chas:last-child{
+    border-right: 1px solid #ccc;
+}
+.one_simv, .two_simv{
+    position: absolute;
+    right: -4px;
+    top: 3px;
+    z-index: 1;
+    background-color: #fff;
+    line-height: 1;
+    font-size: 11px;
+    padding: 1px 0 0;
+
+}
+
+#chas23 span:first-child{
+    position: absolute;
+    top: 3px;
+    z-index: 1;
+    background-color: #fff;
+    line-height: 1;
+    font-size: 11px;
+    padding: 1px 0 0;
+}
+
+.two_simv{
+    right: -7px;
+    top: 3px;
+}
+
+/* 2 */
+.region_map{
+    /**/outline: 1px solid #ccc;
+    height: 88px;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    /*     background-image: url(/templates/my/html/mod_custom/image/map.png);
+            background-repeat: no-repeat;
+            background-size: cover; */
+}
+.block_region{
+    position: relative;
+}
+.birja_region{
+    background: linear-gradient(90deg, #056ac8 -0.02%, #1b7dd9 100.01%);
+    height: 3px !important;
+    border-radius: 3px;
+    position: absolute;
+    line-height: 0.85;
+}
+/* АМЕРИКА */
+#NYSE_poloska{
+    top: 10px;
+    height: 5px;
+}
+#NYSE_block{
+    background-color: #fff;
+    margin: -10px auto 0 auto;
+    width: 64px;
+}
+#NYSE_text{
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    height: 20px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: 3px 0;
+    background-size: contain;
+    /*background-image: url(images/red_clock2.png);*/
+    background-image: url('../img/time.svg') !important;
+
+}
+/* ЛОНДОН */
+#London_poloska{
+    top: 30px;
+    height: 5px;
+}
+#London_block{
+    /* background-color: #fff; */
+    margin: -10px auto 0 auto;
+    width: 84px;
+}
+#London_text{
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    height: 20px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: 3px 0;
+    background-size: contain;
+    /*background-image: url(images/red_clock2.png);*/
+    background-image: url('../img/time.svg') !important;
+}
+/* Tokyo1 */
+#Tokyo_poloska1{
+    top: 50px;
+    height: 5px;
+}
+/* ЛОНДОН */
+#Tokyo_poloska2{
+    top: 50px;
+    height: 5px;
+}
+#Tokyo_block2{
+    background-color: #fff;
+    margin: -10px auto 0 auto;
+    width: 70px;
+}
+#Tokyo_text2{
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    height: 20px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: 3px 0;
+    background-size: contain;
+    /*background-image: url(images/red_clock2.png);*/
+    background-image: url('../img/time.svg');
+}
+/* Sydney1 */
+#Sydney_poloska1{
+    top: 70px;
+    height: 5px;
+}
+/* Sydney2 */
+#Sydney_poloska2{
+    top: 70px;
+    height: 5px;
+}
+#Sydney_block2{
+    background-color: #fff;
+    margin: -10px auto 0 auto;
+    width: 80px;
+}
+#Sydney_text2{
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    height: 20px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: 3px 0;
+    background-size: contain;
+    /*background-image: url(images/red_clock2.png);*/
+    background-image:url('../img/time.svg');
+}
+
+
+
+
+/* 3 */
+.time_active{
+    position: absolute;
+    top: 0;
+    /* background-color: var(--accent-2); */
+    background: linear-gradient(90deg, #056ac8 -0.02%, #1b7dd9 100.01%);
+    height: 100%;
+    z-index: 2;
+	opacity: .4;
+}
+
+
+/*------конец модуля бирж-------*/
+
+
+#local-work h3 {
+    margin-right: 15px;
+}
+#local-work .btn.btn-primary {
+    padding: 5px 15px;
+}
+#local-work .btn.btn-primary img {
+    width: 16px;
+    margin-left: 10px;
+}
+
+/* Market map dashbord */
+#invest-tab {
+    color: #fff;
+    background-color: #2a2a2a;
+    border-color: #2a2a2a;
+}
+.stat .flex {
+    display: flex;
+    justify-content: space-between;
+}
+.panel-stat h4 {
+    font-size: 16px
+}
+.contentpanel .panel-stat .stat-label {
+    font-size: 12px;
+}
+.contentpanel .panel-stat h3 {
+    font-size: 22px;
+}
+@media (min-width: 1200px) {
+    .contentpanel .col-20lg {
+        width: 20%;
+        padding-right: 0;
+    }
+    .contentpanel .col-20lg:last-child {
+        padding-right: 15px;
+    }
+}
+@media (max-width: 1440px) {
+    .contentpanel .panel-stat .stat-label {
+        font-size: 10px;
+    }
+    .panel-stat h4 {
+        font-size: 14px
+    }
+}
+@media (max-width: 1440px) and (min-width: 1300px) {
+    .panel-stat .row {
+        display: flex;
+    }
+    .panel-stat .col-xs-3 {
+        margin-right: 15px;
+    }
+}
+
+.title-but {
+    width: auto;
+    align-items: center;
+    display: flex;
+    flex-wrap:  wrap;
+}
+.cmn-toggle-switch.cmn-toggle-switch__htla {
+    background: var(--accent);
+    border: inherit;
+    padding: 5px 20px;
+    color: #fcfcfc;
+    text-transform: uppercase;
+    font-family: 'Arimo', sans-serif !important;
+}
+
+.cmn-toggle-switch.cmn-toggle-switch__htla:hover {
+    background: var(--accent);
+}
+
+
+.block-time-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:  wrap;
+}
+
+.but-tab{
+    float: left;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.block_map {
+    padding: 0;
+    width: 100%;
+    height: 108px;
+    position: relative;
+}
+
+#big .block_map1 {
+    padding: 0 10px 10px;
+}
+#big .block_map2 {
+    height: 100%;
+    display: inline-block;
+}
+#big .region_map {
+    height: 100%;
+}
+#big .block_region {
+    position: relative;
+    height: 100%;
+}
+#big .time_active {
+    height: calc(100% - -20px);
+}
+
+#big #NYSE_poloska {
+    top: 40.5%;
+}
+#big #London_poloska {
+    top: 22.5%;
+}
+#big #Tokyo_poloska1, #big #Tokyo_poloska2 {
+    top: 34.3%;
+}
+#big #Sydney_poloska1, #big #Sydney_poloska2 {
+    bottom: 23%;
+    top: inherit;
+}
+
+
+.requisites_table table{
+	width: 100%;
+}
+.requisites_table{
+	margin: 30px 0 30px;
+	display: none;
+}
+.requisites_table h3{
+	text-align: center;
+	font-size: 26px;
+}
+.requisites_table td{
+    border: 1px solid #eeee;
+	padding: 10px;
+
+}
+.requisites_table td:first-child{
+	font-weight: 600;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+.requisites_table .currency_table td {
+    /* font-weight: 600; */
+    /* text-align: center; */
+    width: 50%;
+}
+
+.panel .panel-title {
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.panel .cmn-toggle-switch.cmn-toggle-switch__htla {
+    background: linear-gradient(90deg, #056ac8 -0.02%, #1b7dd9 100.01%);
+    border-radius: 4px;
+    padding: 12px;
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    max-width: 220px;
+    width: 100%;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all ease-in-out .4s;
+}
+.panel .cmn-toggle-switch.cmn-toggle-switch__htla:hover {
+    background: linear-gradient(90deg, #070417 -0.02%, #070417 100.01%);
+}
+
+.panel .but-tab {
+    margin-right: 18px;
+    max-width: 220px;
+    width: 100%;
+}
+
+.panel .title-but {
+    flex-grow: 1;
+}
+
+.panel .clock_grean1 {
+    background-image: url('../img/time.svg') !important;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.panel .cifra_time_GMT {
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+#big .block_map1 {
+    padding-bottom: 22px;
+    overflow: hidden;
+}
+#small .block_map1 {
+    overflow: hidden;
+}
+
+.chas {
+    border-right: 1px solid #ccc;
+    height: 100vh;
+}
+
+@media (max-width: 991px) {
+    #big #NYSE_poloska {
+        top: 38.5%;
+    }
+    .requisites_table .currency_table td {
+        width: auto;
+    }
+}
+@media (max-width: 620px) {
+    .title-but {
+        margin-bottom: 20px;
+    }
+    #big #NYSE_poloska {
+        top: 36.5%;
+    }
+    .big_img {
+        top: 20px;
+    }
+}
+@media (max-width: 440px) {
+    .block-time-title {
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+    .block-time-title .panel-title {
+        margin: 15px 0;
+    }
+    .title-but {
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        margin-bottom: 0;
+    }
+    .but-tab {
+        margin-right: 0;
+        width: 100%;
+    }
+    .cmn-toggle-switch.cmn-toggle-switch__htla {
+        width: 100%;
+    }
+
+}
