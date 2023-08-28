@@ -742,14 +742,12 @@ tbody button{
 .centerIsMobile{margin:auto;float:inherit;}
 }
 
-
-
 .content{padding-top:40px;padding-bottom:40px;}
 .bg-color-light{background-color:#242424!important;}
 .m-b-20{margin-bottom:20px!important;}
 .m-l-15{margin-left:15px!important;}
 li.bullets{margin-left:10px;margin-bottom:16px;}
-li.bullets:before{font-family:"FontAwesome";font-weight:900;content:"\f00c";margin:0 5px 0 -19px;color:#079246;}
+li.bullets:before{font-family:"FontAwesome";font-weight:900;content:"\f00c";margin:0 5px 0 -19px;color:#f9b707;}
 .gray-box{border: 1px solid #545454;
   padding: 30px;
   background: #303030;}
