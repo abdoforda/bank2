@@ -22,7 +22,7 @@
             <p class="leac">@lang('Cookies are small text files that are placed on your device (computer, tablet, or mobile) when you visit a website. They are used to store information about your browsing activities and preferences. Cookies enable websites to remember your actions and settings, such as login details, language preferences, and personalized content, to enhance your browsing experience.')</p>
             <br>
             <h2>@lang('Our Cookies Policy')</h2>
-            <p class="leac">@lang('At Highness Investment LLC, we use cookies to improve the functionality and performance of our website, as well as to provide personalized content and advertisements. By using our website, you consent to the use of cookies as outlined in this policy.')</p>
+            <p class="leac">@lang('At TradeLive AI Investment LLC, we use cookies to improve the functionality and performance of our website, as well as to provide personalized content and advertisements. By using our website, you consent to the use of cookies as outlined in this policy.')</p>
             <br>
             <h4>@lang('We use different types of cookies, including:')</h4>
 

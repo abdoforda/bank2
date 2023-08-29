@@ -51,10 +51,10 @@ Route::prefix('{lang?}')->middleware('locale')->group(function () {
     // Home
     Route::get('/',                     [HomeController::class, "index"])->name('index');
 
-    // navbar > about > Highness Us
+    // navbar > about > tradeLive Us
     Route::get('about-us',              [HomeController::class, "about"])->name('about-us');
     Route::get('news',                  [HomeController::class, "news"])->name('news');
-    Route::get('why-highness',          [HomeController::class, "whyHighness"])->name('why-highness');
+    Route::get('why-tradeLive',          [HomeController::class, "whytradeLive"])->name('why-tradeLive');
     Route::get('careers',               [HomeController::class, "careers"])->name('careers');
     Route::get('vision',                [HomeController::class, "vision"])->name('vision');
     Route::get('Mission',                [HomeController::class, "Mission"])->name('Mission');
@@ -72,7 +72,7 @@ Route::prefix('{lang?}')->middleware('locale')->group(function () {
     Route::get('sponsership',           [HomeController::class, "sponsership"])->name('sponsership');
     Route::get('awards',                [HomeController::class, "awards"])->name('awards');
     Route::get('exhibitions',           [HomeController::class, "exhibitions"])->name('exhibitions');
-    Route::get('highness_in_media',     [HomeController::class, "highness_in_media"])->name('highness_in_media');
+    Route::get('tradeLive_in_media',     [HomeController::class, "tradeLive_in_media"])->name('tradelive_media');
 
     // navbar > Markets
     Route::get('forex',                 [HomeController::class, "forex"])->name('forex');
@@ -87,13 +87,13 @@ Route::prefix('{lang?}')->middleware('locale')->group(function () {
     //navbar > Trading > Accounts Types
 
     Route::get('standard_account',      [HomeController::class, "standard_account"])->name('standard_account');
-    Route::get('highness_account',      [HomeController::class, "highness_account"])->name('highness_account');
+    Route::get('tradeLive_account',      [HomeController::class, "tradeLive_account"])->name('tradeLive_account');
     Route::get('premium_account',       [HomeController::class, "premium_account"])->name('premium_account');
 
     //navbar > Trading > Trading Platforms
     Route::get("metaTrader_5",          [HomeController::class, "metaTrader_5"])->name("metaTrader_5");
-    Route::get("highness_ios",          [HomeController::class, "highness_ios"])->name("highness_ios");
-    Route::get("highness_android",      [HomeController::class, "highness_android"])->name("highness_android");
+    Route::get("tradeLive_ios",          [HomeController::class, "tradeLive_ios"])->name("tradeLive_ios");
+    Route::get("tradeLive_android",      [HomeController::class, "tradeLive_android"])->name("tradeLive_android");
     
     //navbar > Trading > Deposit and Withdrawal
     Route::get("deposit_withdrawal_methods", [HomeController::class, "deposit_withdrawal_methods"])->name("deposit_withdrawal_methods");

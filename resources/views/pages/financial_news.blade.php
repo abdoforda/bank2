@@ -18,17 +18,17 @@
     <section>
 
         <div class="container p-5"
-            style="background-image: url(/images/new_images/sections/highness_in_media_section01.webp);
+            style="background-image: url(/images/new_images/sections/tradelive_media_section01.webp);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover; border-radius: 16px;">
             <div class="row justify-content-center align-items-center g-2">
                 <div class="col-md-4 text-white">
                     <h3 class="h2">
-                        @lang('Highness Launches Global Trading Race')
+                        @lang('TradeLive AI Launches Global Trading Race')
                     </h3>
                     <p class="mt-4">
-                        @lang('Highness has announced the launch of a Global Trading Competition with a prize pool of $500,000 for 33 winners in 3 rounds.*')
+                        @lang('TradeLive AI has announced the launch of a Global Trading Competition with a prize pool of $500,000 for 33 winners in 3 rounds.*')
                     </p>
                     <button type="button" class="btn btn-outline-primary mt-1">@lang('Read More') </button>
                     <p class="mt-4">

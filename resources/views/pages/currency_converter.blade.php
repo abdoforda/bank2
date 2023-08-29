@@ -136,18 +136,18 @@
 
                     <div class="mt-5">
                         
-                        <h4 itemprop="name">@lang('How to use the Highness Investment LLC Currency Converter?')</h4>
+                        <h4 itemprop="name">@lang('How to use the TradeLive AI Investment LLC Currency Converter?')</h4>
                             <div itemprop="text">
-                                <p>@lang('Using the Highness Investment LLC Currency Converter is simple and straightforward. Follow these steps to make accurate currency conversions:')</p>
+                                <p>@lang('Using the TradeLive AI Investment LLC Currency Converter is simple and straightforward. Follow these steps to make accurate currency conversions:')</p>
                                 <ol>
 
-                                    <li>@lang('Visit the Highness Investment LLC website or access the Currency Converter tool through our trading platform.') </li>
+                                    <li>@lang('Visit the TradeLive AI Investment LLC website or access the Currency Converter tool through our trading platform.') </li>
                                     <li>@lang("Select the base currency you wish to convert from in the 'From' field. This is the currency you currently possess.") </li>
                                     <li>@lang("Choose the target currency you want to convert to in the 'To' field. This is the currency you desire to obtain.") </li>
                                     <li>@lang('Enter the amount of the base currency you want to convert.') </li>
                                     <li>@lang("Click on the 'Convert' button to initiate the conversion process.") </li>
                                     <li>@lang('The Currency Converter will display the converted amount in the target currency, based on the latest exchange rates.')</li>
-                                    <li>@lang('Take advantage of the accurate and up-to-date exchange rates provided by Highness Investment LLC to make informed trading decisions.') </li>
+                                    <li>@lang('Take advantage of the accurate and up-to-date exchange rates provided by TradeLive AI Investment LLC to make informed trading decisions.') </li>
                                     <li>@lang("Remember, currency exchange rates may fluctuate in real-time, so it's essential to use the Currency Converter for current rates. Use this valuable tool to streamline your currency conversions and stay informed about exchange rate movements in the dynamic financial markets.") </li>
                                     
                                 </ol>
@@ -157,19 +157,19 @@
 
                     <div class="calculator-section mt-4 p-4 bg-white small">
                         <div itemprop="step" itemscope="">
-                            <h4 itemprop="name">@lang('How to use the Highness Investment LLC Currency Converter?') </h4>
+                            <h4 itemprop="name">@lang('How to use the TradeLive AI Investment LLC Currency Converter?') </h4>
                             <div itemprop="text">
-                                <p>@lang('Using the Highness Investment LLC Currency Converter is simple and straightforward. Follow these steps to make accurate currency conversions:') </p>
+                                <p>@lang('Using the TradeLive AI Investment LLC Currency Converter is simple and straightforward. Follow these steps to make accurate currency conversions:') </p>
                                 <ol>
 
                                     
-                                    <li>@lang('Visit the Highness Investment LLC website or access the Currency Converter tool through our trading platform.') </li>
+                                    <li>@lang('Visit the TradeLive AI Investment LLC website or access the Currency Converter tool through our trading platform.') </li>
                                     <li>@lang("Select the base currency you wish to convert from in the 'From' field. This is the currency you currently possess.") </li>
                                     <li>@lang("Choose the target currency you want to convert to in the 'To' field. This is the currency you desire to obtain.") </li>
                                     <li>@lang('Enter the amount of the base currency you want to convert.') </li>
                                     <li>@lang("Click on the 'Convert' button to initiate the conversion process.") </li>
                                     <li>@lang('The Currency Converter will display the converted amount in the target currency, based on the latest exchange rates.')</li>
-                                    <li>@lang('Take advantage of the accurate and up-to-date exchange rates provided by Highness Investment LLC to make informed trading decisions.') </li>
+                                    <li>@lang('Take advantage of the accurate and up-to-date exchange rates provided by TradeLive AI Investment LLC to make informed trading decisions.') </li>
                                     <li>@lang("Remember, currency exchange rates may fluctuate in real-time, so it's essential to use the Currency Converter for current rates. Use this valuable tool to streamline your currency conversions and stay informed about exchange rate movements in the dynamic financial markets.") </li>
                                     
 

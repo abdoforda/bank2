@@ -62,20 +62,20 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col">
-                                            <h5>@lang('Highness')</h5>
+                                            <h5>@lang('TradeLive AI')</h5>
                                             <ul class="ul01">
                                                 <li>
                                                     <a class="dropdown-item"
                                                         href="{{ route('about-us') }}">@lang('About')
-                                                        @lang('Highness')</a>
+                                                        @lang('TradeLive AI')</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="{{ route('news') }}">
-                                                        @lang('Highness News')</a>
+                                                        @lang('TradeLive AI News')</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item"
-                                                        href="{{ route('why-highness') }}">@lang('Why Highness')</a>
+                                                        href="{{ route('why-TradeLive AI') }}">@lang('Why TradeLive AI')</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item"
@@ -122,7 +122,7 @@
                                                 <li><a class="dropdown-item"
                                                         href="{{ route('exhibitions') }}">@lang('Exhibitions')</a></li>
                                                 <li><a class="dropdown-item"
-                                                        href="{{ route('highness_in_media') }}">@lang('Highness in Media')</a>
+                                                        href="{{ route('tradeLive_in_media') }}">@lang('TradeLive AI in Media')</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -180,7 +180,7 @@
                                                         href="{{ route('standard_account') }}">@lang('Standard Account')</a>
                                                 </li>
                                                 <li><a class="dropdown-item"
-                                                        href="{{ route('highness_account') }}">@lang('Highness Account')</a>
+                                                        href="{{ route('tradeLiveaccount') }}">@lang('TradeLive AI Account')</a>
                                                 </li>
                                                 <li><a class="dropdown-item"
                                                         href="{{ route('premium_account') }}">@lang('Premium Account')</a>
@@ -195,9 +195,9 @@
                                                         href="{{ route('metaTrader_5') }}">@lang('MetaTrader 5') </a>
                                                 </li>
                                                 <li><a class="dropdown-item"
-                                                        href="{{ route('highness_ios') }}">@lang('Highness Ios')</a></li>
+                                                        href="{{ route('tradeLiveios') }}">@lang('TradeLive AI Ios')</a></li>
                                                 <li><a class="dropdown-item"
-                                                        href="{{ route('highness_android') }}">@lang('Highness Android')</a>
+                                                        href="{{ route('tradeLiveandroid') }}">@lang('TradeLive AI Android')</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -553,19 +553,19 @@
                     <div class="col-lg-2 col-md-3 col-sm-6 col-6 mt-3">
                         <ul>
                             <li>
-                                <strong>@lang('Highness')</strong>
+                                <strong>@lang('TradeLive AI')</strong>
                                 <div class="dis5"></div>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="{{ route('about-us') }}">@lang('About')
-                                    @lang('Highness')</a>
+                                    @lang('TradeLive AI')</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="{{ route('news') }}">
-                                    @lang('Highness News')</a>
+                                    @lang('TradeLive AI News')</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="{{ route('why-highness') }}">@lang('Why Highness')</a>
+                                <a class="dropdown-item" href="{{ route('why-TradeLive AI') }}">@lang('Why TradeLive AI')</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="{{ route('careers') }}">@lang('Careers')</a>
@@ -608,7 +608,7 @@
                             </li>
                             <li><a href="https://portal.TradeLive AI.com/en/auth/register">@lang('Demo Account')</a></li>
                             <li><a href="https://portal.TradeLive AI.com/en/auth/register">@lang('standard Account')</a></li>
-                            <li><a href="https://portal.TradeLive AI.com/en/auth/register">@lang('Highness Account')</a></li>
+                            <li><a href="https://portal.TradeLive AI.com/en/auth/register">@lang('TradeLive AI Account')</a></li>
                             <li><a href="https://portal.TradeLive AI.com/en/auth/register">@lang('Premium Account')</a></li>
                             <li><a href="https://portal.TradeLive AI.com/en/auth/register">@lang('Client Portal')</a></li>
 
@@ -653,7 +653,7 @@
                             </li>
                             <li><a href="https://portal.TradeLive AI.com/en/auth/register">@lang('Open Account')</a></li>
                             <li><a href="https://portal.TradeLive AI.com/en/auth/register">@lang('Start Trading')</a></li>
-                            <li><a href="{{ route('support') }}">@lang('Highness FAQ')</a></li>
+                            <li><a href="{{ route('support') }}">@lang('TradeLive AI FAQ')</a></li>
 
 
                         </ul>
@@ -703,13 +703,13 @@
                             <strong>@lang('Incumbency Certificate')</strong>
                         </div>
                         <p>
-                            @lang('We, Euro-Caribbean Trustees Ltd., of Kingstown, St. Vincent') & @lang('the Grenadines, being the duly appointed Registered Agent of Highness Investment LLC hereby confirm that as at the date of this Certificate:')<br />
+                            @lang('We, Euro-Caribbean Trustees Ltd., of Kingstown, St. Vincent') & @lang('the Grenadines, being the duly appointed Registered Agent of TradeLive AI Investment LLC hereby confirm that as at the date of this Certificate:')<br />
                         </p>
                         <ol style="list-style: disc">
                             <p></p>
                             <li>@lang('The Company is in good legal standing.')</li>
                             <li>@lang('The Registered Office address of the Company is: Euro House, Richmond Hill Road, Kingstown, VC0100, Saint Vincent and the Grenadines.')</li>
-                            <li>@lang('Highness Investment FZE, Our Address in Dubai: the Iridium building, Office No 227.039 Umm-Suqeim St. Al Barsha- Dubai - UAE')</li>
+                            <li>@lang('TradeLive AI Investment FZE, Our Address in Dubai: the Iridium building, Office No 227.039 Umm-Suqeim St. Al Barsha- Dubai - UAE')</li>
                             <li>@lang('The Company was incorporated in St. Vincent & the Grenadines under the Limited Liability Companies Act Chapter 151 of Saint Vincent and the Grenadines 2009 (the Act), on the 5 th October 2021, and its Limited Liability Company Number is 1465 LLC 2021.')</li>
                         </ol>
                         <div class="titlemax mb-0">
@@ -719,7 +719,7 @@
                         <div class="titlemax mb-0 mt-3">
                             <strong>@lang('Disclaimer')</strong>
                         </div>
-                        <p>@lang('This site contains external links to websites controlled or offered by third parties. the information contained on this site is intended for information purposes only and it should not be regarded as advice nor as a recommendation to buy, sell or otherwise deal with any particular currency or precious metal trade. TradeLive AI hereby disclaims responsibility for any information or materials posted at any of the sites linked to this site. Highness Investments Ltd does not endorse or recommend any products or services offered on that website. Clients carry the sole responsibility for all transactions or investments carried out at TradeLive AI.')</p>
+                        <p>@lang('This site contains external links to websites controlled or offered by third parties. the information contained on this site is intended for information purposes only and it should not be regarded as advice nor as a recommendation to buy, sell or otherwise deal with any particular currency or precious metal trade. TradeLive AI hereby disclaims responsibility for any information or materials posted at any of the sites linked to this site. TradeLive AI Investments Ltd does not endorse or recommend any products or services offered on that website. Clients carry the sole responsibility for all transactions or investments carried out at TradeLive AI.')</p>
                     </div>
                 </div>
             </div>

@@ -22,7 +22,7 @@
                 <div class="col-md-6">
                     
                     <h3 class="display-5 fw-bold color2 text-uppercase text-center text-md-start">
-                        @lang('Highness')<br>
+                        @lang('TradeLive AI')<br>
                         @lang('AWARDS')
                     </h3>
                     <p class="lead text-black-50 mt-4">
@@ -51,7 +51,7 @@
                     <div class="border p-3 text-center rounded">
                         <img src="https://cloud.xm-cdn.com/static/xm/pages/awards/finexpo2022.png" class="img-fluid" alt="">
                         <h5 class="mt-5">
-                            @lang('The Best Crypto Highness')
+                            @lang('The Best Crypto TradeLive AI')
                         </h5>
                         <p class="mt-5">
                             @lang('Awarded by Financial Expo Egypt 2023')

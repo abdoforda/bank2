@@ -20,7 +20,7 @@
             <div class="row justify-content-center align-items-center g-2">
                 <div class="col-md-6">
                     <h3 class="display-4 fw-bold">
-                        @lang('Highness')<br><span class="color2">@lang('SPONSORSHIPS')</span> &<br>@lang('ENDORSEMENTS')
+                        @lang('TradeLive AI')<br><span class="color2">@lang('SPONSORSHIPS')</span> &<br>@lang('ENDORSEMENTS')
                     </h3>
                     <p class="text-black-50 mt-5">
                         @lang('TOGETHER WE SUCCEED!')

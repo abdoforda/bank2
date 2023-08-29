@@ -15,6 +15,6 @@
         
         <br />
         مع أطيب الأمنيات,<br />
-        Highness&nbsp;LTD</p>
+        TradeLive AI&nbsp;LTD</p>
         
 </div>

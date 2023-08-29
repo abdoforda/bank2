@@ -244,25 +244,25 @@
             'desc' => __('Here are our most frequently asked questions about meta trader 5.'),
             'items' => [
                 [
-                    'title' => __('How do I access the MT5 platform for trading with Highness Investment LLC?'),
+                    'title' => __('How do I access the MT5 platform for trading with TradeLive AI Investment LLC?'),
                     'bode' =>
-                        __('To start trading on the MT5 platform with Highness Investment LLC, you have to open a MT5 trading account. You can not trade on the MT5 platform using your existing MT4 account. To open an MT5 account, simply click on the provided link.'),
+                        __('To start trading on the MT5 platform with TradeLive AI Investment LLC, you have to open a MT5 trading account. You can not trade on the MT5 platform using your existing MT4 account. To open an MT5 account, simply click on the provided link.'),
                 ],[
-                    'title' => __('Can I use the ID of my MT4 account to access MT5 account with Highness Investment LLC?'),
+                    'title' => __('Can I use the ID of my MT4 account to access MT5 account with TradeLive AI Investment LLC?'),
                     'bode' =>
                         __('No, you can’t. You need to have a separate MT5 trading account. To open an MT5 account, click on the provided link.'),
                 ],[
-                    'title' => __('How can I verify my MT5 account with Highness Investment LLC?'),
+                    'title' => __('How can I verify my MT5 account with TradeLive AI Investment LLC?'),
                     'bode' =>
-                        __('If you are an existing client with Highness Investment LLC using a MT4 account, you may open additional MT5 account from the dashboard of your account without a need to re-submit your verification documents. However, if you are a new client, you will need to provide all the required verification documents, including proof of identity and proof of residency.'),
+                        __('If you are an existing client with TradeLive AI Investment LLC using a MT4 account, you may open additional MT5 account from the dashboard of your account without a need to re-submit your verification documents. However, if you are a new client, you will need to provide all the required verification documents, including proof of identity and proof of residency.'),
                 ],[
-                    'title' => __('Can I trade on stock CFDs using my existing MT4 trading account at Highness Investment LLC?'),
+                    'title' => __('Can I trade on stock CFDs using my existing MT4 trading account at TradeLive AI Investment LLC?'),
                     'bode' =>
-                        __("No, you can't. You need to have an MT5 trading account to trade in stock CFDs with Highness Investment LLC. To open MT5 account, click on the provided link."),
+                        __("No, you can't. You need to have an MT5 trading account to trade in stock CFDs with TradeLive AI Investment LLC. To open MT5 account, click on the provided link."),
                 ],[
-                    'title' => __('What are the types of instruments used for trading on MT5 at Highness Investment LLC?'),
+                    'title' => __('What are the types of instruments used for trading on MT5 at TradeLive AI Investment LLC?'),
                     'bode' =>
-                        __('You may trade in all instruments used at Highness Investment LLC on the MT5 platform, including stock CFDs, stock indices CFDs, Forex, CFDs on cryptocurrencies, CFDs on precious metals, and CFDs on energies.'),
+                        __('You may trade in all instruments used at TradeLive AI Investment LLC on the MT5 platform, including stock CFDs, stock indices CFDs, Forex, CFDs on cryptocurrencies, CFDs on precious metals, and CFDs on energies.'),
                 ],
             ],
         ]

@@ -5064,7 +5064,7 @@
     <section>
         <center>
             <h3 class="">Frequently Asked Questions</h3>
-            <h6 class="text-white-50">Here are our most frequently asked questions about trading forex with Highness
+            <h6 class="text-white-50">Here are our most frequently asked questions about trading forex with TradeLive AI
                 Investment LLC.</h6>
         </center>
 

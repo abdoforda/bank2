@@ -5157,7 +5157,7 @@
                 <div class="col-md-9">
                     <h2 class="m-0 fw-800">Ready to <span class="color2">trade?</span></h2>
                     <p class="m-0 mt-2 fs-14 text-black-50">Opening an account takes less than 5 minutes. Start your
-                        trading <br>journey with Highness
+                        trading <br>journey with TradeLive AI
                         today.</p>
                 </div>
                 <div class="col-md-3">

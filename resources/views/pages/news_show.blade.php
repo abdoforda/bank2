@@ -23,7 +23,7 @@
                                     class="category">{{ $new->cat->getTranslatedAttribute('name', app()->getLocale()) }}</a>
                                 <div class="time">{{ $new->created_at->diffForHumans() }}</div>
                                 <div class="seperator"></div>
-                                <div class="by">@lang('From Highness')</div>
+                                <div class="by">@lang('From TradeLive AI')</div>
                             </div>
                         </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 responsive-center-md"> <a
@@ -94,7 +94,7 @@
                                                                             {{ $item->created_at->diffForHumans() }}
                                                                         </div>
                                                                         <div class="news-source">
-                                                                            @lang('From Highness')
+                                                                            @lang('From TradeLive AI')
                                                                     </div>
                                                                     </div>
                                                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">

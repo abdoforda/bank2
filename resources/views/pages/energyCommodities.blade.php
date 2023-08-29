@@ -296,7 +296,7 @@
         [
             'title' => __('Frequently asked questions'),
             'desc' =>
-                __('Here are our most frequently asked questions about trading energy commodities with Highness Investment LLC.'),
+                __('Here are our most frequently asked questions about trading energy commodities with TradeLive AI Investment LLC.'),
             'items' => [
                 [
                     'title' => __('What are energy commodities, and how can I trade in them?'),

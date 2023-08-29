@@ -1179,7 +1179,7 @@
         [
             'title' => __('Frequently asked questions'),
             'desc' =>
-                __('Here are our most frequently asked questions about trading indices with Highness Investment LLC.'),
+                __('Here are our most frequently asked questions about trading indices with TradeLive AI Investment LLC.'),
             'items' => [
                 [
                     'title' => __('What are Indices, and how can I trade them?'),

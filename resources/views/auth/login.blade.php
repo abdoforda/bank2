@@ -89,7 +89,7 @@
                             <div class="text-center">
                                 <p class="mb-0">Don't have an account?<br />
                                     <a href="https://portal.TradeLive AI.com/en/auth/register" class="text-primary">Sign
-                                        up with Highness now!</a>
+                                        up with TradeLive AI now!</a>
                                 </p>
                             </div>
 

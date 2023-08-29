@@ -51,17 +51,17 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col">
-                                            <h5>Highness</h5>
+                                            <h5>TradeLive AI</h5>
                                             <ul class="ul01">
                                                 <li>
-                                                    <a class="dropdown-item" href="#">About Highness</a>
+                                                    <a class="dropdown-item" href="#">About TradeLive AI</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        Highness News</a>
+                                                        TradeLive AI News</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">Why Highness</a>
+                                                    <a class="dropdown-item" href="#">Why TradeLive AI</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="#">Trading With us</a>
@@ -97,7 +97,7 @@
                                                         Exhibitions</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">Highness in
+                                                    <a class="dropdown-item" href="#">TradeLive AI in
                                                         Media</a>
                                                 </li>
                                             </ul>
@@ -176,7 +176,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">Highness Account
+                                                    <a class="dropdown-item" href="#">TradeLive AI Account
                                                     </a>
                                                 </li>
                                                 <li>
@@ -218,7 +218,7 @@
                                             <h5>Trading Platforms</h5>
                                             <ul class="ul01">
                                                 <li>
-                                                    <a class="dropdown-item" href="#">Highness Trader</a>
+                                                    <a class="dropdown-item" href="#">TradeLive AI Trader</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="#">Mobile Trader
@@ -229,7 +229,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">Highness App
+                                                    <a class="dropdown-item" href="#">TradeLive AI App
                                                     </a>
                                                 </li>
                                                 <li>
@@ -320,7 +320,7 @@
                                                     <a class="dropdown-item" href="#">Advanced guide</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">Highness FAQ</a>
+                                                    <a class="dropdown-item" href="#">TradeLive AI FAQ</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -491,8 +491,8 @@
                 <div class="row">
                     <div class="col-xl-8 col-md-6 col-sm-12 col-xs-12 text-center text-md-start fw-bold">
                         <div class="title-section01 display-6 d-none">
-                            Elevate your investment experience with Highness
-                            Elevate your investment experience with Highness
+                            Elevate your investment experience with TradeLive AI
+                            Elevate your investment experience with TradeLive AI
                             <br />
                             <p>We Make Investments Foster - Bringing You The Most Innovative And Robust unique Solutions
                                 For All Your Financial Needs</p>
@@ -2061,7 +2061,7 @@
                                                    
                                                 </h6>
                                                 <span class="account__sticker sticker sticker_green"><b
-                                                        class="sticker__text">Highness Account</b></span>
+                                                        class="sticker__text">TradeLive AI Account</b></span>
                                             </div>
                                             <div class="account__desc text-black-50">
                                                 <p class="small">
@@ -2350,7 +2350,7 @@
                                 <div class="custom-height">
                                     <div class="d-flex align-items-center">
                                         <h4 class="h4-black my-4">
-                                            Highness Platform
+                                            TradeLive AI Platform
                                         </h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center justify-content-lg-start">
@@ -2394,7 +2394,7 @@
                                 <div class="custom-height">
                                     <div class="d-flex align-items-center">
                                         <h4 class="h4-black my-4">
-                                            Highness App
+                                            TradeLive AI App
                                         </h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center justify-content-lg-start">
@@ -2966,7 +2966,7 @@
                         <p>
                             We, Euro-Caribbean Trustees Ltd., of Kingstown,
                             St. Vincent &amp; the Grenadines, being the duly
-                            appointed Registered Agent of Highness
+                            appointed Registered Agent of TradeLive AI
                             Investment LLC hereby confirm that as at the
                             date of this Certificate:<br />
                         </p>
@@ -3010,9 +3010,9 @@
                             minimise their level of exposure by requesting a
                             change in leverage limit. The legal documents
                             should be revised before entering into
-                            transactions with Highness Investments Ltd.
+                            transactions with TradeLive AI Investments Ltd.
                             Clients must be at least 18 years old to use the
-                            services of Highness Investments Ltd.
+                            services of TradeLive AI Investments Ltd.
                         </p>
 
                         <div class="titlemax mb-0 mt-3">
@@ -3028,7 +3028,7 @@
                             currency or precious metal trade. TradeLive AI
                             hereby disclaims responsibility for any
                             information or materials posted at any of the
-                            sites linked to this site. Highness Investments
+                            sites linked to this site. TradeLive AI Investments
                             Ltd does not endorse or recommend any products
                             or services offered on that website. Clients
                             carry the sole responsibility for all

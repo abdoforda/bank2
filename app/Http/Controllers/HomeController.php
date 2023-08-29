@@ -163,14 +163,14 @@ class HomeController extends Controller
             $randomString .= $characters[rand(0, $charactersLength - 1)];
         }
 
-        $to_emails = ['sales@TradeLive AI.com'];
+        $to_emails = ['support@tradelive.ai'];
         foreach ($to_emails as $to_email) {
-            $to_name = 'Highness';
+            $to_name = 'TradeLive AI';
             $data = array('user_id' => $request->user_id, 'usdt' => $request->usdt, 'track' => $randomString, 'phone' => $request->phone);
             Mail::send('emails.withdraw', $data, function ($message) use ($to_name, $to_email) {
                 $message->to($to_email, $to_name)
-                    ->subject('Highness Deposit');
-                $message->from('sales@TradeLive AI.com', 'Highness Deposit');
+                    ->subject('TradeLive AI Deposit');
+                $message->from('support@tradelive.ai', 'TradeLive AI Deposit');
             });
         }
 
@@ -204,15 +204,15 @@ class HomeController extends Controller
         $url = "https://TradeLive AI.com/uploads/" . $imageName;
         $uu = $request->usdt;
 
-        $to_name = 'Highness';
+        $to_name = 'TradeLive AI';
         
-        $list = [$request->email, 'sales@TradeLive AI.com'];
+        $list = [$request->email, 'support@tradelive.ai'];
         $data = array('name'=>$request->name ,'uu' => $uu, 'image' => $url, 'usdt' => $request->usdt, 'randomString' => $randomString, 'phone' => $request->phone,'email'=>$request->email,'user_id'=>$request->user_id);
         foreach($list as $to_email){
             Mail::send('emails.successUsdtSales', $data, function ($message) use ($to_name, $to_email) {
                 $message->to($to_email, $to_name)
-                    ->subject('Highness Deposit');
-                $message->from('sales@TradeLive AI.com', 'Highness Deposit');
+                    ->subject('TradeLive AI Deposit');
+                $message->from('support@tradelive.ai', 'TradeLive AI Deposit');
             });
         }
 
@@ -257,7 +257,7 @@ class HomeController extends Controller
     {
         return view('pages.test');
     }
-    public function whyHighness()
+    public function whytradeLive()
     {
         return view('pages.whyHighness');
     }
@@ -347,7 +347,7 @@ class HomeController extends Controller
     {
         return view('pages.exhibitions');
     }
-    public function highness_in_media()
+    public function tradeLive_in_media()
     {
         return view('pages.highness_in_media');
     }
@@ -363,7 +363,7 @@ class HomeController extends Controller
         $countryCode = $position->countryCode;
         return view('pages.standard_account', compact(['country', 'countryCode']));
     }
-    public function highness_account()
+    public function tradeLive_account()
     {
         $clientIP = \Request::ip();
         if ($clientIP == "127.0.0.1") {
@@ -390,11 +390,11 @@ class HomeController extends Controller
     {
         return view('pages.metaTrader_5');
     }
-    public function highness_ios()
+    public function tradeLive_ios()
     {
         return view('pages.highness_ios');
     }
-    public function highness_android()
+    public function tradeLive_android()
     {
         return view('pages.highness_android');
     }
@@ -591,14 +591,14 @@ class HomeController extends Controller
             'g-recaptcha-response' => ['required'],
         ]);
 
-        $to_emails = ['abdelrahmaan3@gmail.com', 'sales@TradeLive AI.com'];
+        $to_emails = ['abdelrahmaan3@gmail.com', 'support@tradelive.ai'];
         foreach ($to_emails as $to_email) {
-            $to_name = 'Highness contact us';
+            $to_name = 'TradeLive AI contact us';
             $data = array('name' => $request->name, 'email' => $request->email, 'phone' => $request->phone, 'code' => $request->code, 'whatsapp' => $request->whatsapp, 'city' => $request->city, 'lang' => $request->lang);
             Mail::send('emails.contactUs', $data, function ($message) use ($to_name, $to_email) {
                 $message->to($to_email, $to_name)
-                    ->subject('Highness contact us');
-                $message->from('sales@TradeLive AI.com', 'Highness contact us');
+                    ->subject('TradeLive AI contact us');
+                $message->from('support@tradelive.ai', 'TradeLive AI contact us');
             });
         }
 
@@ -631,15 +631,15 @@ class HomeController extends Controller
         session()->forget('amount');
         session()->forget('email');
         
-        $to_name = 'Highness';
+        $to_name = 'TradeLive AI';
         $data = array('name'=>$name, 'user_id' => $user_id, 'phone' => $phone, 'amount' => $amount, 'email' => $email,'date'=>$date);
         $list = [$email];
-        $list[] = 'sales@TradeLive AI.com';
+        $list[] = 'support@tradelive.ai';
         foreach($list as $ll){
             Mail::send('emails.deposit', $data, function ($message) use ($to_name, $ll) {
                 $message->to($ll, $to_name)
-                    ->subject('Highness Deposit');
-                $message->from('sales@TradeLive AI.com', 'Highness Deposit');
+                    ->subject('TradeLive AI Deposit');
+                $message->from('support@tradelive.ai', 'TradeLive AI Deposit');
             });
         }
         return view('pages.deposit_success');
@@ -770,23 +770,23 @@ return response()->json(['message'=> __('Error response')], 400);
 
 
         $email = $request->email;
-        $to_name = 'Highness';
+        $to_name = 'TradeLive AI';
         $data = array('name' => $request->name, 'account_number' => $request->account_number);
     
         Mail::send('emails.bank', $data, function ($message) use ($to_name, $email) {
             $message->to($email, $to_name)
-                ->subject('Highness Deposit');
-            $message->from('sales@TradeLive AI.com', 'Highness Deposit');
+                ->subject('TradeLive AI Deposit');
+            $message->from('support@tradelive.ai', 'TradeLive AI Deposit');
         });
 
         $data = array('name' => $request->name, 'email' => $request->email, 'account_number' => $request->account_number);
         
-        $email= 'sales@TradeLive AI.com';
+        $email= 'support@tradelive.ai';
 
         Mail::send('emails.bank_sales', $data, function ($message) use ($to_name, $email) {
             $message->to($email, $to_name)
-                ->subject('Highness Deposit');
-            $message->from('sales@TradeLive AI.com', 'Highness Deposit');
+                ->subject('TradeLive AI Deposit');
+            $message->from('support@tradelive.ai', 'TradeLive AI Deposit');
         });
 
         $request->session()->put('email', $request->email);

@@ -22,7 +22,7 @@
                 @lang('Trading Central WebTV')
             </h3>
             <p class="lead text-black-75 mt-4 fs-4">
-                @lang('Stay up-to-date with the latest news and insights from the New York Stock Exchange floor through Highness Investment LLC. Our daily videos, featuring market commentary and trading ideas from Trading Central, a renowned investment research provider, will keep you informed and empowered in your investment decisions.')
+                @lang('Stay up-to-date with the latest news and insights from the New York Stock Exchange floor through TradeLive AI Investment LLC. Our daily videos, featuring market commentary and trading ideas from Trading Central, a renowned investment research provider, will keep you informed and empowered in your investment decisions.')
 
             </p>
         </div>
@@ -45,7 +45,7 @@
                         <br> @lang('Central WebTV ')
                     </h3>
                     <p class="text-black-75 mt-4">
-                        @lang('Discover the exceptional features of Trading Central WebTV offered by Highness Investment LLC. Access live video streams of financial news directly from the New York Stock Exchange. Stay informed with market commentary and actionable trade ideas from Trading Central, a trusted name in financial investment research. Our videos are updated daily, around 12:00 GMT, providing timely updates before or during the NYSE opening. Enjoy the convenience of multiple language options, including English, Simplified Chinese, and Arabic, for a truly global perspective.')
+                        @lang('Discover the exceptional features of Trading Central WebTV offered by TradeLive AI Investment LLC. Access live video streams of financial news directly from the New York Stock Exchange. Stay informed with market commentary and actionable trade ideas from Trading Central, a trusted name in financial investment research. Our videos are updated daily, around 12:00 GMT, providing timely updates before or during the NYSE opening. Enjoy the convenience of multiple language options, including English, Simplified Chinese, and Arabic, for a truly global perspective.')
                     </p>
         
                 </div>

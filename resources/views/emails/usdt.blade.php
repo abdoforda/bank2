@@ -15,11 +15,11 @@
         
         <p style="text-align:right">بمجرد استلم التحويل خلال ٤٠ دقيقة سيتم الايدع بحسابك . قم بالإيداع بإستخدام طرق التمويل الآمنة الخاصة بنا واستفد من سياستنا الخالية من الرسوم بالضغط فوق زر الإيداع .</p>
         
-        <p style="text-align:right">إذا كنت بحاجة إلى أي مساعدة أو كان لديك أي أسئلة، لا تتردد في الإتصال بنا على ‪support@highness.com‬ سيكون فريقنا سعيداً بمساعدتك.</p>
+        <p style="text-align:right">إذا كنت بحاجة إلى أي مساعدة أو كان لديك أي أسئلة، لا تتردد في الإتصال بنا على ‪support@TradeLive AI.com‬ سيكون فريقنا سعيداً بمساعدتك.</p>
         
         <p style="text-align:right"><br />
         مع أطيب الأمنيات,<br />
-        Highness&nbsp;LTD</p>
+        TradeLive AI&nbsp;LTD</p>
         
         <center>
             <img src="{{ asset($image) }}" style="max-width: 100%;" >

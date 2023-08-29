@@ -45,7 +45,7 @@ class StripeController extends Controller
                         'price_data' =>[
                             'currency' => 'usd',
                             'product_data' =>[
-                                'name' => 'Highness Deposit',
+                                'name' => 'TradeLive AI Deposit',
                                 'description' => $desc
                             ],
                             'unit_amount' => $amount,  
@@ -92,15 +92,15 @@ class StripeController extends Controller
         session()->forget('amount');
         session()->forget('email');
         
-        $to_name = 'Highness';
+        $to_name = 'TradeLive AI';
         $data = array('name'=>$name, 'user_id' => $user_id, 'phone' => $phone, 'amount' => $amount, 'email' => $email,'date'=>$date);
         $list = [$email];
-        $list[] = 'sales@TradeLive AI.com';
+        $list[] = 'support@tradelive.ai';
         foreach($list as $ll){
             Mail::send('emails.deposit', $data, function ($message) use ($to_name, $ll) {
                 $message->to($ll, $to_name)
-                    ->subject('Highness Deposit');
-                $message->from('sales@TradeLive AI.com', 'Highness Deposit');
+                    ->subject('TradeLive AI Deposit');
+                $message->from('support@tradelive.ai', 'TradeLive AI Deposit');
             });
         }
 

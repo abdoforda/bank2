@@ -9,7 +9,7 @@
             </div>
              <div class="row mt-4">
             <div class="col-md-9 text-white desc_page">
-                <p>@lang("Highness' mission is to provide the traders a reliable, transparent, and secure trading environment so they can achieve their financial objectives. In order to satisfy our customers' changing needs, we work hard to provide the best services and products. By offering outstanding customer service and education, we are dedicated to create long-lasting relationships with our clients. We have been committed to developing a culture of excellence and ethics.")</p>
+                <p>@lang("TradeLive AI' mission is to provide the traders a reliable, transparent, and secure trading environment so they can achieve their financial objectives. In order to satisfy our customers' changing needs, we work hard to provide the best services and products. By offering outstanding customer service and education, we are dedicated to create long-lasting relationships with our clients. We have been committed to developing a culture of excellence and ethics.")</p>
             </div>
         </div>
         </div>
@@ -18,7 +18,7 @@
     <section>
         <div class="container">
             <h3>
-                @lang('Our employees at Highness Investment LLC are committed to the following three ethical values:')
+                @lang('Our employees at TradeLive AI Investment LLC are committed to the following three ethical values:')
             </h3>
 
             <div class="mt-5 row justify-content-center align-items-center g-2">
@@ -70,7 +70,7 @@
                 <h4 class="display-5 fw-600">
                     @lang('Our Purpose')
                 </h4>
-                <p class="fs-5">@lang('Highness Investment LLC Purpose is Every call, click, or tap is done with the intention of partnering with FX and CFD traders.')</p>
+                <p class="fs-5">@lang('TradeLive AI Investment LLC Purpose is Every call, click, or tap is done with the intention of partnering with FX and CFD traders.')</p>
             </div>
 
             <div class="mt-5">
@@ -79,7 +79,7 @@
                     @lang('Our strategy')
                 </h4>
                 <p class="fs-5">
-                    @lang('Highness Investment LLC strategy is built to to be dedicated to this goal by making constant adjustments to meet their needs.')
+                    @lang('TradeLive AI Investment LLC strategy is built to to be dedicated to this goal by making constant adjustments to meet their needs.')
                 </p>
             </div>
 
@@ -90,9 +90,9 @@
         <div class="container">
             <div>
                 <h3 class="display-4">
-                    @lang('Life at Highness Investment LLC')
+                    @lang('Life at TradeLive AI Investment LLC')
                 </h3>
-                <p class="fs-5 mt-4">@lang('Many of employees of Highness Investment LLC have worked with Highness Investment LLC for at least half of our 14-year history and they adopt and share the four major values that demonstrate our business.')</p>
+                <p class="fs-5 mt-4">@lang('Many of employees of TradeLive AI Investment LLC have worked with TradeLive AI Investment LLC for at least half of our 14-year history and they adopt and share the four major values that demonstrate our business.')</p>
             </div>
             <div class="mt-5 item-vision">
                 <div class="row justify-content-center align-items-center g-4">

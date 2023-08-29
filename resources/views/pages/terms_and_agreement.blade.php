@@ -25,7 +25,7 @@
 
                     <div class="col-12">
                         <h5 class="fw-600">Introduction:</h5>
-                        <p class="text-white-50">Highness Investment LLC is an investment company that provides its clients with investment opportunities, financial consultations, and related services. Our website provides information about our services and products, as well as educational contents and resources for investors. By using our website, you acknowledge that you have read and agree to these terms and conditions. </p>
+                        <p class="text-white-50">TradeLive AI Investment LLC is an investment company that provides its clients with investment opportunities, financial consultations, and related services. Our website provides information about our services and products, as well as educational contents and resources for investors. By using our website, you acknowledge that you have read and agree to these terms and conditions. </p>
                     </div>
     
                     <div class="col-12">
@@ -35,7 +35,7 @@
     
                     <div class="col-12">
                         <h5 class="fw-600">Intellectual Property:</h5>
-                        <p class="text-white-50">All content on our website, including text, graphics, logos, images, and software, is the property of Highness Investment LLC or its licensors and is protected by copyright and other intellectual property laws. You shall not use or reproduce any content from our website without a clear written permission from us. </p>
+                        <p class="text-white-50">All content on our website, including text, graphics, logos, images, and software, is the property of TradeLive AI Investment LLC or its licensors and is protected by copyright and other intellectual property laws. You shall not use or reproduce any content from our website without a clear written permission from us. </p>
                     </div>
     
                     <div class="col-12">
@@ -45,7 +45,7 @@
     
                     <div class="col-12">
                         <h5 class="fw-600">Limitation of Liability:</h5>
-                        <p class="text-white-50">In no event shall Highness Investment LLC or its affiliates be liable for any direct, indirect, incidental, special, or consequential damages arising out of or related to the use of our website, services, or products. </p>
+                        <p class="text-white-50">In no event shall TradeLive AI Investment LLC or its affiliates be liable for any direct, indirect, incidental, special, or consequential damages arising out of or related to the use of our website, services, or products. </p>
                     </div>
     
                     <div class="col-12">
@@ -55,17 +55,17 @@
     
                     <div class="col-12">
                         <h5 class="fw-600">Investment Risks:</h5>
-                        <p class="text-white-50">Investing in financial markets involves risks, and the past performance is not indicative of future results. Highness Investment LLC does not guarantee any particular investment results or profit. We urge you to do your own research and seek professional advice before making any investment decisions.  </p>
+                        <p class="text-white-50">Investing in financial markets involves risks, and the past performance is not indicative of future results. TradeLive AI Investment LLC does not guarantee any particular investment results or profit. We urge you to do your own research and seek professional advice before making any investment decisions.  </p>
                     </div>
     
                     <div class="col-12">
                         <h5 class="fw-600">Amendments:</h5>
-                        <p class="text-white-50">Highness Investment LLC reserves all right to amend these terms and conditions at any time and without notice. Your continued use of our website, services, or products after any such amendments shall be deemed as an acceptance  from your side to the amended terms and conditions. </p>
+                        <p class="text-white-50">TradeLive AI Investment LLC reserves all right to amend these terms and conditions at any time and without notice. Your continued use of our website, services, or products after any such amendments shall be deemed as an acceptance  from your side to the amended terms and conditions. </p>
                     </div>
     
                     <div class="col-12">
                         <h5 class="fw-600">Contact Us:</h5>
-                        <p class="text-white-50">If you have any inquiry or concerns related to these terms and conditions, please contact us at <a href="mailto:info@highness.ae">info@highness.ae</a></p>
+                        <p class="text-white-50">If you have any inquiry or concerns related to these terms and conditions, please contact us at <a href="mailto:info@TradeLive AI.ae">info@TradeLive AI.ae</a></p>
                     </div>
     
                 
@@ -79,7 +79,7 @@
             <div class="row justify-content-center  g-2">
                 <div class="col-12">
                     <h5 class="fw-600">Program for insuring civil liability.</h5>
-                    <p class="text-white-50">At Highness Investment LLC, we believe that traders should be able to focus solely on trading and not have to worry about the security of their capital. With this in mind, we have taken extra steps to fulfill our obligations to our clients. One of these steps is the implementation of a Civil Liability insurance program that covers up to 2,500,000 EUR. Our program provides market-leading coverage against a range of risks, such as omissions, fraud, errors, and negligence, which could result in financial losses for our clients.</p>
+                    <p class="text-white-50">At TradeLive AI Investment LLC, we believe that traders should be able to focus solely on trading and not have to worry about the security of their capital. With this in mind, we have taken extra steps to fulfill our obligations to our clients. One of these steps is the implementation of a Civil Liability insurance program that covers up to 2,500,000 EUR. Our program provides market-leading coverage against a range of risks, such as omissions, fraud, errors, and negligence, which could result in financial losses for our clients.</p>
                     <p class="text-white-50">We are pleased to offer this coverage to our clients at no additional cost to them. Our goal is to provide our clients with peace of mind, knowing that their capital is protected while they focus on achieving their trading objectives.</p>
                 </div>
             </div>

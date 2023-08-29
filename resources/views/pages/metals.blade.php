@@ -449,7 +449,7 @@
         [
             'title' => __('Frequently asked questions'),
             'desc' =>
-                __('Here are our most frequently asked questions about trading metals with Highness Investment LLC.'),
+                __('Here are our most frequently asked questions about trading metals with TradeLive AI Investment LLC.'),
             'items' => [
                 [
                     'title' => __('What are metals, and how can I trade in them?'),

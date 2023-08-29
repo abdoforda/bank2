@@ -43875,7 +43875,7 @@
         [
             'title' => __("Frequently asked questions"),
             'desc' =>
-                __('Here are our most frequently asked questions about trading shares with Highness Investment LLC.'),
+                __('Here are our most frequently asked questions about trading shares with TradeLive AI Investment LLC.'),
             'items' => [
                 [
                     'title' => __('What are shares, and how can I trade in  them?'),

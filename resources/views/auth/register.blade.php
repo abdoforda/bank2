@@ -35,7 +35,7 @@
 
                         <h4 class="text-center">
                             Enjoy The Benefits Of
-                            Becoming an <br>Highness
+                            Becoming an <br>TradeLive AI
                         </h4>
 
                         <br>

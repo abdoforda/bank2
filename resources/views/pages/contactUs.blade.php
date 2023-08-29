@@ -45,13 +45,13 @@
                         <h3 class="color1 fw-bold h4">E-mail us</h3>
                         
                         <p class="text-black-75 small m-0 p-0" style="margin-bottom: -4px !important;">Customer Support</p>
-                        <strong class="color1 small">Support@Highness.ae</strong>
+                        <strong class="color1 small">Support@TradeLive AI.ae</strong>
 
                         <p class="text-black-75  mt-3 small m-0 p-0" style="margin-bottom: -4px !important;">Affiliates and IBs</p>
-                        <strong class="color1 small">Affiliates@Highness.ae</strong>
+                        <strong class="color1 small">Affiliates@TradeLive AI.ae</strong>
 
                         <p class="text-black-75  mt-3 small m-0 p-0" style="margin-bottom: -4px !important;">Compliance Officer</p>
-                        <strong class="color1 small">Compliance@Highness.ae</strong>
+                        <strong class="color1 small">Compliance@TradeLive AI.ae</strong>
 
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                 </div>
                 <div class="col-md-4 ps-5">
                     <h3 class="fs-2">
-                        @lang('Highness Investment LLC')
+                        @lang('TradeLive AI Investment LLC')
                     </h3>
                     <p class="text-black-50 mt-4">
                         <span class="text-black">@lang('Registered address:')</span>    

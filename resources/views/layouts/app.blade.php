@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>COINEX - Crypto Currency HTML Template</title>
+    <title>TradeLive AI</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico" />
     <!-- Google Fonts -->
@@ -78,20 +78,20 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col">
-                                                    <h5>@lang('Highness')</h5>
+                                                    <h5>@lang('TradeLive AI')</h5>
                                                     <ul class="ul01">
                                                         <li>
                                                             <a class="dropdown-item"
                                                                 href="{{ route('about-us') }}">@lang('About')
-                                                                @lang('Highness')</a>
+                                                                @lang('TradeLive AI')</a>
                                                         </li>
                                                         <li>
                                                             <a class="dropdown-item" href="{{ route('news') }}">
-                                                                @lang('Highness News')</a>
+                                                                @lang('TradeLive AI News')</a>
                                                         </li>
                                                         <li>
                                                             <a class="dropdown-item"
-                                                                href="{{ route('why-highness') }}">@lang('Why Highness')</a>
+                                                                href="{{ route('why-tradeLive') }}">@lang('Why TradeLive AI')</a>
                                                         </li>
                                                         <li>
                                                             <a class="dropdown-item"
@@ -138,7 +138,7 @@
                                                         <li><a class="dropdown-item"
                                                                 href="{{ route('exhibitions') }}">@lang('Exhibitions')</a></li>
                                                         <li><a class="dropdown-item"
-                                                                href="{{ route('highness_in_media') }}">@lang('Highness in Media')</a>
+                                                                href="{{ route('tradelive_media') }}">@lang('TradeLive AI in Media')</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -196,7 +196,7 @@
                                                                 href="{{ route('standard_account') }}">@lang('Standard Account')</a>
                                                         </li>
                                                         <li><a class="dropdown-item"
-                                                                href="{{ route('highness_account') }}">@lang('Highness Account')</a>
+                                                                href="{{ route('tradeLive_account') }}">@lang('TradeLive AI Account')</a>
                                                         </li>
                                                         <li><a class="dropdown-item"
                                                                 href="{{ route('premium_account') }}">@lang('Premium Account')</a>
@@ -211,9 +211,9 @@
                                                                 href="{{ route('metaTrader_5') }}">@lang('MetaTrader 5') </a>
                                                         </li>
                                                         <li><a class="dropdown-item"
-                                                                href="{{ route('highness_ios') }}">@lang('Highness Ios')</a></li>
+                                                                href="{{ route('tradeLive_ios') }}">@lang('TradeLive AI Ios')</a></li>
                                                         <li><a class="dropdown-item"
-                                                                href="{{ route('highness_android') }}">@lang('Highness Android')</a>
+                                                                href="{{ route('tradeLive_android') }}">@lang('TradeLive AI Android')</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -383,7 +383,7 @@
                     <div class="col-lg-7 align-self-center">
                         <div class="banner-text text-left text-white">
                             <h1 class="text-white iq-mb-20">Best Selling ICO Future Of Trading <b
-                                    class="iq-font-yellow">CoinEX</b></h1>
+                                    class="iq-font-yellow">TradeLive AI</b></h1>
                             <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                                 industry's standard dummy text ever since the 1500s, when an unknown printer took a
                                 galley of type and scrambled it to make a type specimen book.</p>
@@ -453,6 +453,8 @@
 		gtag('config', ua, cfg);
 	</script>
 
+{{-- if route home --}}
+@if (Route::currentRouteName() === 'index')
 <script defer src="https://unpkg.com/timeago.js@4.0.2/dist/timeago.full.min.js"></script>
 <script>
 function w(s){document.write(s);}
@@ -462,6 +464,8 @@ function hhmm(t){let d=new Date(t*1000);return d.getHours().toString().padStart(
 function render_ago(){timeago.render(document.querySelectorAll('.timeago'), 'en');}
 document.addEventListener('DOMContentLoaded', render_ago);
 </script>
+@endif
+
 
         @yield('content')
 
@@ -545,8 +549,37 @@ document.addEventListener('DOMContentLoaded', render_ago);
     <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
     <!-- Custom JavaScript -->
     <script src="{{ asset('js/custom.js') }}"></script>
+    <script src="{{ asset('js/ajax.form.js') }}"></script>
+
 
     <script>
+
+        
+var newSubmit = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Loading...';
+
+function removeErrors(form){
+    $(form).find("[type='submit']").html(newSubmit).attr("disabled","disabled");
+    $(".is-invalid").removeClass("is-invalid");
+    $(".invalid-feedback").remove();
+}
+
+function errors(form, data) {
+    
+    obj = data.errors;
+    for (var key in data.errors) {
+        var value = obj[key];
+        console.log(value);
+        find_error_name_and_display_message(form, key, value);
+    }
+  }
+  
+  function find_error_name_and_display_message(form, key, value) {
+
+    $(form).find("[name='" + key + "']").addClass("is-invalid");
+    $(form).find("[name='" + key + "']").after(`<div class="invalid-feedback">${value}</div>`);
+
+  }
+
         $(function () {
             $(".uld_hover .dropdown").hover(
         function () {
@@ -562,7 +595,7 @@ document.addEventListener('DOMContentLoaded', render_ago);
             });
         });
     </script>
-
+    @yield('scripts')
 
 </body>
 

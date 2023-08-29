@@ -9,7 +9,7 @@
             </div>
              <div class="row mt-4">
             <div class="col-md-9 text-white desc_page">
-                <p>@lang('A standard trading account is the basic level of account offered by Highness Investment LLC. It allows traders to trade using real money, but it typically requires a smaller initial deposit than higher level accounts. Standard account enables traders to access a range of trading tools, including charts, technical analysis, and market news. Standard accounts usually have lower trading costs compared to higher level accounts. It is convenient for beginners or traders who are looking for the lowest risk level.')</p>
+                <p>@lang('A standard trading account is the basic level of account offered by TradeLive AI Investment LLC. It allows traders to trade using real money, but it typically requires a smaller initial deposit than higher level accounts. Standard account enables traders to access a range of trading tools, including charts, technical analysis, and market news. Standard accounts usually have lower trading costs compared to higher level accounts. It is convenient for beginners or traders who are looking for the lowest risk level.')</p>
             </div>
         </div>
         </div>
@@ -65,7 +65,7 @@
                                     </div>
                                     <div class="row justify-content-center align-items-center g-2">
                                         <div class="col col-5 text-center fw-700 border-bottom">@lang('Platforms')</div>
-                                        <div class="col col-7 border-bottom bg-g">@lang('MT5 | highness trader')</div>
+                                        <div class="col col-7 border-bottom bg-g">@lang('MT5 | TradeLive AI trader')</div>
                                     </div>
                                     <div class="row justify-content-center align-items-center g-2">
                                         <div class="col col-5 text-center fw-700 border-bottom">@lang('Stop out')</div>
@@ -93,14 +93,14 @@
     <section>
         <div class="container text-center">
             <h3>
-                @lang('Switch to Highness')
+                @lang('Switch to TradeLive AI')
             </h3>
 
             <div class="mt-1 row justify-content-center align-items-center g-4">
                 <div class="col-md-4 col-sm-6 col-12">
                     <img style=" height: 64px; " src="/images/new_images/icons/Over 15 years of experience.png" />
                     <h5 class="fw-600 mt-2">@lang('Over 13 years of experience')</h5>
-                    <p class="text-white-50">@lang('Highness is among the most significant foreign exchange and CFD brokers worldwide, and it is listed on the stock exchange.')</p>
+                    <p class="text-white-50">@lang('TradeLive AI is among the most significant foreign exchange and CFD brokers worldwide, and it is listed on the stock exchange.')</p>
                 </div>
                 <div class="col-md-4 col-sm-6 col-12">
                     <img style=" height: 64px; " src="/images/new_images/icons/Customer support 24.png" />

@@ -9,7 +9,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col-md-9 text-white desc_page">
-                    <p>@lang('At Highness Investment LLC, we pride ourselves on providing excellent customer support to our clients. We understand that trading on financial markets can be a challenging experience, and we are always here to help our clients with any questions or issues they may encounter.')</p>
+                    <p>@lang('At TradeLive AI Investment LLC, we pride ourselves on providing excellent customer support to our clients. We understand that trading on financial markets can be a challenging experience, and we are always here to help our clients with any questions or issues they may encounter.')</p>
                 </div>
             </div>
         </div>
@@ -17,107 +17,7 @@
 
     
 
-    <section class="bg-g">
-
-        <div class="container text-center ">
-            <h3>
-                <strong>@lang('Benefits of using Expert Advisor with Highness Investment LLC:')</strong>
-                <br>
-            </h3>
-
-            <div class="mt-5 row justify-content-center align-items-center g-4">
-                {{-- start Item --}}
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="rounded bg-white p-5">
-                        <img src="{{ asset('images/new_images/icons/back office.png') }}" height="50" alt="">
-                        <h4 class="mt-3 ">@lang('Back Office') </h4>
-                        <p class="m-0 mt-4 lead" style="color: #a1a1a1;">@lang('Email'):</p>
-                        <a href="mailto:backoffice@Highness.ae">backoffice@Highness.ae</a>
-                    </div>
-                </div>
-                {{-- end Item --}}
-
-                {{-- start Item --}}
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="rounded bg-white p-5">
-                        <img src="{{ asset('images/new_images/icons/Funding.png') }}" height="50" alt="">
-                        <h4 class="mt-3 ">@lang('Funding') </h4>
-                        <p class="m-0 mt-4 lead" style="color: #a1a1a1;">@lang('Email'):</p>
-                        <a href="mailto:funding@Highness.ae">mailto:funding@Highness.ae</a>
-                    </div>
-                </div>
-                {{-- end Item --}}
-
-                {{-- start Item --}}
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="rounded bg-white p-5">
-                        <img src="{{ asset('images/new_images/icons/Partner ship.png') }}" height="50" alt="">
-                        <h4 class="mt-3 ">@lang('Partnerships') </h4>
-                        <p class="m-0 mt-4 lead" style="color: #a1a1a1;">@lang('Email'):</p>
-                        <a href="mailto:partners@Highness.ae">partners@Highness.ae</a>
-                    </div>
-                </div>
-                {{-- end Item --}}
-
-                {{-- start Item --}}
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="rounded bg-white p-5">
-                        <img src="{{ asset('images/new_images/icons/back office 2.png') }}" height="50" alt="">
-                        <h4 class="mt-3 ">@lang('Customer Support') </h4>
-                        <p class="m-0 mt-4 lead" style="color: #a1a1a1;">@lang('Email'):</p>
-                        <a href="mailto:support@Highness.ae">support@Highness.ae</a>
-                    </div>
-                </div>
-                {{-- end Item --}}
-
-                {{-- start Item --}}
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="rounded bg-white p-5">
-                        <img src="{{ asset('images/new_images/icons/investment & Research.png') }}" height="50" alt="">
-                        <h4 class="mt-3 ">@lang('Investment & Research') </h4>
-                        <p class="m-0 mt-4 lead" style="color: #a1a1a1;">@lang('Email'):</p>
-                        <a href="mailto:investments@Highness.ae">investments@Highness.ae</a>
-                    </div>
-                </div>
-                {{-- end Item --}}
-
-                {{-- start Item --}}
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="rounded bg-white p-5">
-                        <img src="{{ asset('images/new_images/icons/compliance.png') }}" height="50" alt="">
-                        <h4 class="mt-3 ">@lang('Compliance') </h4>
-                        <p class="m-0 mt-4 lead" style="color: #a1a1a1;">@lang('Email'):</p>
-                        <a href="mailto:compliance@Highness.ae">compliance@Highness.ae</a>
-                    </div>
-                </div>
-                {{-- end Item --}}
-
-                {{-- start Item --}}
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="rounded bg-white p-5">
-                        <img src="{{ asset('images/new_images/icons/Marketing.png') }}" height="50" alt="">
-                        <h4 class="mt-3 ">@lang('Marketing') </h4>
-                        <p class="m-0 mt-4 lead" style="color: #a1a1a1;">@lang('Email'):</p>
-                        <a href="mailto:marketing@Highness.ae">marketing@Highness.ae</a>
-                    </div>
-                </div>
-                {{-- end Item --}}
-
-                {{-- start Item --}}
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="rounded bg-white p-5">
-                        <img src="{{ asset('images/new_images/icons/trading.png') }}" height="50" alt="">
-                        <h4 class="mt-3 ">@lang('Trading') </h4>
-                        <p class="m-0 mt-4 lead" style="color: #a1a1a1;">@lang('Email'):</p>
-                        <a href="mailto:dealing@Highness.ae">dealing@Highness.ae</a>
-                    </div>
-                </div>
-                {{-- end Item --}}
-                
-            </div>
-        </div>
-    </section>
-
+    
 
     @include('components.address')
 

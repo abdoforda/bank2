@@ -19,7 +19,7 @@
     <section class="bg-g">
         <div class="container text-center ">
             <h3>
-                <strong>@lang('Benefits of using Free VPS Hosting with Highness Investment LLC:')</strong>
+                <strong>@lang('Benefits of using Free VPS Hosting with TradeLive AI Investment LLC:')</strong>
                 <br>
             </h3>
 
@@ -52,9 +52,9 @@
             <div class="row justify-content-center align-items-center g-2">
                 
                 <div class="col-md-7 padding-start-5-pc">
-                    <p class="text-black-75">@lang("Highness Investment LLC's Free VPS Hosting tool provides reliable and fast connectivity for quick trade execution. Centralized processing allows for easy integration and trading of hundreds of accounts simultaneously, ensuring minimal distribution delay.")</p>
+                    <p class="text-black-75">@lang("TradeLive AI Investment LLC's Free VPS Hosting tool provides reliable and fast connectivity for quick trade execution. Centralized processing allows for easy integration and trading of hundreds of accounts simultaneously, ensuring minimal distribution delay.")</p>
                     <h3>
-                        <strong>@lang("Advantages of Highness Investment LLC's Free VPS Hosting:")</strong>
+                        <strong>@lang("Advantages of TradeLive AI Investment LLC's Free VPS Hosting:")</strong>
                     </h3>
                     <div class="list-container">
                         <ul>
@@ -92,16 +92,16 @@
                         @lang('Free VPS Hosting') 
                     </h2>
                     <p class="small">
-                        @lang('Highness Investment LLC offers free Virtual Private Server (VPS) hosting to clients who meet certain trading requirements. With VPS hosting, clients can run their Expert Advisors (EAs) and automated trading strategies around the clock without interruption.') 
+                        @lang('TradeLive AI Investment LLC offers free Virtual Private Server (VPS) hosting to clients who meet certain trading requirements. With VPS hosting, clients can run their Expert Advisors (EAs) and automated trading strategies around the clock without interruption.') 
                     </p>
                 </div>
                 
                 <div class="col-md-6">
                     <h2 class="fw-700 mb-4">
-                        @lang("What advantage does Highness Investment LLC's VPS hosting provide in today's fast-paced financial markets?") 
+                        @lang("What advantage does TradeLive AI Investment LLC's VPS hosting provide in today's fast-paced financial markets?") 
                     </h2>
                     <p class="small">
-                        @lang("This provides a significant advantage in today's fast-paced financial markets, where split-second decisions can make all the difference. Highness Investment LLC's VPS hosting ensures fast and reliable connectivity, allowing clients to execute trades quickly and efficiently.") 
+                        @lang("This provides a significant advantage in today's fast-paced financial markets, where split-second decisions can make all the difference. TradeLive AI Investment LLC's VPS hosting ensures fast and reliable connectivity, allowing clients to execute trades quickly and efficiently.") 
                     </p>
                 </div>
 

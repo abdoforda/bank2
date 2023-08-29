@@ -10,7 +10,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col-md-9 text-white desc_page">
-                    <p>@lang('To begin your journey in the financial markets, you will need to open an account with Highness Investment LLC. Follow these simple steps to get started')</p>
+                    <p>@lang('To begin your journey in the financial markets, you will need to open an account with TradeLive AI Investment LLC. Follow these simple steps to get started')</p>
                 </div>
             </div>
         </div>
@@ -21,7 +21,7 @@
             <div class="row  g-2">
                 <div class="col-md-8">
                     <h3 class="h1">
-                        @lang('Opening a Highness Account')
+                        @lang('Opening a TradeLive AI Account')
                     </h3>
                     <p class="mt-3">
                         @lang("Are you eager to start capitalizing on the opportunities of financial markets? Whether you're interested in trading various assets, the initial step as a trader is to register a Members Area and open a trading account.") 
@@ -123,7 +123,7 @@
 
                     <div class="mt-5 row justify-content-center align-items-center g-2">
                         <div class="col-md-6">
-                            <h4>@lang('Highness Trading Terminal:') </h4>
+                            <h4>@lang('TradeLive AI Trading Terminal:') </h4>
                             <ul class="terminal__details small p-0">
                                 <li>@lang('Seamless access to major financial markets via browser.') </li>
                                 <li>@lang('Build trading robots effortlessly with built-in strategy builder, no programming required.') </li>
@@ -160,8 +160,8 @@
                                     <h4 class="fw-700 color2">@lang('Standard') </h4>
                                     <p class="small mt-2">@lang('Standard is more often used for testing trading strategies by experienced traders.') </p>
 
-                                    <h4 class="fw-700 color2 mt-5">@lang('Highness') </h4>
-                                    <p class="small mt-2">@lang('Highness is created especially for beginners with less than 1 year of trading experience.') </p>
+                                    <h4 class="fw-700 color2 mt-5">@lang('TradeLive AI') </h4>
+                                    <p class="small mt-2">@lang('TradeLive AI is created especially for beginners with less than 1 year of trading experience.') </p>
 
                                 </div>
                                 <div class="col-md-6">

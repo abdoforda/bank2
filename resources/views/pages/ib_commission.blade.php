@@ -140,7 +140,7 @@
     <section class="bg-g">
         <div class="container text-center">
             <h3>@lang('GET STARTED NOW') </h3>
-            <p>@lang("Grow your business with Highness Partners' Affiliate Program") </p>
+            <p>@lang("Grow your business with TradeLive AI Partners' Affiliate Program") </p>
             <div class="row justify-content-center mt-5 g-2">
                 <div class="col">
                     <img src="/images/new_images/icons/step1.svg" height="100" alt="">
