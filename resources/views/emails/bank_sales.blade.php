@@ -11,7 +11,7 @@
         <p class="MsoNormal"><u></u>&nbsp;<u></u></p>
         <p class="m_889214601969516500m-2644050995063003091msolistparagraph"><b><span style="color:#00b050">Bank: Wio
                     Bank PJSC<u></u><u></u></span></b></p>
-        <p class="MsoNormal"><b><span style="color:#00b050">Account holder: TradeLive AI Investment FZE
+        <p class="MsoNormal"><b><span style="color:#00b050">Account holder: TradeLive ai FZE
                     <u></u><u></u></span></b></p>
         <p class="MsoNormal"><b><span style="color:#00b050">IBAN: AE750860000009955167890<u></u><u></u></span></b></p>
         <p class="MsoNormal"><b><span style="color:#00b050">BIC: WIOBAEADXXX<u></u><u></u></span></b></p>
@@ -23,6 +23,6 @@
         <p class="MsoNormal">&nbsp;<u></u><u></u></p>
         <p class="MsoNormal">Best regards<u></u><u></u></p>
         <p class="MsoNormal">&nbsp;<u></u><u></u></p>
-        <p class="MsoNormal">TradeLive AI Investment LLC<u></u><u></u></p>
+        <p class="MsoNormal">TradeLive ai<u></u><u></u></p>
         <p class="MsoNormal"><u></u>&nbsp;<u></u></p>
     </div>

@@ -9,7 +9,7 @@
             </div>
              <div class="row mt-4">
             <div class="col-md-9 text-white desc_page">
-                <p>@lang('Our vision and goal at TradeLive AI Investment LLC is to establish ourselves as a globally renowned trading firm that offers clients first-class financial services. To offer our clients an unmatched trading experience, we continuously work to improve our trading technologies, customer service, and technical support. We aim to be the go-to destination for traders of all experience levels through providing a wide variety of trading alternatives and tools to suit their personal requirements.')</p>
+                <p>@lang('Our vision and goal at TradeLive ai is to establish ourselves as a globally renowned trading firm that offers clients first-class financial services. To offer our clients an unmatched trading experience, we continuously work to improve our trading technologies, customer service, and technical support. We aim to be the go-to destination for traders of all experience levels through providing a wide variety of trading alternatives and tools to suit their personal requirements.')</p>
             </div>
         </div>
         </div>
@@ -18,7 +18,7 @@
     <section>
         <div class="container">
             <h3>
-                @lang('Our employees at TradeLive AI Investment LLC are committed to the following three ethical values:')
+                @lang('Our employees at TradeLive ai are committed to the following three ethical values:')
             </h3>
 
             <div class="mt-5 row justify-content-center align-items-center g-2">
@@ -71,7 +71,7 @@
                     @lang('Our Purpose')
                 </h4>
                 <p class="fs-5">
-                    @lang('TradeLive AI Investment LLC Purpose is Every call, click, or tap is done with the intention of partnering with FX and CFD traders.')
+                    @lang('TradeLive ai Purpose is Every call, click, or tap is done with the intention of partnering with FX and CFD traders.')
                 </p>
             </div>
 
@@ -81,7 +81,7 @@
                     @lang('Our strategy')
                 </h4>
                 <p class="fs-5">
-                    @lang('TradeLive AI Investment LLC strategy is built to to be dedicated to this goal by making constant adjustments to meet their needs.')
+                    @lang('TradeLive ai strategy is built to to be dedicated to this goal by making constant adjustments to meet their needs.')
                 </p>
             </div>
 
@@ -92,10 +92,10 @@
         <div class="container">
             <div>
                 <h3 class="display-4">
-                    @lang('Life at TradeLive AI Investment LLC')
+                    @lang('Life at TradeLive ai')
                 </h3>
                 <p class="fs-5 mt-4">
-                    @lang('Many of employees of TradeLive AI Investment LLC have worked with TradeLive AI Investment LLC for at least half of our 14-year history and they adopt and share the four major values that demonstrate our business. ')
+                    @lang('Many of employees of TradeLive ai have worked with TradeLive ai for at least half of our 14-year history and they adopt and share the four major values that demonstrate our business. ')
                 </p>
             </div>
             <div class="mt-5 item-vision">

@@ -8,6 +8,6 @@
 <p>Amount: {{ $amount }} USD</p>
 <p>Account number: {{ $user_id }}</p>
 <p>Date: {{ $date }} </p>
-<p style="color: #2b62ac;">TradeLive AI Investment</p>
+<p style="color: #2b62ac;">TradeLive ai</p>
 
 </div>

@@ -211,7 +211,7 @@
             <ul class="arrows">
                 <li>
                     <span class="red mt4_steps"><strong>@lang('STEP') 1:</strong></span>
-                    @lang('Press and hold the TradeLive AI Investment LLC app icon.')
+                    @lang('Press and hold the TradeLive ai app icon.')
                 </li>
                 <li>
                     <span class="red mt4_steps"><strong>@lang('STEP') 2:</strong></span>
@@ -241,7 +241,7 @@
                 [
                     'title' => __('How can I download the TradeLive AI App for iOS devices?'),
                     'bode' =>
-                        __("To download the TradeLive AI App for iOSvdevices, search for 'TradeLive AI Investment LLC' in the App Store and follow the account opening procedures. Once your account is verified, you can make a deposit and start trading."),
+                        __("To download the TradeLive AI App for iOSvdevices, search for 'TradeLive ai' in the App Store and follow the account opening procedures. Once your account is verified, you can make a deposit and start trading."),
                 ],[
                     'title' => __('What are the devices compatible with the TradeLive AI App for iOS?'),
                     'bode' =>

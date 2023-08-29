@@ -11,7 +11,7 @@
             <div class="row mt-4">
                 <div class="col-md-9 text-white desc_page">
                     <p class="lead">
-                        @lang('Webinars are interactive online seminars conducted by TradeLive AI Investment LLC experts, covering various topics such as trading strategies, market analysis, and risk management. These webinars provide valuable insights and educational resources to help traders enhance their knowledge and skills in the financial markets.')
+                        @lang('Webinars are interactive online seminars conducted by TradeLive ai experts, covering various topics such as trading strategies, market analysis, and risk management. These webinars provide valuable insights and educational resources to help traders enhance their knowledge and skills in the financial markets.')
                     </p>
                 </div>
             </div>
@@ -25,7 +25,7 @@
                 <div class="row justify-content-center align-items-center g-2">
                     <div class="col-md-7">
                         <h3 class="h5 mb-4">
-                            @lang('Drawing from decades of expertise in analyzing the financial markets, TradeLive AI Investment LLC brings you the assimilated knowledge and skills gained over')
+                            @lang('Drawing from decades of expertise in analyzing the financial markets, TradeLive ai brings you the assimilated knowledge and skills gained over')
                         </h3>
                         <p class="m-0 mt-1">@lang('20 years of experience as an analyst, professional trader, and money manager.')</p>
                         <p class="m-0 mt-1">@lang('Our specialists excel in FX, equities, indexes, and stocks analysis,') <br>

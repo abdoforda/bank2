@@ -10,7 +10,7 @@
             </div>
              <div class="row mt-4">
             <div class="col-md-9 text-white desc_page">
-                <p>@lang('TradeLive AI account is an intermediate level account offered by TradeLive AI Investment LLC. This type of account typically requires a higher initial deposit than the standard account and it provides additional trading tools and features. These may include personalized customer support, access to educational resources, advanced charting capabilities, and faster trade execution. TradeLive AI account usually offers lower trading costs than the premium account, which makes it suitable for more experienced traders who are looking to improve their trading skills.')</p>
+                <p>@lang('TradeLive AI account is an intermediate level account offered by TradeLive ai. This type of account typically requires a higher initial deposit than the standard account and it provides additional trading tools and features. These may include personalized customer support, access to educational resources, advanced charting capabilities, and faster trade execution. TradeLive AI account usually offers lower trading costs than the premium account, which makes it suitable for more experienced traders who are looking to improve their trading skills.')</p>
             </div>
         </div>
         </div>

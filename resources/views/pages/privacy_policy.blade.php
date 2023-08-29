@@ -9,7 +9,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col-md-9 text-white desc_page">
-                    <p>@lang('At TradeLive AI Investment LLC, we understand the importance of collecting personal information to effectively provide our clients and prospective clients with our products and services. This enables us to meet their specific needs and deliver relevant information to enhance their experience with us.') </p>
+                    <p>@lang('At TradeLive ai, we understand the importance of collecting personal information to effectively provide our clients and prospective clients with our products and services. This enables us to meet their specific needs and deliver relevant information to enhance their experience with us.') </p>
                 </div>
             </div>
         </div>
@@ -20,11 +20,11 @@
         <div class="container cht03">
             
             <h2>@lang('Introduction:')</h2>
-            <p class="leac">@lang('At TradeLive AI Investment LLC, we are committed to protecting your privacy and safeguarding your personal information. This Privacy Policy explains how we collect, use, and protect your personal information when you use our services and visit our website. By accessing and using our services, you consent to the terms outlined in this Privacy Policy.')</p>
+            <p class="leac">@lang('At TradeLive ai, we are committed to protecting your privacy and safeguarding your personal information. This Privacy Policy explains how we collect, use, and protect your personal information when you use our services and visit our website. By accessing and using our services, you consent to the terms outlined in this Privacy Policy.')</p>
             <br>
 
             <h2>@lang('Who are we?')</h2>
-            <p class="leac">@lang('TradeLive AI Investment LLC is a financial services company specializing in investment management. Our registered address is [address]. As a data controller, we are responsible for the collection and processing of your personal information in accordance with applicable data protection laws.')</p>
+            <p class="leac">@lang('TradeLive ai is a financial services company specializing in investment management. Our registered address is [address]. As a data controller, we are responsible for the collection and processing of your personal information in accordance with applicable data protection laws.')</p>
             <br>
             
             <h2>@lang('Personal information we collect:')</h2>

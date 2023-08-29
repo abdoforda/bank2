@@ -10,7 +10,7 @@
             </div>
              <div class="row mt-4">
             <div class="col-md-9 text-white desc_page">
-                <p>@lang("At TradeLive AI Investment LLC, we prioritize the safety of our clients' funds. We utilize state-of-the-art security measures and work with reputable financial institutions to ensure that your investments are protected. Your peace of mind is our top priority.")</p>
+                <p>@lang("At TradeLive ai, we prioritize the safety of our clients' funds. We utilize state-of-the-art security measures and work with reputable financial institutions to ensure that your investments are protected. Your peace of mind is our top priority.")</p>
             </div>
         </div>
         </div>
@@ -23,7 +23,7 @@
                 <h3 class="fs-1 fw-normal">
                     @lang('Securing your account from a negative balance is decisive when trading on the Forex market, which is deemed inherently risky.')
                 </h3>
-                <p class="mt-4 fs-5">@lang('TradeLive AI Investment LLC provides standard tools to help you do this')</p>
+                <p class="mt-4 fs-5">@lang('TradeLive ai provides standard tools to help you do this')</p>
             </div>
             <div class="mt-5 row justify-content-center align-items-center g-4">
                 <div class="col-md-4 col-sm-6">

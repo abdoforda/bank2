@@ -60,7 +60,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="javascript:void(0)">
+                        <a class="navbar-brand" href="/">
                             <img src="{{ asset('images/logo.png') }}" class="img-fluid" alt="">
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -366,7 +366,7 @@
                         <ul class="nav justify-content-end">
                             <li class="nav-item iq-mlr-0">
                                 <a class="nav-link button" data-bs-toggle="modal" data-bs-target=".iq-login"
-                                    data-whatever="@mdo" href="javascript:void(0)">Login</a>
+                                    data-whatever="@mdo" href="javascript:void(0)">Trade Now</a>
                             </li>
                         </ul>
                     </nav>
@@ -384,9 +384,7 @@
                         <div class="banner-text text-left text-white">
                             <h1 class="text-white iq-mb-20">Best Selling ICO Future Of Trading <b
                                     class="iq-font-yellow">TradeLive AI</b></h1>
-                            <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                                industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                                galley of type and scrambled it to make a type specimen book.</p>
+                            <p>Absolutely! Trading live using AI offers you a thrilling opportunity to harness your financial potential and cultivate a deep understanding of global economies. Embrace each trade as a chance to grow, adapt, and refine your strategies. With dedication and the right mindset, you have the power to navigate the market's challenges and unlock the rewards of your efforts.</p>
                             <a href="https://www.youtube.com/watch?v=0O2aH4XLbto" class="button-play video-popup"><i
                                     class="fa fa-play"></i>
                                 <ion-icon name="play"></ion-icon>
@@ -518,6 +516,196 @@ document.addEventListener('DOMContentLoaded', render_ago);
 
 
     </div>
+
+    <footer class="pb-4 bg-black">
+        <div class="pt-3 pb-3 bg-footer1">
+            <div class="container text-capitalize">
+                <div class="row links-footer small">
+
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 mt-3">
+                        <ul>
+                            <li>
+                                <strong>TradeLive ai</strong>
+                                <div class="dis5"></div>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/about-us">About                                    TradeLive ai</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/news">
+                                    TradeLive ai News</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/why-tradeLive">Why TradeLive ai</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/careers">Careers</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/vision">Vision</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/Mission">Mission</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/contact-us">Contact Us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 mt-3">
+                        <ul>
+                            <li>
+                                <strong>Markets</strong>
+                                <div class="dis5"></div>
+                            </li>
+                            <li><a href="/forex">Forex</a></li>
+                            <li><a href="/indices">Indices</a></li>
+                            <li><a href="/commodities">Commodities</a></li>
+                            <li><a href="/metals">Metals</a></li>
+                            <li><a href="/cryptocurrencies">Crypto</a></li>
+                            <li><a href="/shares">Share</a></li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 mt-3">
+                        <ul>
+                            <li>
+                                <strong>Accounts Types</strong>
+                                <div class="dis5"></div>
+                            </li>
+                            <li><a href="https://portal.TradeLive aiinv.com/en/auth/register">Demo Account</a></li>
+                            <li><a href="https://portal.TradeLive aiinv.com/en/auth/register">standard Account</a></li>
+                            <li><a href="https://portal.TradeLive aiinv.com/en/auth/register">TradeLive ai Account</a></li>
+                            <li><a href="https://portal.TradeLive aiinv.com/en/auth/register">Premium Account</a></li>
+                            <li><a href="https://portal.TradeLive aiinv.com/en/auth/register">Client Portal</a></li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 mt-3">
+                        <ul>
+                            <li>
+                                <strong>Partnership</strong>
+                                <div class="dis5"></div>
+                            </li>
+                            <li><a href="#aaaaaaaaaaaaa">Introducing Brokers</a></li>
+                            <li><a href="/cpa_affiliate">Affiliate Program</a></li>
+                            <li><a href="/ib_commission">IB Commission</a></li>
+                            <li><a href="/white_label">White label</a></li>
+
+
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 mt-3">
+                        <ul>
+                            <li>
+                                <strong>Market Research</strong>
+                                <div class="dis5"></div>
+                            </li>
+                            <li><a href="/financial_news">Financial News</a></li>
+                            <li><a href="/technical_analysis_articles">Analysis Articles</a></li>
+                            <li><a href="/technical_analysis_videos">Analysis Videos</a></li>
+                            <li><a href="/webinars">Webinars</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 mt-3">
+                        <ul>
+                            <li>
+                                <strong>Education</strong>
+                                <div class="dis5"></div>
+                            </li>
+                            <li><a href="https://portal.TradeLive aiinv.com/en/auth/register">Open Account</a></li>
+                            <li><a href="https://portal.TradeLive aiinv.com/en/auth/register">Start Trading</a></li>
+                            <li><a href="/support">TradeLive ai&nbsp;FAQ</a></li>
+
+
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="dis30"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pt-3 pb-0">
+                    <div class="row">
+                        <div class="col-sm-8 d-flex align-items-center img_in_footer text-center text-sm-start overflow-auto">
+                            <img class="m-2" src="https://cloud.xm-cdn.com/assets/img/common/logo/meta-quotes.png?v1.1" width="136" height="26" alt="metaquotes">
+                            <img class="m-2" src="/images/shap/icon-site.png" height="26" alt="metaquotes">
+                            <img class="m-2" src="/images/shap/trustpilot.png" height="28" alt="metaquotes">
+                        </div>
+                        <div class="col-sm-3 mt-sm-0 mt-4 text-center text-sm-start">
+                            <div class="social-icons">
+                                <div class="img06">
+                                    <img src="/images/new_images/oscar/ww.png" class="img-fluid hvr-grow" alt="">
+                                </div>
+                                <div class="img06">
+                                    <img src="/images/new_images/oscar/d.png" class="img-fluid hvr-grow" alt="">
+                                </div>
+                                <div class="img06">
+                                    <img src="/images/new_images/oscar/num3.png" class="img-fluid hvr-grow" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="hidden-xs hidden-sm">
+            <div class="small desk-footer">
+                <div class="widget-area col-xs-12 col-sm-12 col-md-12 col-lg-10">
+                    <div id="block-10" class="widget hr widget_block small">
+                        <div class="titlemax mb-0">
+                            <strong>Incumbency Certificate</strong>
+                        </div>
+                        <p>
+                            We, Euro-Caribbean Trustees Ltd., of Kingstown, St. Vincent &amp; the Grenadines, being the duly appointed Registered Agent of TradeLive ai Investment LLC hereby confirm that as at the date of this Certificate:<br>
+                        </p>
+                        <ol style="list-style: disc">
+                            <p></p>
+                            <li>The Company is in good legal standing.</li>
+                            <li>The Registered Office address of the Company is: Euro House, Richmond Hill Road, Kingstown, VC0100, Saint Vincent and&nbsp;the&nbsp;Grenadines.</li>
+                            <li>TradeLive ai Investment FZE, Our Address in Dubai: the Iridium building, Office No 227.039 Umm-Suqeim St. Al Barsha-&nbsp;Dubai&nbsp;-&nbsp;UAE</li>
+                            <li>The Company was incorporated in St. Vincent &amp; the Grenadines under the Limited Liability Companies Act Chapter 151 of Saint Vincent and the Grenadines 2009 (the Act), on the 5 th October 2021, and its Limited Liability Company Number is 1465 LLC 2021.</li>
+                        </ol>
+                        <div class="titlemax mb-0">
+                            <strong>Risk Warning:</strong>
+                        </div>
+                        <p>Trading derivatives carries significant risks. It is not suitable for all investors and if you are a professional client, you could lose substantially more than your initial investment. When acquiring our derivative products, you have no entitlement, right or obligation to the underlying financial assets. Past performance is no indication of future performance and tax laws are subject to change. The information on this website is general in nature and doesn't take into account your personal objectives, financial circumstances, or needs. Accordingly, before acting on the advice, you should consider whether the advice is suitable for you having regard to your objectives, financial situation and needs. We encourage you to seek independent advice if necessary. Please read our legal documents and ensure that you fully understand the risks before you make any trading&nbsp;decisions.</p>
+                        <div class="titlemax mb-0 mt-3">
+                            <strong>Disclaimer</strong>
+                        </div>
+                        <p>This site contains external links to websites controlled or offered by third parties. the information contained on this site is intended for information purposes only and it should not be regarded as advice nor as a recommendation to buy, sell or otherwise deal with any particular currency or precious metal trade. TradeLive aiinv hereby disclaims responsibility for any information or materials posted at any of the sites linked to this site. TradeLive ai Investments Ltd does not endorse or recommend any products or services offered on that website. Clients carry the sole responsibility for all transactions or investments carried out at TradeLive aiinv.</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-center align-items-center g-2">
+                <div class="col-sm-12 col-md-10 d-flex align-items-center">
+                    <p class="mb-0 href-link-footer">
+                        <a class="small" href="/legal_forms_documents">Legal Forms &amp; Documents</a>
+                        |
+                        <a class="small" href="/risk_warnings">Risk Warnings</a> |
+                        <a class="small" href="/cookies_policy">Cookies Policy</a> |
+                        <a class="small" href="/privacy_policy">PRIVACY POLICY</a>
+                    </p>
+                </div>
+                <div class="col-sm-3 col-md-2 d-sm-block d-none">
+                    <img src="/storage/settings/August2023/0j6EWUnlHgf446vfXr98.png" class="pull-right img-fluid">
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <!-- back-to-top -->
     <div id="back-to-top">
         <a class="top" id="top" href="#top"><i class="fa fa-angle-double-up" aria-hidden="true"></i>

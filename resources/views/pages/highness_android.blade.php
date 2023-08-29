@@ -219,7 +219,7 @@
                 </li>
                 <li>
                     <span class="red mt4_steps"><strong>@lang('STEP') 3:</strong></span>
-                    @lang("Find the TradeLive AI Investment LLC app.") 
+                    @lang("Find the TradeLive ai app.") 
                 </li>
                 <li>
                     <span class="red mt4_steps"><strong>@lang('STEP') 4:</strong></span>
@@ -241,7 +241,7 @@
                 [
                     'title' => __('How can I access  TradeLive AI App?'),
                     'bode' =>
-                        __("To access  TradeLive AI App, you can download it from the Google Play Store by searching for 'TradeLive AI Investment LLC'. Once you complete downloading, follow the account opening procedures, make your initial deposit and start trading immediately. You can also open a demo  account to try the practice."),
+                        __("To access  TradeLive AI App, you can download it from the Google Play Store by searching for 'TradeLive ai'. Once you complete downloading, follow the account opening procedures, make your initial deposit and start trading immediately. You can also open a demo  account to try the practice."),
                 ],[
                     'title' => __('What devices are compatible with TradeLive AI App for Android?'),
                     'bode' =>

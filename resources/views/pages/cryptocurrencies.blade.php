@@ -2607,7 +2607,7 @@
         [
             'title' => __('Frequently asked questions'),
             'desc' =>
-                __('Here are our most frequently asked questions about trading cryptocurrencies with TradeLive AI Investment LLC.'),
+                __('Here are our most frequently asked questions about trading cryptocurrencies with TradeLive ai.'),
             'items' => [
                 [
                     'title' => __('What are cryptocurrencies, and how can I trade in them?'),

@@ -19,7 +19,7 @@
     <section class="bg-g">
         <div class="container text-center ">
             <h3>
-                <strong>@lang('Benefits of using Fix API with TradeLive AI Investment LLC:')</strong>
+                <strong>@lang('Benefits of using Fix API with TradeLive ai:')</strong>
                 <br>
             </h3>
 
@@ -52,10 +52,10 @@
                 
                 <div class="col-md-7 padding-start-5-pc">
                     <p class="text-black-75">
-                        @lang('TradeLive AI Investment LLC offers Fix API trading tool for its clients, which is a popular trading platform widely used by institutional traders and hedge funds. Fix API stands for Financial Information Exchange Application Programming Interface, and it provides direct access to liquidity providers and exchanges, enabling traders to execute trades quickly and efficiently.')
+                        @lang('TradeLive ai offers Fix API trading tool for its clients, which is a popular trading platform widely used by institutional traders and hedge funds. Fix API stands for Financial Information Exchange Application Programming Interface, and it provides direct access to liquidity providers and exchanges, enabling traders to execute trades quickly and efficiently.')
                     </p>
                     <h3>
-                        <strong>@lang("Advantages of TradeLive AI Investment LLC's Fix API:")</strong>
+                        <strong>@lang("Advantages of TradeLive ai's Fix API:")</strong>
                     </h3>
                     <div class="list-container">
                         <ul>
@@ -95,7 +95,7 @@
                         @lang('Introduction to Fix API Trading')
                     </h2>
                     <p class="small">
-                        @lang('Fix API Trading is a tool that provides access to a direct connection with liquidity providers. It is used by institutional clients and high-frequency traders who require fast and reliable execution. TradeLive AI Investment LLC offers Fix API Trading to clients, providing them with the benefits of direct market access and a range of customizable features.')
+                        @lang('Fix API Trading is a tool that provides access to a direct connection with liquidity providers. It is used by institutional clients and high-frequency traders who require fast and reliable execution. TradeLive ai offers Fix API Trading to clients, providing them with the benefits of direct market access and a range of customizable features.')
                     </p>
                 </div>
                 
