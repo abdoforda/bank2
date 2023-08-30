@@ -68,7 +68,7 @@
                 @lang('What are the ways traders generate income?')
             </h3>
             <div class="mt-3 d-flex align-items-center justify-content-center">
-                <img src="https://roboforex.com/uploads/pages/partners/start/how-to-trade-forex/images/money.svg" width="64px" alt="">
+                <img src="https://TradeLive AI.com/uploads/pages/partners/start/how-to-trade-forex/images/money.svg" width="64px" alt="">
                 <p class="m-0 ms-2">
                     @lang("The profit earned by traders is based on the variation between the purchase and sale prices of the asset. While this may seem straightforward, it requires the ability to forecast the rise or fall of a financial instrument's price and possess trading expertise to execute such strategies.")
                 </p>

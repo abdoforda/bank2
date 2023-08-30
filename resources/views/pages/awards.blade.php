@@ -29,12 +29,12 @@
                         @lang('OUR AWARDS')
                     </p>
                     <p class="small">
-                        @lang('These aren’t ours, these are everyone’s that have supported easyMarkets since 2001. The reason we have been able to achieve anything is due to the people that joined us in this journey as employees, as clients and as partners.')
+                        @lang('These aren’t ours, these are everyone’s that have supported TradeLive AI since 2001. The reason we have been able to achieve anything is due to the people that joined us in this journey as employees, as clients and as partners.')
                     </p>
                 </div>
 
                 <div class="col-md-6 d-none d-md-block">
-                    <img src="https://static.easymarkets.com/assets/assets/view/awards-masthead-bg.png?1518791401" alt="">
+                    <img src="https://static.TradeLive AI.com/assets/assets/view/awards-masthead-bg.png?1518791401" alt="">
                 </div>
             </div>
         </div>

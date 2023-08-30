@@ -18,7 +18,7 @@
 
 
     <section class="pt-5 pb-5"
-        style="background-image: url(https://roboforex.com/uploads/pages/about/activity/exhibition/images/exhibitions_main-bg_2.png); background-size: inherit; background-position: center right; background-repeat: no-repeat; background-color: #fff; 
+        style="background-image: url(https://TradeLive AI.com/uploads/pages/about/activity/exhibition/images/exhibitions_main-bg_2.png); background-size: inherit; background-position: center right; background-repeat: no-repeat; background-color: #fff; 
     ">
         <div class="container ">
             <div class="row justify-content-center align-items-center g-2">
@@ -27,7 +27,7 @@
                         @lang('TradeLive AI') @lang('Exhibitions')
                     </h3>
                     <p>
-                        @lang('Every year, RoboForex Ltd not only increases the number and improves the quality of its services, but also takes part in big field-specific events. RoboForex is a permanent participant of different international and Russian exhibitions dedicated to the Forex market-related services.')
+                        @lang('Every year, TradeLive AI not only increases the number and improves the quality of its services, but also takes part in big field-specific events. TradeLive AI is a permanent participant of different international and Russian exhibitions dedicated to the Forex market-related services.')
                     </p></div>
                 <div class="col-md-6" style="min-height: 400px;"></div>
             </div>
@@ -42,7 +42,7 @@
                 <div class="col-md-6">
                     <div class="position-relative rounded shadow-sm p-4 exhibitions_item">
 
-                    <img src="https://roboforex.com/uploads/pages/about/activity/exhibition/images/ifx_bg.png" class="img-fluid exhibitions_img" alt="">
+                    <img src="https://TradeLive AI.com/uploads/pages/about/activity/exhibition/images/ifx_bg.png" class="img-fluid exhibitions_img" alt="">
                     <span class="exhibitions__place">@lang('Hong Kong Convention') &amp; @lang('Exhibition Centre')</span>
                     <div class="display-2 fw-bold exhibitions_year">2012</div>
                     
