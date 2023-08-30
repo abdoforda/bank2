@@ -87,6 +87,9 @@ $(document).ready(function () {
     $(".uld_hover .dropdown").hover(
         function () {
             $(this).find("ul.dropdown-menu").addClass("show");
+            if($(this).find("ul.dropdown-menu").width <= 140){
+                $(this).find("ul.dropdown-menu").css({"left":"auto"});
+            }
         },
         function () {
             $(this).find("ul.dropdown-menu").removeClass("show");
