@@ -72,174 +72,6 @@
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0 uld_hover">
                                 <li class="nav-item dropdown dropdown2">
                                     <a class="nav-link dropdown-toggle" href="#" aria-expanded="false">
-                                        @lang('About')
-                                    </a>
-                                    <ul class="dropdown-menu dropdown-menu2">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col">
-                                                    <h5>@lang('TradeLive AI')</h5>
-                                                    <ul class="ul01">
-                                                        <li>
-                                                            <a class="dropdown-item"
-                                                                href="{{ route('about-us') }}">@lang('About')
-                                                                @lang('TradeLive AI')</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="{{ route('news') }}">
-                                                                @lang('TradeLive AI News')</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item"
-                                                                href="{{ route('why-tradeLive') }}">@lang('Why TradeLive AI')</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item"
-                                                                href="{{ route('careers') }}">@lang('Careers')</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item"
-                                                                href="{{ route('vision') }}">@lang('Vision')</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item"
-                                                                href="{{ route('Mission') }}">@lang('Mission')</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item"
-                                                                href="{{ route('contactUs') }}">@lang('Contact Us')</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col">
-                                                    <h5>@lang('Regulation')</h5>
-                                                    <ul class="ul01">
-                                                        <li> <a class="dropdown-item"
-                                                                href="{{ route('terms_and_agreement') }}">@lang('Terms and Agreement')</a>
-                                                        </li>
-                                                        <li> <a class="dropdown-item"
-                                                                href="{{ route('safety_of_your_funds') }}">
-                                                                @lang('Safety Of Your Funds')</a> </li>
-                                                        <li> <a class="dropdown-item"
-                                                                href="{{ route('legal_forms_documents') }}">
-                                                                @lang('Legal Forms & Documents')</a></li>
-        
-                                                        <li> <a class="dropdown-item" href="{{ route('cookies_policy') }}">
-                                                                @lang('Cookies Policy')</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col">
-                                                    <h5>@lang('Activity')</h5>
-                                                    <ul class="ul01">
-                                                        <li><a class="dropdown-item"
-                                                                href="{{ route('sponsership') }}">@lang('Sponsership')</a></li>
-                                                        <li><a class="dropdown-item"
-                                                                href="{{ route('awards') }}">@lang('Awards')</a></li>
-                                                        <li><a class="dropdown-item"
-                                                                href="{{ route('exhibitions') }}">@lang('Exhibitions')</a></li>
-                                                        <li><a class="dropdown-item"
-                                                                href="{{ route('tradelive_media') }}">@lang('TradeLive AI in Media')</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-        
-                                            </div>
-                                        </div>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown dropdown2">
-                                    <a class="nav-link dropdown-toggle" href="#" aria-expanded="false">
-                                        @lang('Markets')
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a class="dropdown-item" href="{{ route('forex') }}">@lang('Forex')</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="{{ route('indices') }}">@lang('Indices')</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="{{ route('commodities') }}">@lang('Commodities')</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="{{ route('metals') }}">@lang('Metals')</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item"
-                                                href="{{ route('energyCommodities') }}">@lang('Energy commodities')</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="{{ route('shares') }}">@lang('shares')</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item"
-                                                href="{{ route('cryptocurrencies') }}">@lang('Cryptocurrencies')</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="{{ route('etf') }}">@lang('ETF')</a>
-                                        </li>
-        
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown dropdown2">
-                                    <a class="nav-link dropdown-toggle" href="#" aria-expanded="false">
-                                        @lang('Trading')
-                                    </a>
-                                    <ul class="dropdown-menu dropdown-menu2">
-                                        <div class="container">
-                                            <div class="row">
-                                                
-                                                <div class="col">
-                                                    <h5>@lang('Trading Platforms')</h5>
-                                                    <ul class="ul01">
-                                                        <li><a class="dropdown-item"
-                                                                href="{{ route('metaTrader_5') }}">@lang('TradeLive AI') </a>
-                                                        </li>
-                                                        <li><a class="dropdown-item"
-                                                                href="{{ route('tradeLive_ios') }}">@lang('TradeLive AI IOS')</a></li>
-                                                        <li><a class="dropdown-item"
-                                                                href="{{ route('tradeLive_android') }}">@lang('TradeLive AI Android')</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-        
-                                                <div class="col">
-                                                    <h5>@lang('Deposit And Withdrawal')</h5>
-                                                    <ul class="ul01">
-        
-                                                        <li>
-                                                            <a class="dropdown-item"
-                                                                href="{{ route('deposit_withdrawal_methods') }}">@lang('Deposit & Withdrawal Methods')</a>
-                                                        </li>
-        
-                                                    </ul>
-                                                </div>
-        
-        
-                                            </div>
-                                        </div>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" aria-expanded="false">
-                                        @lang('Partnership')
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a class="dropdown-item"
-                                                href="{{ route('cpa_affiliate') }}">@lang('Affiliate Program')</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item"
-                                                href="{{ route('ib_commission') }}">@lang('IB Commission')</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="{{ route('white_label') }}">@lang('White label')</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown dropdown2">
-                                    <a class="nav-link dropdown-toggle" href="#" aria-expanded="false">
                                         @lang('Technology')
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu2">
@@ -343,6 +175,176 @@
                                         </div>
                                     </ul>
                                 </li>
+                                <li class="nav-item dropdown dropdown2">
+                                    <a class="nav-link dropdown-toggle" href="#" aria-expanded="false">
+                                        @lang('Markets')
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('forex') }}">@lang('Forex')</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('indices') }}">@lang('Indices')</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('commodities') }}">@lang('Commodities')</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('metals') }}">@lang('Metals')</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item"
+                                                href="{{ route('energyCommodities') }}">@lang('Energy commodities')</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('shares') }}">@lang('shares')</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item"
+                                                href="{{ route('cryptocurrencies') }}">@lang('Cryptocurrencies')</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('etf') }}">@lang('ETF')</a>
+                                        </li>
+        
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown dropdown2">
+                                    <a class="nav-link dropdown-toggle" href="#" aria-expanded="false">
+                                        @lang('Trading')
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu2">
+                                        <div class="container">
+                                            <div class="row">
+                                                
+                                                <div class="col">
+                                                    <h5>@lang('Trading Platforms')</h5>
+                                                    <ul class="ul01">
+                                                        <li><a class="dropdown-item"
+                                                                href="{{ route('metaTrader_5') }}">@lang('TradeLive AI') </a>
+                                                        </li>
+                                                        <li><a class="dropdown-item"
+                                                                href="{{ route('tradeLive_ios') }}">@lang('TradeLive AI IOS')</a></li>
+                                                        <li><a class="dropdown-item"
+                                                                href="{{ route('tradeLive_android') }}">@lang('TradeLive AI Android')</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+        
+                                                <div class="col">
+                                                    <h5>@lang('Deposit And Withdrawal')</h5>
+                                                    <ul class="ul01">
+        
+                                                        <li>
+                                                            <a class="dropdown-item"
+                                                                href="{{ route('deposit_withdrawal_methods') }}">@lang('Deposit & Withdrawal Methods')</a>
+                                                        </li>
+        
+                                                    </ul>
+                                                </div>
+        
+        
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" aria-expanded="false">
+                                        @lang('Partnership')
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item"
+                                                href="{{ route('cpa_affiliate') }}">@lang('Affiliate Program')</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item"
+                                                href="{{ route('ib_commission') }}">@lang('IB Commission')</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="{{ route('white_label') }}">@lang('White label')</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown dropdown2">
+                                    <a class="nav-link dropdown-toggle" href="#" aria-expanded="false">
+                                        @lang('About')
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu2">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h5>@lang('TradeLive AI')</h5>
+                                                    <ul class="ul01">
+                                                        <li>
+                                                            <a class="dropdown-item"
+                                                                href="{{ route('about-us') }}">@lang('About')
+                                                                @lang('TradeLive AI')</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item" href="{{ route('news') }}">
+                                                                @lang('TradeLive AI News')</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item"
+                                                                href="{{ route('why-tradeLive') }}">@lang('Why TradeLive AI')</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item"
+                                                                href="{{ route('careers') }}">@lang('Careers')</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item"
+                                                                href="{{ route('vision') }}">@lang('Vision')</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item"
+                                                                href="{{ route('Mission') }}">@lang('Mission')</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item"
+                                                                href="{{ route('contactUs') }}">@lang('Contact Us')</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col">
+                                                    <h5>@lang('Regulation')</h5>
+                                                    <ul class="ul01">
+                                                        <li> <a class="dropdown-item"
+                                                                href="{{ route('terms_and_agreement') }}">@lang('Terms and Agreement')</a>
+                                                        </li>
+                                                        <li> <a class="dropdown-item"
+                                                                href="{{ route('safety_of_your_funds') }}">
+                                                                @lang('Safety Of Your Funds')</a> </li>
+                                                        <li> <a class="dropdown-item"
+                                                                href="{{ route('legal_forms_documents') }}">
+                                                                @lang('Legal Forms & Documents')</a></li>
+        
+                                                        <li> <a class="dropdown-item" href="{{ route('cookies_policy') }}">
+                                                                @lang('Cookies Policy')</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col">
+                                                    <h5>@lang('Activity')</h5>
+                                                    <ul class="ul01">
+                                                        <li><a class="dropdown-item"
+                                                                href="{{ route('sponsership') }}">@lang('Sponsership')</a></li>
+                                                        <li><a class="dropdown-item"
+                                                                href="{{ route('awards') }}">@lang('Awards')</a></li>
+                                                        <li><a class="dropdown-item"
+                                                                href="{{ route('exhibitions') }}">@lang('Exhibitions')</a></li>
+                                                        <li><a class="dropdown-item"
+                                                                href="{{ route('tradelive_media') }}">@lang('TradeLive AI in Media')</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+        
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </li>
+
+                                
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('support') }}">@lang('Support') </a>
                                 </li>
