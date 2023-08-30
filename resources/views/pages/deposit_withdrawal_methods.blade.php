@@ -410,7 +410,7 @@
                             <div class="row justify-content-center align-items-center g-2">
                                 <div class="col-md-8 countent-100w">
                                     <div>
-                                        <img src="{{ Voyager::image(setting('site.logo_blue')) }}" height="60" alt="TradeLive AI"
+                                        <img src="{{ asset('images/logo.png') }}" height="60" alt="TradeLive AI"
                                             style="margin: auto; display: table;">
                                     </div>
 
@@ -473,7 +473,7 @@
                                 <div class="col-md-8 countent-100w">
 
                                     <div>
-                                        <img src="{{ Voyager::image(setting('site.logo_blue')) }}" height="60" alt="TradeLive AI"
+                                        <img src="{{ asset('images/logo.png') }}" height="60" alt="TradeLive AI"
                                             style="margin: auto; display: table;">
                                     </div>
 
@@ -578,7 +578,7 @@
                             <div class="row justify-content-center align-items-center g-2">
                                 <div class="col-md-8 countent-100w">
                                     <div>
-                                        <img src="{{ Voyager::image(setting('site.logo_blue')) }}" height="60" alt="TradeLive AI"
+                                        <img src="{{ asset('images/logo.png') }}" height="60" alt="TradeLive AI"
                                             style="margin: auto; display: table;">
                                     </div>
 
@@ -653,7 +653,7 @@
                             <div class="row justify-content-center align-items-center g-2">
                                 <div class="col-md-8 countent-100w">
                                     <div>
-                                        <img src="{{ Voyager::image(setting('site.logo_blue')) }}" height="60" alt="TradeLive AI"
+                                        <img src="{{ asset('images/logo.png') }}" height="60" alt="TradeLive AI"
                                             style="margin: auto; display: table;">
                                     </div>
 
@@ -727,7 +727,7 @@
                             <div class="row justify-content-center align-items-center g-2">
                                 <div class="col-md-8 countent-100w">
                                     <div>
-                                        <img src="{{ Voyager::image(setting('site.logo_blue')) }}" height="60" alt="TradeLive AI"
+                                        <img src="{{ asset('images/logo.png') }}" height="60" alt="TradeLive AI"
                                             style="margin: auto; display: table;">
                                     </div>
 
@@ -786,7 +786,7 @@
                             <div class="row justify-content-center align-items-center g-2">
                                 <div class="col-md-8 countent-100w">
                                     <div>
-                                        <img src="{{ Voyager::image(setting('site.logo_blue')) }}" height="60" alt="TradeLive AI"
+                                        <img src="{{ asset('images/logo.png') }}" height="60" alt="TradeLive AI"
                                             style="margin: auto; display: table;">
                                     </div>
 
