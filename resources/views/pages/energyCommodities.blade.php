@@ -296,7 +296,7 @@
         [
             'title' => __('Frequently asked questions'),
             'desc' =>
-                __('Here are our most frequently asked questions about trading energy commodities with TradeLive ai.'),
+                __('Here are our most frequently asked questions about trading energy commodities with TradeLive AI.'),
             'items' => [
                 [
                     'title' => __('What are energy commodities, and how can I trade in them?'),

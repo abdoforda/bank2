@@ -18,7 +18,7 @@
     <section>
         <div class="container">
             <h3>
-                @lang('Our employees at TradeLive ai are committed to the following three ethical values:')
+                @lang('Our employees at TradeLive AI are committed to the following three ethical values:')
             </h3>
 
             <div class="mt-5 row justify-content-center align-items-center g-2">
@@ -70,7 +70,7 @@
                 <h4 class="display-5 fw-600">
                     @lang('Our Purpose')
                 </h4>
-                <p class="fs-5">@lang('TradeLive ai Purpose is Every call, click, or tap is done with the intention of partnering with FX and CFD traders.')</p>
+                <p class="fs-5">@lang('TradeLive AI Purpose is Every call, click, or tap is done with the intention of partnering with FX and CFD traders.')</p>
             </div>
 
             <div class="mt-5">
@@ -79,7 +79,7 @@
                     @lang('Our strategy')
                 </h4>
                 <p class="fs-5">
-                    @lang('TradeLive ai strategy is built to to be dedicated to this goal by making constant adjustments to meet their needs.')
+                    @lang('TradeLive AI strategy is built to to be dedicated to this goal by making constant adjustments to meet their needs.')
                 </p>
             </div>
 
@@ -90,9 +90,9 @@
         <div class="container">
             <div>
                 <h3 class="display-4">
-                    @lang('Life at TradeLive ai')
+                    @lang('Life at TradeLive AI')
                 </h3>
-                <p class="fs-5 mt-4">@lang('Many of employees of TradeLive ai have worked with TradeLive ai for at least half of our 14-year history and they adopt and share the four major values that demonstrate our business.')</p>
+                <p class="fs-5 mt-4">@lang('Many of employees of TradeLive AI have worked with TradeLive AI for at least half of our 14-year history and they adopt and share the four major values that demonstrate our business.')</p>
             </div>
             <div class="mt-5 item-vision">
                 <div class="row justify-content-center align-items-center g-4">

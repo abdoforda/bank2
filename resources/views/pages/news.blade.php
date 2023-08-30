@@ -9,7 +9,7 @@
      style="--img: url(/images/new_images/pages/news.webp)">
         <div class="container">
             <div class="display-5 color2 fw-bold letter-s-4">
-                @lang('TradeLive ai News')
+                @lang('TradeLive AI News')
             </div>
             <div class="row mt-4">
                 <div class="col-md-9 text-white desc_page">

@@ -10,7 +10,7 @@
             </div>
              <div class="row mt-4">
             <div class="col-md-9 text-white desc_page">
-                <p>@lang('A premium trading account is the highest level of accounts provided by TradeLive ai. This type requires a larger initial deposit, and it offers the most advanced trading tools and features available. Premium account typically offers personalized customer support, access to expert trading strategies, advanced charting capabilities, and the fastest trade execution. Premium account also usually offer the lowest trading costs, making them suitable for professional traders who are looking to maximize their profits and minimize their costs.')</p>
+                <p>@lang('A premium trading account is the highest level of accounts provided by TradeLive AI. This type requires a larger initial deposit, and it offers the most advanced trading tools and features available. Premium account typically offers personalized customer support, access to expert trading strategies, advanced charting capabilities, and the fastest trade execution. Premium account also usually offer the lowest trading costs, making them suitable for professional traders who are looking to maximize their profits and minimize their costs.')</p>
             </div>
         </div>
         </div>

@@ -19,7 +19,7 @@
     <section class="bg-g">
         <div class="container text-center ">
             <h3>
-                <strong>@lang('Benefits of using Expert Advisor with TradeLive ai:')</strong>
+                <strong>@lang('Benefits of using Expert Advisor with TradeLive AI:')</strong>
                 <br>
             </h3>
 
@@ -51,24 +51,24 @@
             <div class="row justify-content-center align-items-center g-2">
                 
                 <div class="col-md-7 padding-start-5-pc">
-                    <p class="text-black-75">@lang('TradeLive ai offers an automated Expert Advisor (EA) trading tool for clients, allowing for efficient and reliable trading with customizable parameters. The EA tool integrates with MetaTrader, handles high volumes of trades, and provides real-time monitoring, reporting, and analysis. Dedicated support is also provided for users.')</p>
+                    <p class="text-black-75">@lang('TradeLive AI offers an automated Expert Advisor (EA) trading tool for clients, allowing for efficient and reliable trading with customizable parameters. The EA tool integrates with MetaTrader, handles high volumes of trades, and provides real-time monitoring, reporting, and analysis. Dedicated support is also provided for users.')</p>
                     <h3>
-                        <strong>@lang("Advantages of TradeLive ai's Expert Advisor:")</strong>
+                        <strong>@lang("Advantages of TradeLive AI's Expert Advisor:")</strong>
                     </h3>
                     <div class="list-container">
                         <ul>
                           
                             
-                          <li><a class="small text-black-50">@lang('Automated trading with customizable parameters') </a></li>
-                          <li><a class="small text-black-50">@lang('Reliable and efficient trading execution') </a></li>
-                          <li><a class="small text-black-50">@lang('Seamless integration with MetaTrader client end') </a></li>
-                          <li><a class="small text-black-50">@lang('Handles high volumes of trades simultaneously') </a></li>
-                          <li><a class="small text-black-50">@lang('Real-time monitoring of trade performance') </a></li>
-                          <li><a class="small text-black-50">@lang('Access to market data and price feeds') </a></li>
-                          <li><a class="small text-black-50">@lang('Customizable reporting and analysis') </a></li>
-                          <li><a class="small text-black-50">@lang('Dedicated support from TradeLive ai') </a></li>
-                          <li><a class="small text-black-50">@lang('Maintains control over investment portfolio') </a></li>
-                          <li><a class="small text-black-50">@lang('Potential for faster execution and fewer errors.') </a></li>
+                          <li><a class="small text-white">@lang('Automated trading with customizable parameters') </a></li>
+                          <li><a class="small text-white">@lang('Reliable and efficient trading execution') </a></li>
+                          <li><a class="small text-white">@lang('Seamless integration with MetaTrader client end') </a></li>
+                          <li><a class="small text-white">@lang('Handles high volumes of trades simultaneously') </a></li>
+                          <li><a class="small text-white">@lang('Real-time monitoring of trade performance') </a></li>
+                          <li><a class="small text-white">@lang('Access to market data and price feeds') </a></li>
+                          <li><a class="small text-white">@lang('Customizable reporting and analysis') </a></li>
+                          <li><a class="small text-white">@lang('Dedicated support from TradeLive AI') </a></li>
+                          <li><a class="small text-white">@lang('Maintains control over investment portfolio') </a></li>
+                          <li><a class="small text-white">@lang('Potential for faster execution and fewer errors.') </a></li>
                           
                           
                         </ul>
@@ -93,7 +93,7 @@
                         @lang('Expert Advisor (EA) Account Brokers') 
                     </h2>
                     <p class="small">
-                        @lang("TradeLive ai's Expert Advisor (EA) account brokers allow clients to automate their trading strategies through a single Master Account. Our EA technology ensures efficient and reliable management, with customizable parameters for risk management and lot sizes. Clients benefit from automated trading with maximum convenience and control.") 
+                        @lang("TradeLive AI's Expert Advisor (EA) account brokers allow clients to automate their trading strategies through a single Master Account. Our EA technology ensures efficient and reliable management, with customizable parameters for risk management and lot sizes. Clients benefit from automated trading with maximum convenience and control.") 
                     </p>
                 </div>
                 
@@ -102,7 +102,7 @@
                         @lang('What is an Expert Advisor (EA)?') 
                     </h2>
                     <p class="small">
-                        @lang("An Expert Advisor (EA) is an automated trading system that executes trades based on pre-programmed trading strategies. EAs operate within the MetaTrader client end application, allowing for seamless integration with TradeLive ai's trading platform. Clients can monitor and adjust their EAs in real-time, with access to market data and price feeds for accurate decision-making.") 
+                        @lang("An Expert Advisor (EA) is an automated trading system that executes trades based on pre-programmed trading strategies. EAs operate within the MetaTrader client end application, allowing for seamless integration with TradeLive AI's trading platform. Clients can monitor and adjust their EAs in real-time, with access to market data and price feeds for accurate decision-making.") 
                     </p>
                 </div>
 

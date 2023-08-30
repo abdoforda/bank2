@@ -183,12 +183,12 @@
 
                 <a class="ask_click" data-bs-toggle="collapse" href="#what_is_forex_trading" role="button"
                     aria-expanded="false" aria-controls="what_is_forex_trading">
-                    @lang('How does the TradeLive ai Affiliate Program work?')
+                    @lang('How does the TradeLive AI Affiliate Program work?')
                 </a>
 
                 <div class="collapse multi-collapse" id="what_is_forex_trading">
                     <div class="p-3">
-                        <p>@lang('The TradeLive ai Affiliate Program allows individuals or businesses to earn commissions by referring new clients to TradeLive ai. Affiliates receive a unique tracking link and promotional materials to share with their audience. When someone clicks on the affiliate link and becomes a TradeLive ai client, the affiliate earns a commission.') </p>
+                        <p>@lang('The TradeLive AI Affiliate Program allows individuals or businesses to earn commissions by referring new clients to TradeLive AI. Affiliates receive a unique tracking link and promotional materials to share with their audience. When someone clicks on the affiliate link and becomes a TradeLive AI client, the affiliate earns a commission.') </p>
                     </div>
                 </div>
             </div>
@@ -197,13 +197,13 @@
 
                 <a class="ask_click" data-bs-toggle="collapse" href="#how_does_forex_trading_work" role="button"
                     aria-expanded="false" aria-controls="how_does_forex_trading_work">
-                    @lang('What are the benefits of joining the TradeLive ai Affiliate Program?')
+                    @lang('What are the benefits of joining the TradeLive AI Affiliate Program?')
                 </a>
 
                 <div class="collapse multi-collapse" id="how_does_forex_trading_work">
                     <div class="p-3">
                         <div class="panel-body gray">
-                            <p>@lang('By joining the TradeLive ai Affiliate Program, you can earn competitive commissions for every referred client who engages in trading activities. Additionally, you\'ll have access to marketing materials, reporting tools, and dedicated support to help you maximize your affiliate earnings.') </p>
+                            <p>@lang('By joining the TradeLive AI Affiliate Program, you can earn competitive commissions for every referred client who engages in trading activities. Additionally, you\'ll have access to marketing materials, reporting tools, and dedicated support to help you maximize your affiliate earnings.') </p>
                             </div>
                     </div>
                 </div>
@@ -213,13 +213,13 @@
 
                 <a class="ask_click" data-bs-toggle="collapse" href="#what_influences_prices_in_forex_trading"
                     role="button" aria-expanded="false" aria-controls="what_influences_prices_in_forex_trading">
-                    @lang('How can I become an affiliate for TradeLive ai?')
+                    @lang('How can I become an affiliate for TradeLive AI?')
                 </a>
 
                 <div class="collapse multi-collapse" id="what_influences_prices_in_forex_trading">
                     <div class="p-3">
                         <div class="panel-body gray">
-                            <p>@lang('To become an affiliate for TradeLive ai, you need to sign up through the affiliate registration process. After submitting your application, it will be reviewed by the TradeLive ai team. Once approved, you will receive your affiliate account details and access to the affiliate dashboard.') </p>
+                            <p>@lang('To become an affiliate for TradeLive AI, you need to sign up through the affiliate registration process. After submitting your application, it will be reviewed by the TradeLive AI team. Once approved, you will receive your affiliate account details and access to the affiliate dashboard.') </p>
                             </div>
                     </div>
                 </div>
@@ -235,7 +235,7 @@
                 <div class="collapse multi-collapse" id="what_is_forex_trading_software">
                     <div class="p-3">
                         <div class="panel-body gray">
-                            <p>@lang('Affiliate commissions are typically calculated based on the trading activity of the referred clients. The specific commission structure may vary depending on the terms of the affiliate program. Commissions are usually paid out on a regular basis, such as monthly or weekly, and can be withdrawn via various payment methods supported by TradeLive ai.') </p>
+                            <p>@lang('Affiliate commissions are typically calculated based on the trading activity of the referred clients. The specific commission structure may vary depending on the terms of the affiliate program. Commissions are usually paid out on a regular basis, such as monthly or weekly, and can be withdrawn via various payment methods supported by TradeLive AI.') </p>
                         </div>  
                     </div>
                 </div>
@@ -245,13 +245,13 @@
 
                 <a class="ask_click" data-bs-toggle="collapse" href="#who_are_forex_trading_market_participants"
                     role="button" aria-expanded="false" aria-controls="who_are_forex_trading_market_participants">
-                    @lang('Can I promote TradeLive ai through multiple marketing channels?')
+                    @lang('Can I promote TradeLive AI through multiple marketing channels?')
                 </a>
 
                 <div class="collapse multi-collapse" id="who_are_forex_trading_market_participants">
                     <div class="p-3">
                         <div class="panel-body gray">
-                            <p>@lang('Yes, as an affiliate, you can promote TradeLive ai through multiple marketing channels such as websites, blogs, social media, email marketing, and more. However, it\'s important to adhere to the guidelines and policies outlined in the affiliate agreement to ensure ethical and compliant promotional activities.') </p>
+                            <p>@lang('Yes, as an affiliate, you can promote TradeLive AI through multiple marketing channels such as websites, blogs, social media, email marketing, and more. However, it\'s important to adhere to the guidelines and policies outlined in the affiliate agreement to ensure ethical and compliant promotional activities.') </p>
                             </div>
                     </div>
                 </div>

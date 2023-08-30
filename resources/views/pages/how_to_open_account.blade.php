@@ -10,7 +10,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col-md-9 text-white desc_page">
-                    <p>@lang('To begin your journey in the financial markets, you will need to open an account with TradeLive ai. Follow these simple steps to get started')</p>
+                    <p>@lang('To begin your journey in the financial markets, you will need to open an account with TradeLive AI. Follow these simple steps to get started')</p>
                 </div>
             </div>
         </div>

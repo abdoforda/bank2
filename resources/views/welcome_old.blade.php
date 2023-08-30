@@ -3010,9 +3010,9 @@
                             minimise their level of exposure by requesting a
                             change in leverage limit. The legal documents
                             should be revised before entering into
-                            transactions with TradeLive ais Ltd.
+                            transactions with TradeLive AIs Ltd.
                             Clients must be at least 18 years old to use the
-                            services of TradeLive ais Ltd.
+                            services of TradeLive AIs Ltd.
                         </p>
 
                         <div class="titlemax mb-0 mt-3">
@@ -3028,7 +3028,7 @@
                             currency or precious metal trade. TradeLive AI
                             hereby disclaims responsibility for any
                             information or materials posted at any of the
-                            sites linked to this site. TradeLive ais
+                            sites linked to this site. TradeLive AIs
                             Ltd does not endorse or recommend any products
                             or services offered on that website. Clients
                             carry the sole responsibility for all

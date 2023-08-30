@@ -19,7 +19,7 @@
     <section class="bg-g">
         <div class="container text-center ">
             <h3>
-                <strong>@lang('Benefits of using Fix API with TradeLive ai:')</strong>
+                <strong>@lang('Benefits of using Fix API with TradeLive AI:')</strong>
                 <br>
             </h3>
 
@@ -52,25 +52,25 @@
                 
                 <div class="col-md-7 padding-start-5-pc">
                     <p class="text-black-75">
-                        @lang('TradeLive ai offers Fix API trading tool for its clients, which is a popular trading platform widely used by institutional traders and hedge funds. Fix API stands for Financial Information Exchange Application Programming Interface, and it provides direct access to liquidity providers and exchanges, enabling traders to execute trades quickly and efficiently.')
+                        @lang('TradeLive AI offers Fix API trading tool for its clients, which is a popular trading platform widely used by institutional traders and hedge funds. Fix API stands for Financial Information Exchange Application Programming Interface, and it provides direct access to liquidity providers and exchanges, enabling traders to execute trades quickly and efficiently.')
                     </p>
                     <h3>
-                        <strong>@lang("Advantages of TradeLive ai's Fix API:")</strong>
+                        <strong>@lang("Advantages of TradeLive AI's Fix API:")</strong>
                     </h3>
                     <div class="list-container">
                         <ul>
                           
                             
-                          <li><a class="small text-black-50">@lang('Low latency for quick and accurate order filling') </a></li>
-                          <li><a class="small text-black-50">@lang('Customizable parameters to suit trading strategies') </a></li>
-                          <li><a class="small text-black-50">@lang('High security with secure encryption protocols') </a></li>
-                          <li><a class="small text-black-50">@lang('Direct market access to multiple liquidity providers') </a></li>
-                          <li><a class="small text-black-50">@lang('Automated trading with the ability to execute large volumes of trades') </a></li>
-                          <li><a class="small text-black-50">@lang('Real-time market data and price feeds for accurate decision-making') </a></li>
-                          <li><a class="small text-black-50">@lang('Easy integration into existing trading systems') </a></li>
-                          <li><a class="small text-black-50">@lang('Customizable reporting and analysis of trading activity') </a></li>
-                          <li><a class="small text-black-50">@lang('Multi-platform support, including MetaTrader 4 and 5') </a></li>
-                          <li><a class="small text-black-50">@lang('Dedicated support for technical assistance and guidance') </a></li>
+                          <li><a class="small text-white">@lang('Low latency for quick and accurate order filling') </a></li>
+                          <li><a class="small text-white">@lang('Customizable parameters to suit trading strategies') </a></li>
+                          <li><a class="small text-white">@lang('High security with secure encryption protocols') </a></li>
+                          <li><a class="small text-white">@lang('Direct market access to multiple liquidity providers') </a></li>
+                          <li><a class="small text-white">@lang('Automated trading with the ability to execute large volumes of trades') </a></li>
+                          <li><a class="small text-white">@lang('Real-time market data and price feeds for accurate decision-making') </a></li>
+                          <li><a class="small text-white">@lang('Easy integration into existing trading systems') </a></li>
+                          <li><a class="small text-white">@lang('Customizable reporting and analysis of trading activity') </a></li>
+                          <li><a class="small text-white">@lang('Multi-platform support, including MetaTrader 4 and 5') </a></li>
+                          <li><a class="small text-white">@lang('Dedicated support for technical assistance and guidance') </a></li>
                           
                           
                         </ul>
@@ -95,7 +95,7 @@
                         @lang('Introduction to Fix API Trading')
                     </h2>
                     <p class="small">
-                        @lang('Fix API Trading is a tool that provides access to a direct connection with liquidity providers. It is used by institutional clients and high-frequency traders who require fast and reliable execution. TradeLive ai offers Fix API Trading to clients, providing them with the benefits of direct market access and a range of customizable features.')
+                        @lang('Fix API Trading is a tool that provides access to a direct connection with liquidity providers. It is used by institutional clients and high-frequency traders who require fast and reliable execution. TradeLive AI offers Fix API Trading to clients, providing them with the benefits of direct market access and a range of customizable features.')
                     </p>
                 </div>
                 

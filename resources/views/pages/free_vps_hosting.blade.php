@@ -19,7 +19,7 @@
     <section class="bg-g">
         <div class="container text-center ">
             <h3>
-                <strong>@lang('Benefits of using Free VPS Hosting with TradeLive ai:')</strong>
+                <strong>@lang('Benefits of using Free VPS Hosting with TradeLive AI:')</strong>
                 <br>
             </h3>
 
@@ -52,23 +52,23 @@
             <div class="row justify-content-center align-items-center g-2">
                 
                 <div class="col-md-7 padding-start-5-pc">
-                    <p class="text-black-75">@lang("TradeLive ai's Free VPS Hosting tool provides reliable and fast connectivity for quick trade execution. Centralized processing allows for easy integration and trading of hundreds of accounts simultaneously, ensuring minimal distribution delay.")</p>
+                    <p class="text-black-75">@lang("TradeLive AI's Free VPS Hosting tool provides reliable and fast connectivity for quick trade execution. Centralized processing allows for easy integration and trading of hundreds of accounts simultaneously, ensuring minimal distribution delay.")</p>
                     <h3>
-                        <strong>@lang("Advantages of TradeLive ai's Free VPS Hosting:")</strong>
+                        <strong>@lang("Advantages of TradeLive AI's Free VPS Hosting:")</strong>
                     </h3>
                     <div class="list-container">
                         <ul>
                             
-                          <li><a class="small text-black-50">@lang('Fast and reliable connectivity.') </a></li>
-                          <li><a class="small text-black-50">@lang('Improved trading performance.') </a></li>
-                          <li><a class="small text-black-50">@lang('Reduced latency and slippage.') </a></li>
-                          <li><a class="small text-black-50">@lang('Increased security for trading.') </a></li>
-                          <li><a class="small text-black-50">@lang('Customizable server configurations.') </a></li>
-                          <li><a class="small text-black-50">@lang('Free setup and easy installation.') </a></li>
-                          <li><a class="small text-black-50">@lang('Remote access to trading accounts.') </a></li>
-                          <li><a class="small text-black-50">@lang('24/7 technical support.') </a></li>
-                          <li><a class="small text-black-50">@lang('Enhanced risk management.') </a></li>
-                          <li><a class="small text-black-50">@lang('No downtime or connection interruptions.') </a></li>
+                          <li><a class="small text-white">@lang('Fast and reliable connectivity.') </a></li>
+                          <li><a class="small text-white">@lang('Improved trading performance.') </a></li>
+                          <li><a class="small text-white">@lang('Reduced latency and slippage.') </a></li>
+                          <li><a class="small text-white">@lang('Increased security for trading.') </a></li>
+                          <li><a class="small text-white">@lang('Customizable server configurations.') </a></li>
+                          <li><a class="small text-white">@lang('Free setup and easy installation.') </a></li>
+                          <li><a class="small text-white">@lang('Remote access to trading accounts.') </a></li>
+                          <li><a class="small text-white">@lang('24/7 technical support.') </a></li>
+                          <li><a class="small text-white">@lang('Enhanced risk management.') </a></li>
+                          <li><a class="small text-white">@lang('No downtime or connection interruptions.') </a></li>
                           
                         </ul>
                       </div>
@@ -92,16 +92,16 @@
                         @lang('Free VPS Hosting') 
                     </h2>
                     <p class="small">
-                        @lang('TradeLive ai offers free Virtual Private Server (VPS) hosting to clients who meet certain trading requirements. With VPS hosting, clients can run their Expert Advisors (EAs) and automated trading strategies around the clock without interruption.') 
+                        @lang('TradeLive AI offers free Virtual Private Server (VPS) hosting to clients who meet certain trading requirements. With VPS hosting, clients can run their Expert Advisors (EAs) and automated trading strategies around the clock without interruption.') 
                     </p>
                 </div>
                 
                 <div class="col-md-6">
                     <h2 class="fw-700 mb-4">
-                        @lang("What advantage does TradeLive ai's VPS hosting provide in today's fast-paced financial markets?") 
+                        @lang("What advantage does TradeLive AI's VPS hosting provide in today's fast-paced financial markets?") 
                     </h2>
                     <p class="small">
-                        @lang("This provides a significant advantage in today's fast-paced financial markets, where split-second decisions can make all the difference. TradeLive ai's VPS hosting ensures fast and reliable connectivity, allowing clients to execute trades quickly and efficiently.") 
+                        @lang("This provides a significant advantage in today's fast-paced financial markets, where split-second decisions can make all the difference. TradeLive AI's VPS hosting ensures fast and reliable connectivity, allowing clients to execute trades quickly and efficiently.") 
                     </p>
                 </div>
 

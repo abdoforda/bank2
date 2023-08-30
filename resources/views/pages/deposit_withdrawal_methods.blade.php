@@ -13,7 +13,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col-md-9 text-white desc_page">
-                    <p>@lang('TradeLive ai offers various deposit methods, including wire transfer, credit/debit cards, and online payment systems. Withdrawals are processed through the same methods and are subject to certain conditions and fees. Clients can choose the most convenient method for their transactions.')</p>
+                    <p>@lang('TradeLive AI offers various deposit methods, including wire transfer, credit/debit cards, and online payment systems. Withdrawals are processed through the same methods and are subject to certain conditions and fees. Clients can choose the most convenient method for their transactions.')</p>
                 </div>
             </div>
         </div>
@@ -245,7 +245,7 @@
             <div class="remarkBTL position-relative">
                 <h4>NOTES:</h4>
                 <p><strong class="mr-2">1.</strong> @lang('Please note that for local bank transfers, which are available in some countries, the minimum deposit amount is approximately $50 and the minimum withdrawal amount is approximately $15. The specific limits for local bank transfers vary by country and will be displayed in the client portal during the deposit or withdrawal process.') </p>
-                <p><strong class="mr-2">2.</strong> @lang('It is important to note that TradeLive ai does not charge any fees for deposits or withdrawals. However, please be aware that payment providers may charge their own fees.') </p>
+                <p><strong class="mr-2">2.</strong> @lang('It is important to note that TradeLive AI does not charge any fees for deposits or withdrawals. However, please be aware that payment providers may charge their own fees.') </p>
                 <p><strong class="mr-2">3.</strong> @lang('For most transactions, the processing time is usually within an hour.')
                 </p>
                 <p><strong class="mr-2">4.</strong> @lang('If you have pre-approved the card or it is 3D secure, the transaction will be instant. However, in cases of high network activity, the average processing time is around 10 minutes, but it may take up to an hour.') </p>
@@ -330,7 +330,7 @@
                                 class="feather feather-chevron-right feather__content">
                                 <polyline points="9 18 15 12 9 6"></polyline>
                             </svg></i></strong>
-                    @lang('TradeLive ai does not accept payments from third-party accounts. To ensure successful deposit transactions, please ensure that all deposits come from a bank account that is registered in your name. However, joint bank accounts and credit cards are acceptable for payment if the trading account holder is listed as one of the account holders.')</small>
+                    @lang('TradeLive AI does not accept payments from third-party accounts. To ensure successful deposit transactions, please ensure that all deposits come from a bank account that is registered in your name. However, joint bank accounts and credit cards are acceptable for payment if the trading account holder is listed as one of the account holders.')</small>
 
 
 

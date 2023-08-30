@@ -5,11 +5,11 @@
     <div class="i-f-w min-vh-50 d-flex align-items-center" style="--img: url(/images/new_images/pages/why.webp)">
         <div class="container">
             <div class="display-5 color2 fw-bold letter-s-4">
-                @lang('Why TradeLive ai?')
+                @lang('Why TradeLive AI?')
             </div>
              <div class="row mt-4">
             <div class="col-md-9 text-white desc_page">
-                <p>@lang('Welcome to TradeLive ai , We are dedicated to providing you with the best possible trading experience and helping you achieve your financial goals. Here are just a few reasons why you should choose us:')</p>
+                <p>@lang('Welcome to TradeLive AI , We are dedicated to providing you with the best possible trading experience and helping you achieve your financial goals. Here are just a few reasons why you should choose us:')</p>
             </div>
         </div>
         </div>
@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row justify-content-center align-items-center g-4">
                 <div class="col-md-12">
-                    <h1 class="fw-light color">@lang('Why should you trade with  TradeLive ai?')</h1>
+                    <h1 class="fw-light color">@lang('Why should you trade with  TradeLive AI?')</h1>
 
                     <p>@lang("At Highnees Investment LLC, we have two core business assets: latest technology and highest services. Our advanced technology is our focus as it increases our clients' trading efficiency and our progress as well, in addition to our business partners. We feel proud to offer you a transparent, safe, and secure trading models. Trading using our  latest technologies enables us improve decision-making process in short time. Besides, we provide a better customer experience. This enables you to have the best possible opportunities to achieve successful online trading in the financial markets.")</p>
                 </div>

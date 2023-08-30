@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>TradeLive AI</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="shortcut icon" href="{{ asset('favicon.png') }}" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -512,18 +512,18 @@ document.addEventListener('DOMContentLoaded', render_ago);
                     <div class="col-lg-2 col-md-3 col-sm-6 col-6 mt-3">
                         <ul>
                             <li>
-                                <strong>TradeLive ai</strong>
+                                <strong>TradeLive AI</strong>
                                 <div class="dis5"></div>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/about-us">About                                    TradeLive ai</a>
+                                <a class="dropdown-item" href="/about-us">About                                    TradeLive AI</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/news">
-                                    TradeLive ai News</a>
+                                    TradeLive AI News</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/why-tradeLive">Why TradeLive ai</a>
+                                <a class="dropdown-item" href="/why-tradeLive">Why TradeLive AI</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/careers">Careers</a>
@@ -564,11 +564,11 @@ document.addEventListener('DOMContentLoaded', render_ago);
                                 <strong>Accounts Types</strong>
                                 <div class="dis5"></div>
                             </li>
-                            <li><a href="https://portal.TradeLive aiinv.com/en/auth/register">Demo Account</a></li>
-                            <li><a href="https://portal.TradeLive aiinv.com/en/auth/register">standard Account</a></li>
-                            <li><a href="https://portal.TradeLive aiinv.com/en/auth/register">TradeLive ai Account</a></li>
-                            <li><a href="https://portal.TradeLive aiinv.com/en/auth/register">Premium Account</a></li>
-                            <li><a href="https://portal.TradeLive aiinv.com/en/auth/register">Client Portal</a></li>
+                            <li><a href="https://portal.TradeLive AIinv.com/en/auth/register">Demo Account</a></li>
+                            <li><a href="https://portal.TradeLive AIinv.com/en/auth/register">standard Account</a></li>
+                            <li><a href="https://portal.TradeLive AIinv.com/en/auth/register">TradeLive AI Account</a></li>
+                            <li><a href="https://portal.TradeLive AIinv.com/en/auth/register">Premium Account</a></li>
+                            <li><a href="https://portal.TradeLive AIinv.com/en/auth/register">Client Portal</a></li>
 
 
                         </ul>
@@ -609,9 +609,9 @@ document.addEventListener('DOMContentLoaded', render_ago);
                                 <strong>Education</strong>
                                 <div class="dis5"></div>
                             </li>
-                            <li><a href="https://portal.TradeLive aiinv.com/en/auth/register">Open Account</a></li>
-                            <li><a href="https://portal.TradeLive aiinv.com/en/auth/register">Start Trading</a></li>
-                            <li><a href="/support">TradeLive ai&nbsp;FAQ</a></li>
+                            <li><a href="https://portal.TradeLive AIinv.com/en/auth/register">Open Account</a></li>
+                            <li><a href="https://portal.TradeLive AIinv.com/en/auth/register">Start Trading</a></li>
+                            <li><a href="/support">TradeLive AI&nbsp;FAQ</a></li>
 
 
                         </ul>
@@ -655,13 +655,13 @@ document.addEventListener('DOMContentLoaded', render_ago);
                             <strong>Incumbency Certificate</strong>
                         </div>
                         <p>
-                            We, Euro-Caribbean Trustees Ltd., of Kingstown, St. Vincent &amp; the Grenadines, being the duly appointed Registered Agent of TradeLive ai Investment LLC hereby confirm that as at the date of this Certificate:<br>
+                            We, Euro-Caribbean Trustees Ltd., of Kingstown, St. Vincent &amp; the Grenadines, being the duly appointed Registered Agent of TradeLive AI Investment LLC hereby confirm that as at the date of this Certificate:<br>
                         </p>
                         <ol style="list-style: disc">
                             <p></p>
                             <li>The Company is in good legal standing.</li>
                             <li>The Registered Office address of the Company is: Euro House, Richmond Hill Road, Kingstown, VC0100, Saint Vincent and&nbsp;the&nbsp;Grenadines.</li>
-                            <li>TradeLive ai Investment FZE, Our Address in Dubai: the Iridium building, Office No 227.039 Umm-Suqeim St. Al Barsha-&nbsp;Dubai&nbsp;-&nbsp;UAE</li>
+                            <li>TradeLive AI Investment FZE, Our Address in Dubai: the Iridium building, Office No 227.039 Umm-Suqeim St. Al Barsha-&nbsp;Dubai&nbsp;-&nbsp;UAE</li>
                             <li>The Company was incorporated in St. Vincent &amp; the Grenadines under the Limited Liability Companies Act Chapter 151 of Saint Vincent and the Grenadines 2009 (the Act), on the 5 th October 2021, and its Limited Liability Company Number is 1465 LLC 2021.</li>
                         </ol>
                         <div class="titlemax mb-0">
@@ -671,7 +671,7 @@ document.addEventListener('DOMContentLoaded', render_ago);
                         <div class="titlemax mb-0 mt-3">
                             <strong>Disclaimer</strong>
                         </div>
-                        <p>This site contains external links to websites controlled or offered by third parties. the information contained on this site is intended for information purposes only and it should not be regarded as advice nor as a recommendation to buy, sell or otherwise deal with any particular currency or precious metal trade. TradeLive aiinv hereby disclaims responsibility for any information or materials posted at any of the sites linked to this site. TradeLive ai Investments Ltd does not endorse or recommend any products or services offered on that website. Clients carry the sole responsibility for all transactions or investments carried out at TradeLive aiinv.</p>
+                        <p>This site contains external links to websites controlled or offered by third parties. the information contained on this site is intended for information purposes only and it should not be regarded as advice nor as a recommendation to buy, sell or otherwise deal with any particular currency or precious metal trade. TradeLive AIinv hereby disclaims responsibility for any information or materials posted at any of the sites linked to this site. TradeLive AI Investments Ltd does not endorse or recommend any products or services offered on that website. Clients carry the sole responsibility for all transactions or investments carried out at TradeLive AIinv.</p>
                     </div>
                 </div>
             </div>

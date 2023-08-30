@@ -93,7 +93,7 @@
                 </div>
                 <div class="col-md-4 ps-5">
                     <h3 class="fs-2">
-                        @lang('TradeLive ai')
+                        @lang('TradeLive AI')
                     </h3>
                     <p class="text-black-50 mt-4">
                         <span class="text-black">@lang('Registered address:')</span>    

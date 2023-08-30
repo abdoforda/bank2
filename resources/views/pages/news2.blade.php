@@ -1,7 +1,7 @@
 @extends('layouts.app') @php $news = App\News::paginate(10); @endphp @section('content')
     <div class="i-f-w min-vh-50 d-flex align-items-center" style="--img: url(/images/new_images/pages/news.webp)">
         <div class="container">
-            <div class="display-5 color2 fw-bold letter-s-4"> @lang('TradeLive ai News') </div>
+            <div class="display-5 color2 fw-bold letter-s-4"> @lang('TradeLive AI News') </div>
             <div class="row mt-4">
                 <div class="col-md-9 text-white desc_page">
                     <p class="text-start"> @lang('Be updated about all relevant market news and company updates in one spot. Stay up-to-date about our latest news, releases, recognitions, events, and promotions, market alerts, and much more.') </p>
