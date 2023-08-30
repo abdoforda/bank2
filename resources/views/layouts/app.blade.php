@@ -389,7 +389,7 @@
                                     class="fa fa-play"></i>
                                 <ion-icon name="play"></ion-icon>
                             </a>
-                            <a href="javascript:void(0)" class="button bt-white iq-mt-5 iq-ml-10">White Paper</a>
+                            <a href="javascript:void(0)" class="button bt-white iq-mt-5 iq-ml-10">TradeLive Now!</a>
                         </div>
                     </div>
                     <div class="col-lg-5 text-center r9-mt-40">
