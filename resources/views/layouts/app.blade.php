@@ -188,30 +188,15 @@
                                     <ul class="dropdown-menu dropdown-menu2">
                                         <div class="container">
                                             <div class="row">
-                                                <div class="col">
-                                                    <h5>@lang('Accounts Types')</h5>
-                                                    <ul class="ul01">
-        
-                                                        <li><a class="dropdown-item"
-                                                                href="{{ route('standard_account') }}">@lang('Standard Account')</a>
-                                                        </li>
-                                                        <li><a class="dropdown-item"
-                                                                href="{{ route('tradeLive_account') }}">@lang('TradeLive AI Account')</a>
-                                                        </li>
-                                                        <li><a class="dropdown-item"
-                                                                href="{{ route('premium_account') }}">@lang('Premium Account')</a>
-                                                        </li>
-        
-                                                    </ul>
-                                                </div>
+                                                
                                                 <div class="col">
                                                     <h5>@lang('Trading Platforms')</h5>
                                                     <ul class="ul01">
                                                         <li><a class="dropdown-item"
-                                                                href="{{ route('metaTrader_5') }}">@lang('MetaTrader 5') </a>
+                                                                href="{{ route('metaTrader_5') }}">@lang('TradeLive AI') </a>
                                                         </li>
                                                         <li><a class="dropdown-item"
-                                                                href="{{ route('tradeLive_ios') }}">@lang('TradeLive AI Ios')</a></li>
+                                                                href="{{ route('tradeLive_ios') }}">@lang('TradeLive AI IOS')</a></li>
                                                         <li><a class="dropdown-item"
                                                                 href="{{ route('tradeLive_android') }}">@lang('TradeLive AI Android')</a>
                                                         </li>
@@ -255,7 +240,7 @@
                                 </li>
                                 <li class="nav-item dropdown dropdown2">
                                     <a class="nav-link dropdown-toggle" href="#" aria-expanded="false">
-                                        @lang('Knowledge Types')
+                                        @lang('Technology')
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu2">
                                         <div class="container">
