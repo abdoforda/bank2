@@ -270,7 +270,7 @@
                                     <a class="nav-link dropdown-toggle" href="#" aria-expanded="false">
                                         @lang('About')
                                     </a>
-                                    <ul class="dropdown-menu dropdown-menu2">
+                                    <ul class="dropdown-menu dropdown-menu2" style="left: 50%;">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col">
