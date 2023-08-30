@@ -756,6 +756,9 @@ function errors(form, data) {
         $(function () {
             $(".uld_hover .dropdown").hover(
         function () {
+            if($(this).find("ul.dropdown-menu").width() <= 430){
+                $(this).find("ul.dropdown-menu").css({"left":"auto"});
+            }
             $(this).find("ul.dropdown-menu").addClass("show");
         },
         function () {
