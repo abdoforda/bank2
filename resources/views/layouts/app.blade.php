@@ -381,7 +381,7 @@
                     </div>
                     <div class="col-lg-6 text-center r9-mt-40">
                         
-                        <img src="{{ asset('images/lap.png') }}" class="img-fluid rounded-top" alt="">
+                        <img src="{{ asset('images/lap.png') }}" class="img-fluid rounded-top" style="padding: 16px;" alt="">
                     </div>
                 </div>
             </div>
