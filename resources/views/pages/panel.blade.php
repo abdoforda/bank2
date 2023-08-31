@@ -164,7 +164,7 @@
                         <a href="/en/keyMetatrader/default/deposit" class="btn btn-primary">Deposit Funds 🔥</a>
                     </div>
 
-                    <div class="left-sidebar_qr-code-text">Scan QR Code to Download MT5</div>
+                    <div class="left-sidebar_qr-code-text">Scan QR Code to Download TradeLive AI</div>
                     <div class="left-sidebar_qr-code has-arrow has-arrow_toggle">
                         <div class="btn btn-primary btn-transparent-white">Show QR code</div>
                         <div class="left-sidebar_qr-code__img has-arrow_toggle__block">

@@ -167,34 +167,34 @@
             </h3>
             <div class="mt-4 row justify-content-center align-items-center g-4 text-center">
                 <div class="col-md-4">
-                    <img width="64" src="/images/new_images/icons/mt5 (1).png" alt="">
+                    <img width="64" src="/images/new_images/icons/aaaaaaaaaa1.png" alt="">
                     <h5 class="fw-600 mt-2">@lang('User-friendly interface')</h5>
                     <p class="text-white-50">@lang('TradeLive AI iOS has a user-friendly interface that is easy to navigate, making it practical and flexible for traders of all experience levels.')</p>
                 </div>
                 <div class="col-md-4">
-                    <img width="64" src="/images/new_images/icons/mt5 (2).png" alt="">
+                    <img width="64" src="/images/new_images/icons/aaaaaaaaaa2.png" alt="">
                     <h5 class="fw-600 mt-2">@lang('Real-time market data')</h5>
                     <p class="text-white-50">@lang('TradeLive AI iOS provides real-time market data, including price quotes, charts, and news feeds, to assist traders in making successful trading decisions.')</p>
                 </div>
                 <div class="col-md-4">
-                    <img width="64" src="/images/new_images/icons/mt5 (3).png" alt="">
+                    <img width="64" src="/images/new_images/icons/aaaaaaaaaa3.png" alt="">
                     <h5 class="fw-600 mt-2">@lang('Customizable trading preferences')</h5>
                     <p class="text-white-50">@lang('TradeLive AI iOS allows traders to customize their trading preferences, including chart settings, indicators, and order types, to suit their individual needs.')</p>
                 </div>
             </div>
             <div class="mt-4 row justify-content-center align-items-center g-4 text-center">
                 <div class="col-md-4">
-                    <img width="64" src="/images/new_images/icons/mt5 (4).png" alt="">
+                    <img width="64" src="/images/new_images/icons/aaaaaaaaaa4.png" alt="">
                     <h5 class="fw-600 mt-2">@lang('Convenient trading')</h5>
                     <p class="text-white-50">@lang('TradeLive AI iOS enables traders to access the markets from anywhere and at any time, making it an ideal option for busy traders.')</p>
                 </div>
                 <div class="col-md-4">
-                    <img width="64" src="/images/new_images/icons/mt5 (5).png" alt="">
+                    <img width="64" src="/images/new_images/icons/aaaaaaaaaa5.png" alt="">
                     <h5 class="fw-600 mt-2">@lang('Push notifications')</h5>
                     <p class="text-white-50">@lang('TradeLive AI iOS provides push notifications for important market events, helping traders stay informed and up-to-date.')</p>
                 </div>
                 <div class="col-md-4">
-                    <img width="64" src="/images/new_images/icons/mt5 (6).png" alt="">
+                    <img width="64" src="/images/new_images/icons/aaaaaaaaaa6.png" alt="">
                     <h5 class="fw-600 mt-2">@lang('Security')</h5>
                     <p class="text-white-50">@lang("TradeLive AI iOS employs advanced security protocols to protect traders' data and transactions, providing a safe and secure trading environment.")</p>
                 </div>

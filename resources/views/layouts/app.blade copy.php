@@ -192,7 +192,7 @@
                                             <h5>@lang('Trading Platforms')</h5>
                                             <ul class="ul01">
                                                 <li><a class="dropdown-item"
-                                                        href="{{ route('metaTrader_5') }}">@lang('MetaTrader 5') </a>
+                                                        href="{{ route('metaTrader_5') }}">@lang('TradeLive AI') </a>
                                                 </li>
                                                 <li><a class="dropdown-item"
                                                         href="{{ route('tradeLiveios') }}">@lang('TradeLive AI Ios')</a></li>

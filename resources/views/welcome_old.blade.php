@@ -237,7 +237,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">MetaTrader 5</a>
+                                                    <a class="dropdown-item" href="#">TradeLive AI</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -2044,7 +2044,7 @@
                                                 Limited number of offers
                                             </li>
                                             <li class="account__terminals">
-                                                MT4, MT5, WebTrader
+                                                MT4, TradeLive AI, WebTrader
                                             </li>
                                         </ul>
 
@@ -2092,7 +2092,7 @@
                                                 Limited number of offers
                                             </li>
                                             <li class="account__terminals">
-                                                MT4, MT5, WebTrader
+                                                MT4, TradeLive AI, WebTrader
                                             </li>
                                         </ul>
                                         <div class="text-center">
@@ -2139,7 +2139,7 @@
                                                 Limited number of offers
                                             </li>
                                             <li class="account__terminals">
-                                                MT4, MT5, WebTrader
+                                                MT4, TradeLive AI, WebTrader
                                             </li>
                                         </ul>
                                         <div class="text-center">
@@ -2186,7 +2186,7 @@
                                                 Limited number of offers
                                             </li>
                                             <li class="account__terminals">
-                                                MT4, MT5, WebTrader
+                                                MT4, TradeLive AI, WebTrader
                                             </li>
                                         </ul>
                                         <div class="text-center">
@@ -2306,7 +2306,7 @@
                                 <div class="custom-height">
                                     <div class="d-flex align-items-center">
                                         <h4 class="h4-black my-4">
-                                            MT5 Platforms
+                                            TradeLive AIPlatforms
                                         </h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center justify-content-lg-start">
@@ -2847,22 +2847,22 @@
                     <div class="col-lg-2 col-md-3 col-sm-6 mt-3">
                         <ul>
                             <li>
-                                <strong>MT5 Platforms</strong>
+                                <strong>TradeLive AIPlatforms</strong>
                                 <div class="dis5"></div>
                             </li>
                             <li>
                                 <a href="https://www.xmarabia.net/mt5">
-                                    MT5 for PC
+                                    TradeLive AIfor PC
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.xmarabia.net/mt5-mac">
-                                    MT5 for Mac
+                                    TradeLive AIfor Mac
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.xmarabia.net/mt5-webtrader">
-                                    MT5 WebTrader
+                                    TradeLive AIWebTrader
                                 </a>
                             </li>
                             <!--<li>
@@ -2871,12 +2871,12 @@
                         </li>-->
                             <li>
                                 <a href="https://www.xmarabia.net/mt5-android">
-                                    MT5 for Android
+                                    TradeLive AIfor Android
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.xmarabia.net/mt5-android-tablet">
-                                    MT5 for Android Tablet
+                                    TradeLive AIfor Android Tablet
                                 </a>
                             </li>
                         </ul>

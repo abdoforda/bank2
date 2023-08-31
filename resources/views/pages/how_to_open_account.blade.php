@@ -151,7 +151,7 @@
                     <h3 class="h2">@lang('Which account type is recommended for beginners?') </h3>
 
                     <p class="fw-600 mt-4">
-                        @lang('Upon registering a Members Area, the first trading account will be automatically opened for the client. For beginners, it is advisable to first practice on a demo account, which allows trading with virtual funds and gaining valuable experience. If using MT4 or MT5 platforms, the options include Demo ECN or Demo Pro accounts. Alternatively, for those who want to start with a real account but trade with smaller amounts, the live account is available on both MT4 and MT5 platforms.') 
+                        @lang('Upon registering a Members Area, the first trading account will be automatically opened for the client. For beginners, it is advisable to first practice on a demo account, which allows trading with virtual funds and gaining valuable experience. If using MT4 or TradeLive AIplatforms, the options include Demo ECN or Demo Pro accounts. Alternatively, for those who want to start with a real account but trade with smaller amounts, the live account is available on both MT4 and TradeLive AIplatforms.') 
                     </p>
                     <div class="mt-4 row  g-2">
                         <div class="col-md-10">

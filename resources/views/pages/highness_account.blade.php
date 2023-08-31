@@ -69,7 +69,7 @@
                                     </div>
                                     <div class="row justify-content-center align-items-center g-2">
                                         <div class="col col-5 text-center fw-700 border-bottom">@lang('Platforms')</div>
-                                        <div class="col col-7 border-bottom bg-g">@lang('MT5 | TradeLive AI trader')</div>
+                                        <div class="col col-7 border-bottom bg-g">@lang('TradeLive AI| TradeLive AI trader')</div>
                                     </div>
                                     <div class="row justify-content-center align-items-center g-2">
                                         <div class="col col-5 text-center fw-700 border-bottom">@lang('Stop out')</div>
