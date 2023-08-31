@@ -367,7 +367,7 @@
         <div class="banner-info">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-7 align-self-center">
+                    <div class="col-lg-6 align-self-center">
                         <div class="banner-text text-left text-white">
                             <h1 class="text-white iq-mb-20">Best Selling ICO Future Of Trading <b
                                     class="iq-font-yellow">TradeLive AI</b></h1>
@@ -379,7 +379,7 @@
                             <a href="javascript:void(0)" class="button bt-white iq-mt-5 iq-ml-10">TradeLive Now!</a>
                         </div>
                     </div>
-                    <div class="col-lg-5 text-center r9-mt-40">
+                    <div class="col-lg-6 text-center r9-mt-40">
                         
                         <img src="{{ asset('images/lap.png') }}" class="img-fluid rounded-top" alt="">
                     </div>
