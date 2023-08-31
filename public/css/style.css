@@ -833,7 +833,7 @@ input[type="range"]{-webkit-appearance:none;width:100%;height:7px;
 .currencies_ul ul li:hover{color:#055eaf;}
 .currencies_ul ul li.li_head{font-size:16px;color:var(--color-main-250);cursor:auto;margin-bottom:4px;border-bottom:1px solid var(--color-main-250);}
 .range_input{width:100%;}
-input[type="range"]{-webkit-appearance:none;width:100%;height:7px;background:var(--color-main-100);border-radius:5px;background-size:100% 100%;background-repeat:no-repeat;}
+input[type="range"]{-webkit-appearance:none;width:100%;height:7px;border-radius:5px;background-size:100% 100%;background-repeat:no-repeat;}
 /*! CSS Used from: Embedded */
 .row_dis .col{padding:10px 13px;margin:0;border-radius:91px;}
 

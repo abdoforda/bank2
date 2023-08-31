@@ -62,34 +62,6 @@
         </div>
     </section>
 
-    <section>
-        <div class="container">
-            <h3 class="mb-3">
-                @lang('How to Uninstall TradeLive AI for PC ?')
-            </h3>
-
-            <ul class="arrows">
-                <li>
-                    <span class="red mt4_steps"><strong>@lang('STEP') 1:</strong></span>
-                    @lang('Open the Control Panel on your Windows device.')
-                </li>
-                <li>
-                    <span class="red mt4_steps"><strong>@lang('STEP') 2:</strong></span>
-                    @lang("Select 'Programs and Features' or 'Add or Remove Programs.'")
-                </li>
-                <li>
-                    <span class="red mt4_steps"><strong>@lang('STEP') 3:</strong></span>
-                    @lang("Find 'TradeLive AI ' in the list of installed programs.")
-                </li>
-                <li>
-                    <span class="red mt4_steps"><strong>@lang('STEP') 4:</strong></span>
-                    @lang("Click 'Uninstall' and follow the prompts to remove TradeLive AI .")
-                </li>
-            </ul>
-
-        </div>
-    </section>
-
     
     @include(
         'components.ask',

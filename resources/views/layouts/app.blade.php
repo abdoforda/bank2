@@ -370,7 +370,7 @@
                     <div class="col-lg-6 align-self-center">
                         <div class="banner-text text-left text-white">
                             <h1 class="text-white iq-mb-20">Generate Money Using <b
-                                    class="iq-font-yellow">TradeLive AI </b></h1>
+                                    class="iq-font-yellow">Trade Using AI </b></h1>
                             <p>Absolutely! Trading live using AI offers you a thrilling opportunity to harness your financial potential and cultivate a deep understanding of global economies. Embrace each trade as a chance to grow, adapt, and refine your strategies. With dedication and the right mindset, you have the power to navigate the market's challenges and unlock the rewards of your efforts.</p>
                             <a href="https://www.youtube.com/watch?v=0O2aH4XLbto" class="button-play video-popup"><i
                                     class="fa fa-play"></i>

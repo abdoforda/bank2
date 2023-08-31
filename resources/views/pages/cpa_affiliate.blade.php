@@ -261,3 +261,83 @@
 
     </section>
 @endsection
+
+@section('scripts')
+    <script>
+        function handleInputChange(e) {
+    let target = e.target
+    if (e.target.type !== 'range') {
+      target = document.getElementById('range')
+    } 
+    const min = target.min;
+    const max = target.max;
+    const val = target.value;
+    
+    $("#rangevalueamount p").text("$"+val * 600);
+        updatecommission(val);
+  }
+  $(function () {
+    const rangeInputs = document.querySelectorAll('input[type="range"]');
+    rangeInputs.forEach(input => {
+    input.addEventListener('input', handleInputChange)
+  })
+  });
+    </script>
+@endsection
+@section('css')
+    <style>
+/*! CSS Used from: https://highnessinv.com/css/style.css */
+
+
+
+
+.range_input{width:100%;}
+.output p{margin:0;font-size:24px;color:var(--color-main-250);font-weight:700;}
+.bar_number_list{position:absolute;left:0px;width:100%;top:34px;padding:0px;margin:0px;display:flex;justify-content:space-between;}
+.bar_number_list li{padding:0px;margin:0px;font-size:16px;user-select:none;color:var(--color-main-250);}
+input[type="range"]{-webkit-appearance:none;width:100%;height:7px;background:var(--color-main-100);border-radius:5px;background-size:100% 100%;background-repeat:no-repeat;}
+
+
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+      overflow: hidden;
+      width: 100%;
+      -webkit-appearance: none;
+      background-color: #766432;
+    }
+    
+    input[type='range']::-webkit-slider-runnable-track {
+      height: 22px;
+      -webkit-appearance: none;
+      color: #766432;
+      margin-top: -1px;
+    }
+    
+    input[type='range']::-webkit-slider-thumb {
+      width: 22px;
+      -webkit-appearance: none;
+      height: 22px;
+      border-radius: 50px;
+      cursor: ew-resize;
+      background: #c79407;
+      box-shadow: -2800px 0 0 2800px #ff9b28;
+    }
+
+}
+/** FF*/
+input[type="range"]::-moz-range-progress {
+  background-color: #ff9b28; 
+}
+input[type="range"]::-moz-range-track {  
+  background-color: #9a905d;
+}
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+  background-color: #ff9b28; 
+}
+input[type="range"]::-ms-fill-upper {  
+  background-color: #9a905d;
+}
+    </style>
+@endsection

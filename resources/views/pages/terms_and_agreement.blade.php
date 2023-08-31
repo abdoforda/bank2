@@ -63,12 +63,7 @@
                         <p class="text-white-50">TradeLive AI  reserves all right to amend these terms and conditions at any time and without notice. Your continued use of our website, services, or products after any such amendments shall be deemed as an acceptance  from your side to the amended terms and conditions. </p>
                     </div>
     
-                    <div class="col-12">
-                        <h5 class="fw-600">Contact Us:</h5>
-                        <p class="text-white-50">If you have any inquiry or concerns related to these terms and conditions, please contact us at <a href="mailto:info@TradeLive AI .ae">info@TradeLive AI .ae</a></p>
-                    </div>
-    
-                
+                    
 
             </div>
         </div>
