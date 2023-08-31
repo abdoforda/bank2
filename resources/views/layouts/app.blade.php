@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>TradeLive AI</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('favicon.png') }}" />
+    <link rel="shortcut icon" href="{{ asset('favicon2.png') }}" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -380,44 +380,8 @@
                         </div>
                     </div>
                     <div class="col-lg-5 text-center r9-mt-40">
-                        <div class="iq-countdown">
-                            <h2 class="iq-tw-8 iq-font-yellow">ICO Ends In:</h2>
-                            <ul id="countdown">
-                                <li class="border-white"><span class="days">00</span>
-                                    <p class="days_text ">Days</p>
-                                </li>
-                                <li class=" border-white"><span class="hours">00</span>
-                                    <p class="hours_text">Hours</p>
-                                </li>
-                                <li class=" border-white"><span class="minutes">00</span>
-                                    <p class="minutes_text">Minutes</p>
-                                </li>
-                                <li class="border-white"><span class="seconds">00</span>
-                                    <p class="seconds_text">Seconds</p>
-                                </li>
-                            </ul>
-                            <div class="iq-progress-bar-linear">
-                                <p class="iq-progress-bar-text text-left">Sale Raised
-                                    <span>50000 ICOX</span>
-                                </p>
-                                <div class="iq-progress-bar">
-                                    <span data-percent="90"></span>
-                                </div>
-                            </div>
-                            <a class="button iq-mb-20 bt-white" href="javascript:void(0)" role="button">Sign Up &
-                                Buy
-                                Token Now</a>
-                            <ul class="list-inline">
-                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                            class="fa fa-cc-visa"></i></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                            class="fa fa-paypal"></i></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                            class="fa fa-bitcoin"></i></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                            class="fa fa-credit-card-alt"></i></a></li>
-                            </ul>
-                        </div>
+                        
+                        <img src="{{ asset('images/lap.png') }}" class="img-fluid rounded-top" alt="">
                     </div>
                 </div>
             </div>
