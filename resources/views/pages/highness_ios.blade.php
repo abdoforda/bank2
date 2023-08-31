@@ -5,11 +5,11 @@
     <div class="i-f-w min-vh-50 d-flex align-items-center" style="--img: url(/images/new_images/pages/tradeLiveios.webp)">
         <div class="container">
             <div class="display-5 color2 fw-bold letter-s-4">
-                @lang('TradeLive AI ios')
+                @lang('TradeLive AI  ios')
             </div>
             <div class="row mt-4">
                 <div class="col-md-9 text-white desc_page">
-                    <p>@lang('TradeLive AI iOS is a user-friendly trading platform that provides real-time market data and customizable trading preferences. It offers push notifications for important market events, a secure trading environment, and the flexibility to access the markets from anywhere at any time. It is an ideal option for busy traders who are looking for a reliable and feature-rich trading platform.')</p>
+                    <p>@lang('TradeLive AI  iOS is a user-friendly trading platform that provides real-time market data and customizable trading preferences. It offers push notifications for important market events, a secure trading environment, and the flexibility to access the markets from anywhere at any time. It is an ideal option for busy traders who are looking for a reliable and feature-rich trading platform.')</p>
                 </div>
             </div>
         </div>
@@ -19,7 +19,7 @@
     <section>
         <div class="container">
             <h3>
-                @lang('How to install TradeLive AI ios ?')
+                @lang('How to install TradeLive AI  ios ?')
             </h3>
             <div class="row mt-2 justify-content-center  g-2">
                 <div class="col-md-7">
@@ -35,8 +35,8 @@
                                 <td>
                                     <div class="table_platform_content">
                                         <p>
-                                            @lang('Download TradeLive AI ios installation file')
-                                            <a href="https://download.mql5.com/cdn/web/22146/mt5/TradeLive AIestment5setup.exe">
+                                            @lang('Download TradeLive AI  ios installation file')
+                                            <a href="https://download.mql5.com/cdn/web/22146/mt5/TradeLive AI estment5setup.exe">
                                                 <button type="button" class="btn btn-outline-primary ms-2"> Download</button>
                                             </a>
                                         </p>
@@ -78,7 +78,7 @@
                                 </th>
                                 <td>
                                     <div class="table_platform_content">
-                                        <p>@lang('Start trading on TradeLive AI iOS.')</p>
+                                        <p>@lang('Start trading on TradeLive AI  iOS.')</p>
                                     </div>
                                 </td>
                             </tr>
@@ -163,40 +163,40 @@
     <section >
         <div class="container">
             <h3 class="text-center">
-                @lang('TradeLive AI iOS benefits')
+                @lang('TradeLive AI  iOS benefits')
             </h3>
             <div class="mt-4 row justify-content-center align-items-center g-4 text-center">
                 <div class="col-md-4">
                     <img width="64" src="/images/new_images/icons/aaaaaaaaaa1.png" alt="">
                     <h5 class="fw-600 mt-2">@lang('User-friendly interface')</h5>
-                    <p class="text-white-50">@lang('TradeLive AI iOS has a user-friendly interface that is easy to navigate, making it practical and flexible for traders of all experience levels.')</p>
+                    <p class="text-white-50">@lang('TradeLive AI  iOS has a user-friendly interface that is easy to navigate, making it practical and flexible for traders of all experience levels.')</p>
                 </div>
                 <div class="col-md-4">
                     <img width="64" src="/images/new_images/icons/aaaaaaaaaa2.png" alt="">
                     <h5 class="fw-600 mt-2">@lang('Real-time market data')</h5>
-                    <p class="text-white-50">@lang('TradeLive AI iOS provides real-time market data, including price quotes, charts, and news feeds, to assist traders in making successful trading decisions.')</p>
+                    <p class="text-white-50">@lang('TradeLive AI  iOS provides real-time market data, including price quotes, charts, and news feeds, to assist traders in making successful trading decisions.')</p>
                 </div>
                 <div class="col-md-4">
                     <img width="64" src="/images/new_images/icons/aaaaaaaaaa3.png" alt="">
                     <h5 class="fw-600 mt-2">@lang('Customizable trading preferences')</h5>
-                    <p class="text-white-50">@lang('TradeLive AI iOS allows traders to customize their trading preferences, including chart settings, indicators, and order types, to suit their individual needs.')</p>
+                    <p class="text-white-50">@lang('TradeLive AI  iOS allows traders to customize their trading preferences, including chart settings, indicators, and order types, to suit their individual needs.')</p>
                 </div>
             </div>
             <div class="mt-4 row justify-content-center align-items-center g-4 text-center">
                 <div class="col-md-4">
                     <img width="64" src="/images/new_images/icons/aaaaaaaaaa4.png" alt="">
                     <h5 class="fw-600 mt-2">@lang('Convenient trading')</h5>
-                    <p class="text-white-50">@lang('TradeLive AI iOS enables traders to access the markets from anywhere and at any time, making it an ideal option for busy traders.')</p>
+                    <p class="text-white-50">@lang('TradeLive AI  iOS enables traders to access the markets from anywhere and at any time, making it an ideal option for busy traders.')</p>
                 </div>
                 <div class="col-md-4">
                     <img width="64" src="/images/new_images/icons/aaaaaaaaaa5.png" alt="">
                     <h5 class="fw-600 mt-2">@lang('Push notifications')</h5>
-                    <p class="text-white-50">@lang('TradeLive AI iOS provides push notifications for important market events, helping traders stay informed and up-to-date.')</p>
+                    <p class="text-white-50">@lang('TradeLive AI  iOS provides push notifications for important market events, helping traders stay informed and up-to-date.')</p>
                 </div>
                 <div class="col-md-4">
                     <img width="64" src="/images/new_images/icons/aaaaaaaaaa6.png" alt="">
                     <h5 class="fw-600 mt-2">@lang('Security')</h5>
-                    <p class="text-white-50">@lang("TradeLive AI iOS employs advanced security protocols to protect traders' data and transactions, providing a safe and secure trading environment.")</p>
+                    <p class="text-white-50">@lang("TradeLive AI  iOS employs advanced security protocols to protect traders' data and transactions, providing a safe and secure trading environment.")</p>
                 </div>
             </div>
         </div>
@@ -205,13 +205,13 @@
     <section>
         <div class="container">
             <h3 class="mb-3">
-                @lang('How to Uninstall TradeLive AI ios ?')
+                @lang('How to Uninstall TradeLive AI  ios ?')
             </h3>
 
             <ul class="arrows">
                 <li>
                     <span class="red mt4_steps"><strong>@lang('STEP') 1:</strong></span>
-                    @lang('Press and hold the TradeLive AI app icon.')
+                    @lang('Press and hold the TradeLive AI  app icon.')
                 </li>
                 <li>
                     <span class="red mt4_steps"><strong>@lang('STEP') 2:</strong></span>
@@ -236,28 +236,28 @@
         [
             'title' => __('Frequently asked questions'),
             'desc' =>
-                __('Here are our most frequently asked questions about TradeLive AI ios.'),
+                __('Here are our most frequently asked questions about TradeLive AI  ios.'),
             'items' => [
                 [
-                    'title' => __('How can I download the TradeLive AI App for iOS devices?'),
+                    'title' => __('How can I download the TradeLive AI  App for iOS devices?'),
                     'bode' =>
-                        __("To download the TradeLive AI App for iOSvdevices, search for 'TradeLive AI' in the App Store and follow the account opening procedures. Once your account is verified, you can make a deposit and start trading."),
+                        __("To download the TradeLive AI  App for iOSvdevices, search for 'TradeLive AI ' in the App Store and follow the account opening procedures. Once your account is verified, you can make a deposit and start trading."),
                 ],[
-                    'title' => __('What are the devices compatible with the TradeLive AI App for iOS?'),
+                    'title' => __('What are the devices compatible with the TradeLive AI  App for iOS?'),
                     'bode' =>
-                        __('TradeLive AI App for iOS is compatible with iPhones and iPads devices that are operating iOS 11.0 system or later versions.'),
+                        __('TradeLive AI  App for iOS is compatible with iPhones and iPads devices that are operating iOS 11.0 system or later versions.'),
                 ],[
-                    'title' => __('Can I access the same features of TradeLive AI App for iOS devices as it runs on the desktop version?'),
+                    'title' => __('Can I access the same features of TradeLive AI  App for iOS devices as it runs on the desktop version?'),
                     'bode' =>
-                        __('Yes, you can access the same features on the TradeLive AI App for iOS devices as it runs on the desktop version, including trading Forex, Indices, Commodities, Metals, Energy Commodities, Shares, Cryptocurrencies, and ETFs.'),
+                        __('Yes, you can access the same features on the TradeLive AI  App for iOS devices as it runs on the desktop version, including trading Forex, Indices, Commodities, Metals, Energy Commodities, Shares, Cryptocurrencies, and ETFs.'),
                 ],[
-                    'title' => __('Is TradeLive AI App secure for the iOS devices?'),
+                    'title' => __('Is TradeLive AI  App secure for the iOS devices?'),
                     'bode' =>
-                        __("Yes, TradeLive AI App which is designed for iOS devices is secure. It uses 128-bit SSL encryption to ensure the highest level of security to protect your personal and financial information."),
+                        __("Yes, TradeLive AI  App which is designed for iOS devices is secure. It uses 128-bit SSL encryption to ensure the highest level of security to protect your personal and financial information."),
                 ],[
-                    'title' => __('Can I use TradeLive AI App for iOS devices to deposit and withdraw funds?'),
+                    'title' => __('Can I use TradeLive AI  App for iOS devices to deposit and withdraw funds?'),
                     'bode' =>
-                        __('Yes, you can use TradeLive AI App for iOS devices to deposit and withdraw funds, as well as manage all your trading accounts and view your transaction history.'),
+                        __('Yes, you can use TradeLive AI  App for iOS devices to deposit and withdraw funds, as well as manage all your trading accounts and view your transaction history.'),
                 ],
             ],
         ]

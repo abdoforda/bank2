@@ -6,7 +6,7 @@
     style="--img: url(/images/new_images/pages/risk_warnings.webp)">
         <div class="container">
             <div class="display-5 color2 fw-bold letter-s-4">
-                @lang('Risk Warning for TradeLive AI')
+                @lang('Risk Warning for TradeLive AI ')
             </div>
              <div class="row mt-4">
             <div class="col-md-9 text-white desc_page">
@@ -42,7 +42,7 @@
             <br>
 			
 			<h2>@lang('Risks Associated with the Trading Platform:')</h2>
-            <p class="leac">@lang('The trading platform used by TradeLive AI may be subject to technological vulnerabilities, including hacking or cyber-attacks. These risks can impact the security and integrity of client accounts and transactions.')</p>
+            <p class="leac">@lang('The trading platform used by TradeLive AI  may be subject to technological vulnerabilities, including hacking or cyber-attacks. These risks can impact the security and integrity of client accounts and transactions.')</p>
             <br>
 			
 			<h2>@lang('Communication Risks:')</h2>
@@ -90,7 +90,7 @@
             <br>
 			
 			<h2>@lang('Risks Beyond the Control of the Company:')</h2>
-            <p class="leac">@lang('There may be risks that are beyond the control of TradeLive AI, such as acts of nature, political instability, or technological')</p>
+            <p class="leac">@lang('There may be risks that are beyond the control of TradeLive AI , such as acts of nature, political instability, or technological')</p>
             <br>
 			
 			

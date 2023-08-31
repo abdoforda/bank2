@@ -9,7 +9,7 @@
      style="--img: url(/images/new_images/pages/news.webp)">
         <div class="container">
             <div class="display-5 color2 fw-bold letter-s-4">
-                @lang('TradeLive AI News')
+                @lang('TradeLive AI  News')
             </div>
             <div class="row mt-4">
                 <div class="col-md-9 text-white desc_page">
@@ -60,7 +60,7 @@
 
                 <div class="col-md-4 d-none d-lg-block ">
                         <div class="height454">
-                            <a class="twitter-timeline" href="https://twitter.com/TradeLive AIar?ref_src=twsrc%5Etfw">
+                            <a class="twitter-timeline" href="https://twitter.com/TradeLive AI ar?ref_src=twsrc%5Etfw">
                                 @lang('Tweets By Highnees')
                             </a>
                         </div>

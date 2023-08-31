@@ -47,13 +47,13 @@ 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
 asd
 
 
-SENDER_EMAIL_ADDRESS=supsup@TradeLive AI.com
+SENDER_EMAIL_ADDRESS=supsup@TradeLive AI .com
 MAIL_MAILER=smtp
-MAIL_HOST=mail.TradeLive AI.com
+MAIL_HOST=mail.TradeLive AI .com
 MAIL_PORT=465
-MAIL_USERNAME=supsup@TradeLive AI.com
+MAIL_USERNAME=supsup@TradeLive AI .com
 MAIL_PASSWORD='123asdASD!#'
 MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS=supsup@TradeLive AI.com
+MAIL_FROM_ADDRESS=supsup@TradeLive AI .com
 MAIL_FROM_NAME="${APP_NAME}"
 

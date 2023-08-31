@@ -242,7 +242,7 @@ section h2{margin-bottom:42px!important;}
 }
 .section02{background:#664d0a47;}
 .color2{color:#74b22b;}
-/*! CSS Used from: https://TradeLive AI.com/css/smallscreen.css ; media=screen and (max-width: 600px) */
+/*! CSS Used from: https://TradeLive AI .com/css/smallscreen.css ; media=screen and (max-width: 600px) */
 @media screen and (max-width: 600px){
 .prim-six-box .six-boxes .feature-box{min-height:86px;}
 .prim-six-box .six-boxes .feature-box img{top:16px;}

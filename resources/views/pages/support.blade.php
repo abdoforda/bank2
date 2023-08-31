@@ -9,7 +9,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col-md-9 text-white desc_page">
-                    <p>@lang('At TradeLive AI, we pride ourselves on providing excellent customer support to our clients. We understand that trading on financial markets can be a challenging experience, and we are always here to help our clients with any questions or issues they may encounter.')</p>
+                    <p>@lang('At TradeLive AI , we pride ourselves on providing excellent customer support to our clients. We understand that trading on financial markets can be a challenging experience, and we are always here to help our clients with any questions or issues they may encounter.')</p>
                 </div>
             </div>
         </div>
@@ -123,50 +123,50 @@
                     <img style=" width: 60px; " 
                     src="{{ asset('images/new_images/icons/back office.png') }}" />
                     <h5 class="fw-700 mt-2">@lang('Back Office') </h5>
-                    <p class="text-white-50">backoffice@TradeLive AI.ae</p>
+                    <p class="text-white-50">backoffice@TradeLive AI .ae</p>
                 </div>
                 <div class="col-md-3 col-sm-6 col-12">
                     <img style=" width: 60px; " 
                     src="{{ asset('images/new_images/icons/Funding.png') }}" />
                     <h5 class="fw-700 mt-2">@lang('Funding') </h5>
-                    <p class="text-white-50">funding@TradeLive AI.ae</p>
+                    <p class="text-white-50">funding@TradeLive AI .ae</p>
                 </div>
                 <div class="col-md-3 col-sm-6 col-12">
                     <img style=" width: 60px; " 
                     src="{{ asset('images/new_images/icons/Partner ship.png') }}" />
                     <h5 class="fw-700 mt-2">@lang('Partnerships') </h5>
-                    <p class="text-white-50">partners@TradeLive AI.ae</p>
+                    <p class="text-white-50">partners@TradeLive AI .ae</p>
                 </div>
                 <div class="col-md-3 col-sm-6 col-12">
                     <img style=" width: 60px; " 
                     src="{{ asset('images/new_images/icons/back office 2.png') }}" />
                     <h5 class="fw-700 mt-2">@lang('Customer Support') </h5>
-                    <p class="text-white-50">support@TradeLive AI.ae</p>
+                    <p class="text-white-50">support@TradeLive AI .ae</p>
                 </div>
 
                 <div class="col-md-3 col-sm-6 col-12">
                     <img style=" width: 60px; " 
                     src="{{ asset('images/new_images/icons/investment & Research.png') }}" />
                     <h5 class="fw-700 mt-2">@lang('Investment & Research') </h5>
-                    <p class="text-white-50">investments@TradeLive AI.ae</p>
+                    <p class="text-white-50">investments@TradeLive AI .ae</p>
                 </div>
                 <div class="col-md-3 col-sm-6 col-12">
                     <img style=" width: 60px; " 
                     src="{{ asset('images/new_images/icons/compliance.png') }}" />
                     <h5 class="fw-700 mt-2">@lang('Compliance') </h5>
-                    <p class="text-white-50">compliance@TradeLive AI.ae</p>
+                    <p class="text-white-50">compliance@TradeLive AI .ae</p>
                 </div>
                 <div class="col-md-3 col-sm-6 col-12">
                     <img style=" width: 60px; " 
                     src="{{ asset('images/new_images/icons/Marketing.png') }}" />
                     <h5 class="fw-700 mt-2">@lang('Marketing')</h5>
-                    <p class="text-white-50">marketing@TradeLive AI.ae</p>
+                    <p class="text-white-50">marketing@TradeLive AI .ae</p>
                 </div>
                 <div class="col-md-3 col-sm-6 col-12">
                     <img style=" width: 60px; " 
                     src="{{ asset('images/new_images/icons/trading.png') }}" />
                     <h5 class="fw-700 mt-2">@lang('Trading') </h5>
-                    <p class="text-white-50">dealing@TradeLive AI.ae</p>
+                    <p class="text-white-50">dealing@TradeLive AI .ae</p>
                 </div>
             </div>
         </div>

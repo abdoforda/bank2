@@ -10,7 +10,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col-md-9 text-white desc_page">
-                    <p>@lang("Stay informed about trading hours and holidays. TradeLive AI provides up-to-date information on market opening and closing times, ensuring you can plan your trades effectively. Don't miss out on opportunities – stay in the know with us.")</p>
+                    <p>@lang("Stay informed about trading hours and holidays. TradeLive AI  provides up-to-date information on market opening and closing times, ensuring you can plan your trades effectively. Don't miss out on opportunities – stay in the know with us.")</p>
                 </div>
             </div>
         </div>

@@ -5,11 +5,11 @@
     <div class="i-f-w min-vh-50 d-flex align-items-center" style="--img: url(/images/new_images/pages/why.webp)">
         <div class="container">
             <div class="display-5 color2 fw-bold letter-s-4">
-                @lang('Why TradeLive AI?')
+                @lang('Why TradeLive AI ?')
             </div>
              <div class="row mt-4">
             <div class="col-md-9 text-white desc_page">
-                <p>@lang('Welcome to TradeLive AI , We are dedicated to providing you with the best possible trading experience and helping you achieve your financial goals. Here are just a few reasons why you should choose us:')</p>
+                <p>@lang('Welcome to TradeLive AI  , We are dedicated to providing you with the best possible trading experience and helping you achieve your financial goals. Here are just a few reasons why you should choose us:')</p>
             </div>
         </div>
         </div>
@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row justify-content-center align-items-center g-4">
                 <div class="col-md-12">
-                    <h1 class="fw-light color">@lang('Why should you trade with  TradeLive AI?')</h1>
+                    <h1 class="fw-light color">@lang('Why should you trade with  TradeLive AI ?')</h1>
 
                     <p>@lang("At Highnees Investment LLC, we have two core business assets: latest technology and highest services. Our advanced technology is our focus as it increases our clients' trading efficiency and our progress as well, in addition to our business partners. We feel proud to offer you a transparent, safe, and secure trading models. Trading using our  latest technologies enables us improve decision-making process in short time. Besides, we provide a better customer experience. This enables you to have the best possible opportunities to achieve successful online trading in the financial markets.")</p>
                 </div>
@@ -45,7 +45,7 @@
                     
                 </div>
                 <div class="col-md-6 ps-5">
-                    <h1 class="fw-light color">@lang('Why TradeLive AI different from others?')</h1>
+                    <h1 class="fw-light color">@lang('Why TradeLive AI  different from others?')</h1>
                     <div class="list-container">
                         <ul class="a-context-menu">
                           
@@ -155,7 +155,7 @@
 
             <div class="row justify-content-center align-items-center g-2">
                 <div class="col">
-                    <a href="https://portal.TradeLive AI.com/en/auth/register">
+                    <a href="https://portal.TradeLive AI .com/en/auth/register">
                         <button type="button" class="btn btn-outline-primary">@lang('Create demo account')</button>
                         <button type="button" class="btn btn-primary ">@lang('Create live account')</button>
                     </a>
@@ -172,7 +172,7 @@
 @section('css')
     <style>
 
-/*! CSS Used from: https://TradeLive AIinv.com/css/style.css */
+/*! CSS Used from: https://TradeLive AI inv.com/css/style.css */
 ul{list-style:none;}
 a{text-decoration:none;}
 section{padding-top:40px;padding-bottom:40px;}
@@ -181,14 +181,14 @@ section{padding-top:40px;padding-bottom:40px;}
 .list-container ul{list-style:none;margin:20px 0;padding:0;text-decoration:none;}
 .list-container ul li a{font-size:16px;font-weight:700;line-height:48px;position:relative;color:#3a3a3a;transition:all 0.3s ease-in-out;}
 .list-container ul li a{text-decoration:none;}
-.list-container ul li a:before{background:url(https://TradeLive AIinv.com/images/new_images/icons/Blue_Arrow_Right.webp) 50% / cover no-repeat;content:"";height:14px;left:-26px;position:absolute;top:8px;transition:all 0.15s ease-in-out;width:14px;}
+.list-container ul li a:before{background:url(https://TradeLive AI inv.com/images/new_images/icons/Blue_Arrow_Right.webp) 50% / cover no-repeat;content:"";height:14px;left:-26px;position:absolute;top:8px;transition:all 0.15s ease-in-out;width:14px;}
 .list-container ul li a:hover{color:var(--color-main-300);transition:all 0.3s ease-in-out;}
 .list-container ul li a:hover::before{left:-22px;}
 .list-container ul li{margin-bottom:0;margin-left:43px;}
 .a-context-menu a{cursor:context-menu;}
 
 
-/*! CSS Used from: https://TradeLive AIinv.com/css/style.css */
+/*! CSS Used from: https://TradeLive AI inv.com/css/style.css */
 a{text-decoration:none;}
 section{padding-top:40px;padding-bottom:40px;}
 section h2{margin-bottom:42px!important;}

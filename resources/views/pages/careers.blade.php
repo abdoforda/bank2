@@ -9,7 +9,7 @@
             </div>
              <div class="row mt-4">
             <div class="col-md-9 text-white desc_page">
-                <p>@lang('Once you become a member of TradeLive AI team, you will be lucky to work among cooperative and dynamic environment that inspires ambitions and development. We are committed to provide our employees with the necessary tools and resources to play their roles efficiently and to achieve success in their distinguished careers.')</p>
+                <p>@lang('Once you become a member of TradeLive AI  team, you will be lucky to work among cooperative and dynamic environment that inspires ambitions and development. We are committed to provide our employees with the necessary tools and resources to play their roles efficiently and to achieve success in their distinguished careers.')</p>
             </div>
         </div>
         </div>
@@ -83,8 +83,8 @@
     <section>
         <div class="container">
             <div class="mb-5">
-                <h4 class="h1">@lang('Diligence at TradeLive AI:') </h4>
-                <p class="lead-in margin-bottom-40">@lang('Many of TradeLive AI  employees are working with the firm for at least half of its 14-year history and they are committed to the major principles of TradeLive AI.')</p>
+                <h4 class="h1">@lang('Diligence at TradeLive AI :') </h4>
+                <p class="lead-in margin-bottom-40">@lang('Many of TradeLive AI   employees are working with the firm for at least half of its 14-year history and they are committed to the major principles of TradeLive AI .')</p>
             </div>
             <div class="row  g-3">
                 <div class="col-md-6">
@@ -92,14 +92,14 @@
                         @lang('Our commitment to employee improvement:')
                     </span>
                     <p class="mt-3 lead fs-6">
-                        @lang('TradeLive AI is committed to the professional development and the improvement of its employees. The company provides training, guidance, and career enhancement to help its staff build prominent careers in  trading industry.')
+                        @lang('TradeLive AI  is committed to the professional development and the improvement of its employees. The company provides training, guidance, and career enhancement to help its staff build prominent careers in  trading industry.')
                     </p>
                 </div>
                 <div class="col-md-6">
                     <span class="border-start border-primary border-5 ps-3 fw-bold fs-5">
                         @lang('Focus on Client Satisfaction:')
                     </span>
-                    <p class="mt-3 lead fs-6">@lang('TradeLive AI places strong emphasis on providing exceptional services to its clients. The company strives to meet and exceed their expectations by offering customized solutions and technical')</p>
+                    <p class="mt-3 lead fs-6">@lang('TradeLive AI  places strong emphasis on providing exceptional services to its clients. The company strives to meet and exceed their expectations by offering customized solutions and technical')</p>
                 </div>
             </div>
         </div>

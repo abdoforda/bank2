@@ -22,19 +22,19 @@
                 <div class="col-md-6">
                     
                     <h3 class="display-5 fw-bold color2 text-uppercase text-center text-md-start">
-                        @lang('TradeLive AI')<br>
+                        @lang('TradeLive AI ')<br>
                         @lang('AWARDS')
                     </h3>
                     <p class="lead text-black-50 mt-4">
                         @lang('OUR AWARDS')
                     </p>
                     <p class="small">
-                        @lang('These aren’t ours, these are everyone’s that have supported TradeLive AI since 2001. The reason we have been able to achieve anything is due to the people that joined us in this journey as employees, as clients and as partners.')
+                        @lang('These aren’t ours, these are everyone’s that have supported TradeLive AI  since 2001. The reason we have been able to achieve anything is due to the people that joined us in this journey as employees, as clients and as partners.')
                     </p>
                 </div>
 
                 <div class="col-md-6 d-none d-md-block">
-                    <img src="https://static.TradeLive AI.com/assets/assets/view/awards-masthead-bg.png?1518791401" alt="">
+                    <img src="https://static.TradeLive AI .com/assets/assets/view/awards-masthead-bg.png?1518791401" alt="">
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@
                     <div class="border p-3 text-center rounded">
                         <img src="https://cloud.xm-cdn.com/static/xm/pages/awards/finexpo2022.png" class="img-fluid" alt="">
                         <h5 class="mt-5">
-                            @lang('The Best Crypto TradeLive AI')
+                            @lang('The Best Crypto TradeLive AI ')
                         </h5>
                         <p class="mt-5">
                             @lang('Awarded by Financial Expo Egypt 2023')

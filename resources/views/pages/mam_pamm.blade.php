@@ -19,7 +19,7 @@
     <section class="bg-g">
         <div class="container text-center ">
             <h3>
-                <strong>@lang('Benefits of using MAM/PAMM with TradeLive AI:') </strong>
+                <strong>@lang('Benefits of using MAM/PAMM with TradeLive AI :') </strong>
                 <br>
             </h3>
 
@@ -51,9 +51,9 @@
             <div class="row justify-content-center align-items-center g-2">
                 
                 <div class="col-md-7 padding-start-5-pc">
-                    <p class="text-black-75">@lang('At TradeLive AI, our MAM/PAMM trading tool allows for seamless trading of all managed accounts through a single MetaTrader client end application. This integration ensures maximum reliability and speedy execution for all trades. Our centralized and server-based processing allows for quick and reliable integration, with the ability to trade hundreds of accounts at once with minimal delay in distribution.') </p>
+                    <p class="text-black-75">@lang('At TradeLive AI , our MAM/PAMM trading tool allows for seamless trading of all managed accounts through a single MetaTrader client end application. This integration ensures maximum reliability and speedy execution for all trades. Our centralized and server-based processing allows for quick and reliable integration, with the ability to trade hundreds of accounts at once with minimal delay in distribution.') </p>
                     <h3><br>
-                        <strong>@lang("Advantages of TradeLive AI's MAM/PAMM:") </strong>
+                        <strong>@lang("Advantages of TradeLive AI 's MAM/PAMM:") </strong>
                     </h3>
                     <div class="list-container">
                         <ul>
@@ -96,7 +96,7 @@
                         @lang('MAM/PAMM Account Brokers') 
                     </h2>
                     <p class="small">
-                        @lang("TradeLive AI's MAM/PAMM account brokers allow clients to manage multiple sub-accounts as a single Master Account. This is facilitated by bespoke MAM/PAMM technology, enabling efficient management with reliable and quick execution. Clients benefit from professional portfolio management and convenience through a single platform.") 
+                        @lang("TradeLive AI 's MAM/PAMM account brokers allow clients to manage multiple sub-accounts as a single Master Account. This is facilitated by bespoke MAM/PAMM technology, enabling efficient management with reliable and quick execution. Clients benefit from professional portfolio management and convenience through a single platform.") 
                     </p>
                 </div>
                 

@@ -25,7 +25,7 @@
                         <h3 class="h2 color2">
                             @lang('Have a Question?')<br> @lang('Get in Touch')
                         </h3>
-                        <p class="mt-4 text-white-50">@lang('If you have any questions or enquiries, fill in the form in this section. Alternatively, contact us at partners@TradeLive AI.ae and one of our Account Managers will get back to you soon.')</p>
+                        <p class="mt-4 text-white-50">@lang('If you have any questions or enquiries, fill in the form in this section. Alternatively, contact us at partners@TradeLive AI .ae and one of our Account Managers will get back to you soon.')</p>
                     </div>
                 </div>
                 <div class="col-md-4">

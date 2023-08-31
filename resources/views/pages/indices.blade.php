@@ -1179,7 +1179,7 @@
         [
             'title' => __('Frequently asked questions'),
             'desc' =>
-                __('Here are our most frequently asked questions about trading indices with TradeLive AI.'),
+                __('Here are our most frequently asked questions about trading indices with TradeLive AI .'),
             'items' => [
                 [
                     'title' => __('What are Indices, and how can I trade them?'),

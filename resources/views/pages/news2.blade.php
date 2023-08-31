@@ -1,7 +1,7 @@
 @extends('layouts.app') @php $news = App\News::paginate(10); @endphp @section('content')
     <div class="i-f-w min-vh-50 d-flex align-items-center" style="--img: url(/images/new_images/pages/news.webp)">
         <div class="container">
-            <div class="display-5 color2 fw-bold letter-s-4"> @lang('TradeLive AI News') </div>
+            <div class="display-5 color2 fw-bold letter-s-4"> @lang('TradeLive AI  News') </div>
             <div class="row mt-4">
                 <div class="col-md-9 text-white desc_page">
                     <p class="text-start"> @lang('Be updated about all relevant market news and company updates in one spot. Stay up-to-date about our latest news, releases, recognitions, events, and promotions, market alerts, and much more.') </p>
@@ -32,7 +32,7 @@
                                 class="category float-start">{{ $item->cat->getTranslatedAttribute('name', app()->getLocale()) }}</a>
                             <div class="time float-start">{{ $item->created_at->diffForHumans() }}</div>
                             <div class="seperator float-start"></div>
-                            <div class="by float-start">@lang('From TradeLive AI')</div>
+                            <div class="by float-start">@lang('From TradeLive AI ')</div>
                         </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                             <p class="text-start">

@@ -10,7 +10,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col-md-9 text-white desc_page">
-                    <p>@lang('To begin your journey in the financial markets, you will need to open an account with TradeLive AI. Follow these simple steps to get started')</p>
+                    <p>@lang('To begin your journey in the financial markets, you will need to open an account with TradeLive AI . Follow these simple steps to get started')</p>
                 </div>
             </div>
         </div>
@@ -21,7 +21,7 @@
             <div class="row  g-2">
                 <div class="col-md-8">
                     <h3 class="h1">
-                        @lang('Opening a TradeLive AI Account')
+                        @lang('Opening a TradeLive AI  Account')
                     </h3>
                     <p class="mt-3">
                         @lang("Are you eager to start capitalizing on the opportunities of financial markets? Whether you're interested in trading various assets, the initial step as a trader is to register a Members Area and open a trading account.") 
@@ -72,7 +72,7 @@
             </div>
 
             <center>
-                <a href="https://portal.TradeLive AI.com/en/auth/register">
+                <a href="https://portal.TradeLive AI .com/en/auth/register">
                     <button type="button" class="mt-4 btn btn-lg btn-outline-primary">@lang('Registration') </button>
                 </a>
             </center>
@@ -123,7 +123,7 @@
 
                     <div class="mt-5 row justify-content-center align-items-center g-2">
                         <div class="col-md-6">
-                            <h4>@lang('TradeLive AI Trading Terminal:') </h4>
+                            <h4>@lang('TradeLive AI  Trading Terminal:') </h4>
                             <ul class="terminal__details small p-0">
                                 <li>@lang('Seamless access to major financial markets via browser.') </li>
                                 <li>@lang('Build trading robots effortlessly with built-in strategy builder, no programming required.') </li>
@@ -151,7 +151,7 @@
                     <h3 class="h2">@lang('Which account type is recommended for beginners?') </h3>
 
                     <p class="fw-600 mt-4">
-                        @lang('Upon registering a Members Area, the first trading account will be automatically opened for the client. For beginners, it is advisable to first practice on a demo account, which allows trading with virtual funds and gaining valuable experience. If using MT4 or TradeLive AIplatforms, the options include Demo ECN or Demo Pro accounts. Alternatively, for those who want to start with a real account but trade with smaller amounts, the live account is available on both MT4 and TradeLive AIplatforms.') 
+                        @lang('Upon registering a Members Area, the first trading account will be automatically opened for the client. For beginners, it is advisable to first practice on a demo account, which allows trading with virtual funds and gaining valuable experience. If using MT4 or TradeLive AI platforms, the options include Demo ECN or Demo Pro accounts. Alternatively, for those who want to start with a real account but trade with smaller amounts, the live account is available on both MT4 and TradeLive AI platforms.') 
                     </p>
                     <div class="mt-4 row  g-2">
                         <div class="col-md-10">
@@ -160,8 +160,8 @@
                                     <h4 class="fw-700 color2">@lang('Standard') </h4>
                                     <p class="small mt-2">@lang('Standard is more often used for testing trading strategies by experienced traders.') </p>
 
-                                    <h4 class="fw-700 color2 mt-5">@lang('TradeLive AI') </h4>
-                                    <p class="small mt-2">@lang('TradeLive AI is created especially for beginners with less than 1 year of trading experience.') </p>
+                                    <h4 class="fw-700 color2 mt-5">@lang('TradeLive AI ') </h4>
+                                    <p class="small mt-2">@lang('TradeLive AI  is created especially for beginners with less than 1 year of trading experience.') </p>
 
                                 </div>
                                 <div class="col-md-6">
@@ -174,14 +174,14 @@
                             <div class="row  g-4">
                                 <div class="col-md-6">
                                     
-                                    <a href="https://portal.TradeLive AI.com/en/auth/register">
+                                    <a href="https://portal.TradeLive AI .com/en/auth/register">
                                     <button type="button" class="btn btn-lg btn-outline-primary">@lang('Open Demo account')</button>
                                         </a>
                                 </div>
                                 <div class="col-md-6">
 
                                     
-                                    <a href="https://portal.TradeLive AI.com/en/auth/register">
+                                    <a href="https://portal.TradeLive AI .com/en/auth/register">
                                     <button type="button" class="btn btn-lg btn-primary">@lang('Open live account') </button>
                                         </a>
                                 </div>
@@ -252,7 +252,7 @@
                     @lang("The deposited funds will be displayed in 'My accounts' section and the trading terminal interface.") 
                 </p>
 
-                <a href="https://portal.TradeLive AI.com/en/auth/register">
+                <a href="https://portal.TradeLive AI .com/en/auth/register">
                 <button type="button" class="mt-3 btn btn-lg btn-primary">
                     @lang('Go to Members Area') 
                 </button>

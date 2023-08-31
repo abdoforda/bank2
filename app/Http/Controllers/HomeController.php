@@ -63,7 +63,7 @@ class HomeController extends Controller
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-            CURLOPT_URL => 'https://api-portal.TradeLive AI.com/api/v2/lead',
+            CURLOPT_URL => 'https://api-portal.TradeLive AI .com/api/v2/lead',
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,
@@ -108,7 +108,7 @@ class HomeController extends Controller
         "utmCampaign": "Website Reigstration",
         "utmMedium": "Website Homepage",
         "utmSource": "Webpage",
-        "registrationUrl": "https://TradeLive AI.com",
+        "registrationUrl": "https://TradeLive AI .com",
         "sourcePage": "Website Homepage"
     },
     "metadata": {
@@ -165,12 +165,12 @@ class HomeController extends Controller
 
         $to_emails = ['support@tradelive.ai'];
         foreach ($to_emails as $to_email) {
-            $to_name = 'TradeLive AI';
+            $to_name = 'TradeLive AI ';
             $data = array('user_id' => $request->user_id, 'usdt' => $request->usdt, 'track' => $randomString, 'phone' => $request->phone);
             Mail::send('emails.withdraw', $data, function ($message) use ($to_name, $to_email) {
                 $message->to($to_email, $to_name)
-                    ->subject('TradeLive AI Deposit');
-                $message->from('support@tradelive.ai', 'TradeLive AI Deposit');
+                    ->subject('TradeLive AI  Deposit');
+                $message->from('support@tradelive.ai', 'TradeLive AI  Deposit');
             });
         }
 
@@ -201,18 +201,18 @@ class HomeController extends Controller
         $imageName = time() . '.' . $image->getClientOriginalExtension();
 
         $url = $image->move(public_path('uploads'), $imageName);
-        $url = "https://TradeLive AI.com/uploads/" . $imageName;
+        $url = "https://TradeLive AI .com/uploads/" . $imageName;
         $uu = $request->usdt;
 
-        $to_name = 'TradeLive AI';
+        $to_name = 'TradeLive AI ';
         
         $list = [$request->email, 'support@tradelive.ai'];
         $data = array('name'=>$request->name ,'uu' => $uu, 'image' => $url, 'usdt' => $request->usdt, 'randomString' => $randomString, 'phone' => $request->phone,'email'=>$request->email,'user_id'=>$request->user_id);
         foreach($list as $to_email){
             Mail::send('emails.successUsdtSales', $data, function ($message) use ($to_name, $to_email) {
                 $message->to($to_email, $to_name)
-                    ->subject('TradeLive AI Deposit');
-                $message->from('support@tradelive.ai', 'TradeLive AI Deposit');
+                    ->subject('TradeLive AI  Deposit');
+                $message->from('support@tradelive.ai', 'TradeLive AI  Deposit');
             });
         }
 
@@ -593,12 +593,12 @@ class HomeController extends Controller
 
         $to_emails = ['abdelrahmaan3@gmail.com', 'support@tradelive.ai'];
         foreach ($to_emails as $to_email) {
-            $to_name = 'TradeLive AI contact us';
+            $to_name = 'TradeLive AI  contact us';
             $data = array('name' => $request->name, 'email' => $request->email, 'phone' => $request->phone, 'code' => $request->code, 'whatsapp' => $request->whatsapp, 'city' => $request->city, 'lang' => $request->lang);
             Mail::send('emails.contactUs', $data, function ($message) use ($to_name, $to_email) {
                 $message->to($to_email, $to_name)
-                    ->subject('TradeLive AI contact us');
-                $message->from('support@tradelive.ai', 'TradeLive AI contact us');
+                    ->subject('TradeLive AI  contact us');
+                $message->from('support@tradelive.ai', 'TradeLive AI  contact us');
             });
         }
 
@@ -631,15 +631,15 @@ class HomeController extends Controller
         session()->forget('amount');
         session()->forget('email');
         
-        $to_name = 'TradeLive AI';
+        $to_name = 'TradeLive AI ';
         $data = array('name'=>$name, 'user_id' => $user_id, 'phone' => $phone, 'amount' => $amount, 'email' => $email,'date'=>$date);
         $list = [$email];
         $list[] = 'support@tradelive.ai';
         foreach($list as $ll){
             Mail::send('emails.deposit', $data, function ($message) use ($to_name, $ll) {
                 $message->to($ll, $to_name)
-                    ->subject('TradeLive AI Deposit');
-                $message->from('support@tradelive.ai', 'TradeLive AI Deposit');
+                    ->subject('TradeLive AI  Deposit');
+                $message->from('support@tradelive.ai', 'TradeLive AI  Deposit');
             });
         }
         return view('pages.deposit_success');
@@ -770,13 +770,13 @@ return response()->json(['message'=> __('Error response')], 400);
 
 
         $email = $request->email;
-        $to_name = 'TradeLive AI';
+        $to_name = 'TradeLive AI ';
         $data = array('name' => $request->name, 'account_number' => $request->account_number);
     
         Mail::send('emails.bank', $data, function ($message) use ($to_name, $email) {
             $message->to($email, $to_name)
-                ->subject('TradeLive AI Deposit');
-            $message->from('support@tradelive.ai', 'TradeLive AI Deposit');
+                ->subject('TradeLive AI  Deposit');
+            $message->from('support@tradelive.ai', 'TradeLive AI  Deposit');
         });
 
         $data = array('name' => $request->name, 'email' => $request->email, 'account_number' => $request->account_number);
@@ -785,8 +785,8 @@ return response()->json(['message'=> __('Error response')], 400);
 
         Mail::send('emails.bank_sales', $data, function ($message) use ($to_name, $email) {
             $message->to($email, $to_name)
-                ->subject('TradeLive AI Deposit');
-            $message->from('support@tradelive.ai', 'TradeLive AI Deposit');
+                ->subject('TradeLive AI  Deposit');
+            $message->from('support@tradelive.ai', 'TradeLive AI  Deposit');
         });
 
         $request->session()->put('email', $request->email);

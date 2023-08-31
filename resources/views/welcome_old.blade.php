@@ -51,17 +51,17 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col">
-                                            <h5>TradeLive AI</h5>
+                                            <h5>TradeLive AI </h5>
                                             <ul class="ul01">
                                                 <li>
-                                                    <a class="dropdown-item" href="#">About TradeLive AI</a>
+                                                    <a class="dropdown-item" href="#">About TradeLive AI </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="#">
-                                                        TradeLive AI News</a>
+                                                        TradeLive AI  News</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">Why TradeLive AI</a>
+                                                    <a class="dropdown-item" href="#">Why TradeLive AI </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="#">Trading With us</a>
@@ -97,7 +97,7 @@
                                                         Exhibitions</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">TradeLive AI in
+                                                    <a class="dropdown-item" href="#">TradeLive AI  in
                                                         Media</a>
                                                 </li>
                                             </ul>
@@ -176,7 +176,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">TradeLive AI Account
+                                                    <a class="dropdown-item" href="#">TradeLive AI  Account
                                                     </a>
                                                 </li>
                                                 <li>
@@ -218,7 +218,7 @@
                                             <h5>Trading Platforms</h5>
                                             <ul class="ul01">
                                                 <li>
-                                                    <a class="dropdown-item" href="#">TradeLive AI Trader</a>
+                                                    <a class="dropdown-item" href="#">TradeLive AI  Trader</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="#">Mobile Trader
@@ -229,7 +229,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">TradeLive AI App
+                                                    <a class="dropdown-item" href="#">TradeLive AI  App
                                                     </a>
                                                 </li>
                                                 <li>
@@ -237,7 +237,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">TradeLive AI</a>
+                                                    <a class="dropdown-item" href="#">TradeLive AI </a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -320,7 +320,7 @@
                                                     <a class="dropdown-item" href="#">Advanced guide</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">TradeLive AI FAQ</a>
+                                                    <a class="dropdown-item" href="#">TradeLive AI  FAQ</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -491,8 +491,8 @@
                 <div class="row">
                     <div class="col-xl-8 col-md-6 col-sm-12 col-xs-12 text-center text-md-start fw-bold">
                         <div class="title-section01 display-6 d-none">
-                            Elevate your investment experience with TradeLive AI
-                            Elevate your investment experience with TradeLive AI
+                            Elevate your investment experience with TradeLive AI 
+                            Elevate your investment experience with TradeLive AI 
                             <br />
                             <p>We Make Investments Foster - Bringing You The Most Innovative And Robust unique Solutions
                                 For All Your Financial Needs</p>
@@ -2044,7 +2044,7 @@
                                                 Limited number of offers
                                             </li>
                                             <li class="account__terminals">
-                                                MT4, TradeLive AI, WebTrader
+                                                MT4, TradeLive AI , WebTrader
                                             </li>
                                         </ul>
 
@@ -2061,7 +2061,7 @@
                                                    
                                                 </h6>
                                                 <span class="account__sticker sticker sticker_green"><b
-                                                        class="sticker__text">TradeLive AI Account</b></span>
+                                                        class="sticker__text">TradeLive AI  Account</b></span>
                                             </div>
                                             <div class="account__desc text-black-50">
                                                 <p class="small">
@@ -2092,7 +2092,7 @@
                                                 Limited number of offers
                                             </li>
                                             <li class="account__terminals">
-                                                MT4, TradeLive AI, WebTrader
+                                                MT4, TradeLive AI , WebTrader
                                             </li>
                                         </ul>
                                         <div class="text-center">
@@ -2139,7 +2139,7 @@
                                                 Limited number of offers
                                             </li>
                                             <li class="account__terminals">
-                                                MT4, TradeLive AI, WebTrader
+                                                MT4, TradeLive AI , WebTrader
                                             </li>
                                         </ul>
                                         <div class="text-center">
@@ -2186,7 +2186,7 @@
                                                 Limited number of offers
                                             </li>
                                             <li class="account__terminals">
-                                                MT4, TradeLive AI, WebTrader
+                                                MT4, TradeLive AI , WebTrader
                                             </li>
                                         </ul>
                                         <div class="text-center">
@@ -2306,7 +2306,7 @@
                                 <div class="custom-height">
                                     <div class="d-flex align-items-center">
                                         <h4 class="h4-black my-4">
-                                            TradeLive AIPlatforms
+                                            TradeLive AI Platforms
                                         </h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center justify-content-lg-start">
@@ -2350,7 +2350,7 @@
                                 <div class="custom-height">
                                     <div class="d-flex align-items-center">
                                         <h4 class="h4-black my-4">
-                                            TradeLive AI Platform
+                                            TradeLive AI  Platform
                                         </h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center justify-content-lg-start">
@@ -2394,7 +2394,7 @@
                                 <div class="custom-height">
                                     <div class="d-flex align-items-center">
                                         <h4 class="h4-black my-4">
-                                            TradeLive AI App
+                                            TradeLive AI  App
                                         </h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center justify-content-lg-start">
@@ -2847,22 +2847,22 @@
                     <div class="col-lg-2 col-md-3 col-sm-6 mt-3">
                         <ul>
                             <li>
-                                <strong>TradeLive AIPlatforms</strong>
+                                <strong>TradeLive AI Platforms</strong>
                                 <div class="dis5"></div>
                             </li>
                             <li>
                                 <a href="https://www.xmarabia.net/mt5">
-                                    TradeLive AIfor PC
+                                    TradeLive AI for PC
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.xmarabia.net/mt5-mac">
-                                    TradeLive AIfor Mac
+                                    TradeLive AI for Mac
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.xmarabia.net/mt5-webtrader">
-                                    TradeLive AIWebTrader
+                                    TradeLive AI WebTrader
                                 </a>
                             </li>
                             <!--<li>
@@ -2871,12 +2871,12 @@
                         </li>-->
                             <li>
                                 <a href="https://www.xmarabia.net/mt5-android">
-                                    TradeLive AIfor Android
+                                    TradeLive AI for Android
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.xmarabia.net/mt5-android-tablet">
-                                    TradeLive AIfor Android Tablet
+                                    TradeLive AI for Android Tablet
                                 </a>
                             </li>
                         </ul>
@@ -2966,7 +2966,7 @@
                         <p>
                             We, Euro-Caribbean Trustees Ltd., of Kingstown,
                             St. Vincent &amp; the Grenadines, being the duly
-                            appointed Registered Agent of TradeLive AI
+                            appointed Registered Agent of TradeLive AI 
                             Investment LLC hereby confirm that as at the
                             date of this Certificate:<br />
                         </p>
@@ -3010,9 +3010,9 @@
                             minimise their level of exposure by requesting a
                             change in leverage limit. The legal documents
                             should be revised before entering into
-                            transactions with TradeLive AIs Ltd.
+                            transactions with TradeLive AI s Ltd.
                             Clients must be at least 18 years old to use the
-                            services of TradeLive AIs Ltd.
+                            services of TradeLive AI s Ltd.
                         </p>
 
                         <div class="titlemax mb-0 mt-3">
@@ -3025,15 +3025,15 @@
                             for information purposes only and it should not
                             be regarded as advice nor as a recommendation to
                             buy, sell or otherwise deal with any particular
-                            currency or precious metal trade. TradeLive AI
+                            currency or precious metal trade. TradeLive AI 
                             hereby disclaims responsibility for any
                             information or materials posted at any of the
-                            sites linked to this site. TradeLive AIs
+                            sites linked to this site. TradeLive AI s
                             Ltd does not endorse or recommend any products
                             or services offered on that website. Clients
                             carry the sole responsibility for all
                             transactions or investments carried out at
-                            TradeLive AI.
+                            TradeLive AI .
                         </p>
                     </div>
                 </div>

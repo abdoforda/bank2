@@ -70,7 +70,7 @@
                 <div class="app-brand demo">
                     <a href="{{ route('panel.index', app()->getLocale()) }}" class="app-brand-link" style="margin: auto">
                         <img src="{{ Voyager::image(setting('site.logo_blue')) }}" height="44" width="153"
-                            alt="TradeLive AI">
+                            alt="TradeLive AI ">
                     </a>
                 </div>
 
@@ -247,7 +247,7 @@
                             <div
                                 class="footer-container d-flex align-items-center justify-content-between py-2 flex-md-row flex-column">
                                 <div>
-                                    All copyrights reserved to © TradeLive AI
+                                    All copyrights reserved to © TradeLive AI 
                                     <script>
                                         document.write(new Date().getFullYear());
                                     </script>

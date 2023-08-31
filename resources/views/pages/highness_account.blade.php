@@ -6,11 +6,11 @@
     style="--img: url(/images/new_images/pages/tradeLiveaccount.webp)">
         <div class="container">
             <div class="display-5 color2 fw-bold letter-s-4">
-                @lang('TradeLive AI Account')
+                @lang('TradeLive AI  Account')
             </div>
              <div class="row mt-4">
             <div class="col-md-9 text-white desc_page">
-                <p>@lang('TradeLive AI account is an intermediate level account offered by TradeLive AI. This type of account typically requires a higher initial deposit than the standard account and it provides additional trading tools and features. These may include personalized customer support, access to educational resources, advanced charting capabilities, and faster trade execution. TradeLive AI account usually offers lower trading costs than the premium account, which makes it suitable for more experienced traders who are looking to improve their trading skills.')</p>
+                <p>@lang('TradeLive AI  account is an intermediate level account offered by TradeLive AI . This type of account typically requires a higher initial deposit than the standard account and it provides additional trading tools and features. These may include personalized customer support, access to educational resources, advanced charting capabilities, and faster trade execution. TradeLive AI  account usually offers lower trading costs than the premium account, which makes it suitable for more experienced traders who are looking to improve their trading skills.')</p>
             </div>
         </div>
         </div>
@@ -35,7 +35,7 @@
 
                                 <div class="col">
                                     <div class="account_title">
-                                        @lang('TradeLive AI Account')
+                                        @lang('TradeLive AI  Account')
                                     </div>
                                 </div>
 
@@ -69,7 +69,7 @@
                                     </div>
                                     <div class="row justify-content-center align-items-center g-2">
                                         <div class="col col-5 text-center fw-700 border-bottom">@lang('Platforms')</div>
-                                        <div class="col col-7 border-bottom bg-g">@lang('TradeLive AI| TradeLive AI trader')</div>
+                                        <div class="col col-7 border-bottom bg-g">@lang('TradeLive AI | TradeLive AI  trader')</div>
                                     </div>
                                     <div class="row justify-content-center align-items-center g-2">
                                         <div class="col col-5 text-center fw-700 border-bottom">@lang('Stop out')</div>
@@ -98,14 +98,14 @@
     <section>
         <div class="container text-center">
             <h3>
-                @lang('Switch to TradeLive AI')
+                @lang('Switch to TradeLive AI ')
             </h3>
 
             <div class="mt-1 row justify-content-center align-items-center g-4">
                 <div class="col-md-4 col-sm-6 col-12">
                     <img style=" height: 64px; " src="/images/new_images/icons/Over 15 years of experience.png" />
                     <h5 class="fw-600 mt-2">@lang('Over 13 years of experience') </h5>
-                    <p class="text-white-50">@lang('TradeLive AI is among the most significant foreign exchange and CFD brokers worldwide, and it is listed on the stock exchange.') 
+                    <p class="text-white-50">@lang('TradeLive AI  is among the most significant foreign exchange and CFD brokers worldwide, and it is listed on the stock exchange.') 
                     </p>
                 </div>
                 <div class="col-md-4 col-sm-6 col-12">
@@ -130,7 +130,7 @@
                 <div class="col-md-6">
                     <h3 class="fw-bold">@lang('How to open a trading account') </h3>
                     <p class="lead mt-3">@lang('Follow this step-by-step guide to learn how to open your trading account.')</p>
-                    <a href="https://portal.TradeLive AI.com/en/auth/register">
+                    <a href="https://portal.TradeLive AI .com/en/auth/register">
                         <button type="button" class="btn mt-4 btn-lg btn-outline-primary">@lang('Start Trading')</button>
                     </a>
                     

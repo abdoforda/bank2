@@ -35,7 +35,7 @@
 
                         <h4 class="text-center">
                             Enjoy The Benefits Of
-                            Becoming an <br>TradeLive AI
+                            Becoming an <br>TradeLive AI 
                         </h4>
 
                         <br>
@@ -637,7 +637,7 @@
                             </div>
     
                             <div class="text-center">
-                                <p class="mb-0">Already registered? Then <a href="https://portal.TradeLive AI.com/en/auth/login"
+                                <p class="mb-0">Already registered? Then <a href="https://portal.TradeLive AI .com/en/auth/login"
                                         class="text-primary">Login</a></p>
                             </div>
     

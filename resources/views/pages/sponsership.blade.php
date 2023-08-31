@@ -20,15 +20,15 @@
             <div class="row justify-content-center align-items-center g-2">
                 <div class="col-md-6">
                     <h3 class="display-4 fw-bold">
-                        @lang('TradeLive AI')<br><span class="color2">@lang('SPONSORSHIPS')</span> &<br>@lang('ENDORSEMENTS')
+                        @lang('TradeLive AI ')<br><span class="color2">@lang('SPONSORSHIPS')</span> &<br>@lang('ENDORSEMENTS')
                     </h3>
                     <p class="text-black-50 mt-5">
                         @lang('TOGETHER WE SUCCEED!')
                     </p>
-                    <p class="small">@lang('TradeLive AI takes pride in bringing CFD trading to anyone that is interested in entering multiple markets across the globe. Our sponsorships create mutually beneficial relationships between our partners and us. Our sponsorship partners are chosen because of our shared values, dedication to the people that support us, and a high level of integrity in what we do.')</p>
+                    <p class="small">@lang('TradeLive AI  takes pride in bringing CFD trading to anyone that is interested in entering multiple markets across the globe. Our sponsorships create mutually beneficial relationships between our partners and us. Our sponsorship partners are chosen because of our shared values, dedication to the people that support us, and a high level of integrity in what we do.')</p>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img src="https://static.TradeLive AI.com/assets/assets/view/eM_Sponsorship_main_img.png?1594628778"
+                    <img src="https://static.TradeLive AI .com/assets/assets/view/eM_Sponsorship_main_img.png?1594628778"
                         class="img-fluid" style="max-width: 260px;" alt="">
                 </div>
             </div>
@@ -36,7 +36,7 @@
     </section>
 
     <section class="pt-5 pb-5"
-        style="background-image: url(https://TradeLive AI.com/uploads/pages/about/activity/sponsorship/images/new/kulebin-bg.webp);
+        style="background-image: url(https://TradeLive AI .com/uploads/pages/about/activity/sponsorship/images/new/kulebin-bg.webp);
     background-size: cover;
     ">
         <div class="container ">
@@ -51,7 +51,7 @@
                     <p class="lead fw-600 fs-3">
                         @lang('Muay Thai fighter and')<br>@lang('coach Andrei Kulebin')
                     </p>
-                    <p class="small">@lang('TradeLive AI is the official sponsor of a successful Belarusian Muay Thai fighter and coach Andrei Kulebin. Kulebin has more than 200 wins; he is a many-time Thai boxing world champion and an Honored Master of Sports of Belarus.')</p>
+                    <p class="small">@lang('TradeLive AI  is the official sponsor of a successful Belarusian Muay Thai fighter and coach Andrei Kulebin. Kulebin has more than 200 wins; he is a many-time Thai boxing world champion and an Honored Master of Sports of Belarus.')</p>
 
                     <div class="row justify-content-center align-items-center g-2">
                         <div class="col">

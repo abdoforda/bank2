@@ -25,10 +25,10 @@
             <div class="row justify-content-center align-items-center g-2">
                 <div class="col-md-4 text-white">
                     <h3 class="h2">
-                        @lang('TradeLive AI Launches Global Trading Race')
+                        @lang('TradeLive AI  Launches Global Trading Race')
                     </h3>
                     <p class="mt-4">
-                        @lang('TradeLive AI has announced the launch of a Global Trading Competition with a prize pool of $500,000 for 33 winners in 3 rounds.*')
+                        @lang('TradeLive AI  has announced the launch of a Global Trading Competition with a prize pool of $500,000 for 33 winners in 3 rounds.*')
                     </p>
                     <button type="button" class="btn btn-outline-primary mt-1">@lang('Read More') </button>
                     <p class="mt-4">

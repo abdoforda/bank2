@@ -5,17 +5,17 @@
     <div class="i-f-w min-vh-50 d-flex align-items-center" style="--img: url(/images/new_images/pages/cpa_affiliate.webp)">
         <div class="container">
             <div class="display-5 color2 fw-bold letter-s-4">
-                @lang('TradeLive AI Affiliate Program')
+                @lang('TradeLive AI  Affiliate Program')
             </div>
             <div class="row mt-4">
                 <div class="col-md-9 text-white desc_page">
-                    <p>@lang('Become an TradeLive AI Affiliate and earn up to $1200 per qualified trader.')</p>
+                    <p>@lang('Become an TradeLive AI  Affiliate and earn up to $1200 per qualified trader.')</p>
                 </div>
             </div>
 
-            <a href="https://portal.TradeLive AI.com/en/auth/register"><button type="button" class="btn btn-primary">@lang('Open Account')</button></a>
+            <a href="https://portal.TradeLive AI .com/en/auth/register"><button type="button" class="btn btn-primary">@lang('Open Account')</button></a>
             &nbsp;
-            <a href="https://portal.TradeLive AI.com/en/auth/login">
+            <a href="https://portal.TradeLive AI .com/en/auth/login">
                 <button type="button" class="btn btn-outline-success">@lang('Free Demo')</button>
             </a>
 
@@ -144,7 +144,7 @@
     <section class="bg-g">
         <div class="container text-center">
             <h3>@lang('GET STARTED NOW') </h3>
-            <p>@lang("Grow your business with TradeLive AI Partners' Affiliate Program") </p>
+            <p>@lang("Grow your business with TradeLive AI  Partners' Affiliate Program") </p>
             <div class="row justify-content-center mt-5 g-2">
                 <div class="col">
                     <img src="/images/new_images/icons/step1.svg" height="100" alt="">
@@ -163,7 +163,7 @@
                 </div>
             </div>
 
-            <a href="https://portal.TradeLive AI.com/en/auth/register">
+            <a href="https://portal.TradeLive AI .com/en/auth/register">
                 <button type="button" class="mt-5 btn btn-outline-primary">@lang('Become an affiliate today')</button>
             </a>
 
@@ -183,12 +183,12 @@
 
                 <a class="ask_click" data-bs-toggle="collapse" href="#what_is_forex_trading" role="button"
                     aria-expanded="false" aria-controls="what_is_forex_trading">
-                    @lang('How does the TradeLive AI Affiliate Program work?')
+                    @lang('How does the TradeLive AI  Affiliate Program work?')
                 </a>
 
                 <div class="collapse multi-collapse" id="what_is_forex_trading">
                     <div class="p-3">
-                        <p>@lang('The TradeLive AI Affiliate Program allows individuals or businesses to earn commissions by referring new clients to TradeLive AI. Affiliates receive a unique tracking link and promotional materials to share with their audience. When someone clicks on the affiliate link and becomes a TradeLive AI client, the affiliate earns a commission.') </p>
+                        <p>@lang('The TradeLive AI  Affiliate Program allows individuals or businesses to earn commissions by referring new clients to TradeLive AI . Affiliates receive a unique tracking link and promotional materials to share with their audience. When someone clicks on the affiliate link and becomes a TradeLive AI  client, the affiliate earns a commission.') </p>
                     </div>
                 </div>
             </div>
@@ -197,13 +197,13 @@
 
                 <a class="ask_click" data-bs-toggle="collapse" href="#how_does_forex_trading_work" role="button"
                     aria-expanded="false" aria-controls="how_does_forex_trading_work">
-                    @lang('What are the benefits of joining the TradeLive AI Affiliate Program?')
+                    @lang('What are the benefits of joining the TradeLive AI  Affiliate Program?')
                 </a>
 
                 <div class="collapse multi-collapse" id="how_does_forex_trading_work">
                     <div class="p-3">
                         <div class="panel-body gray">
-                            <p>@lang('By joining the TradeLive AI Affiliate Program, you can earn competitive commissions for every referred client who engages in trading activities. Additionally, you\'ll have access to marketing materials, reporting tools, and dedicated support to help you maximize your affiliate earnings.') </p>
+                            <p>@lang('By joining the TradeLive AI  Affiliate Program, you can earn competitive commissions for every referred client who engages in trading activities. Additionally, you\'ll have access to marketing materials, reporting tools, and dedicated support to help you maximize your affiliate earnings.') </p>
                             </div>
                     </div>
                 </div>
@@ -213,13 +213,13 @@
 
                 <a class="ask_click" data-bs-toggle="collapse" href="#what_influences_prices_in_forex_trading"
                     role="button" aria-expanded="false" aria-controls="what_influences_prices_in_forex_trading">
-                    @lang('How can I become an affiliate for TradeLive AI?')
+                    @lang('How can I become an affiliate for TradeLive AI ?')
                 </a>
 
                 <div class="collapse multi-collapse" id="what_influences_prices_in_forex_trading">
                     <div class="p-3">
                         <div class="panel-body gray">
-                            <p>@lang('To become an affiliate for TradeLive AI, you need to sign up through the affiliate registration process. After submitting your application, it will be reviewed by the TradeLive AI team. Once approved, you will receive your affiliate account details and access to the affiliate dashboard.') </p>
+                            <p>@lang('To become an affiliate for TradeLive AI , you need to sign up through the affiliate registration process. After submitting your application, it will be reviewed by the TradeLive AI  team. Once approved, you will receive your affiliate account details and access to the affiliate dashboard.') </p>
                             </div>
                     </div>
                 </div>
@@ -235,7 +235,7 @@
                 <div class="collapse multi-collapse" id="what_is_forex_trading_software">
                     <div class="p-3">
                         <div class="panel-body gray">
-                            <p>@lang('Affiliate commissions are typically calculated based on the trading activity of the referred clients. The specific commission structure may vary depending on the terms of the affiliate program. Commissions are usually paid out on a regular basis, such as monthly or weekly, and can be withdrawn via various payment methods supported by TradeLive AI.') </p>
+                            <p>@lang('Affiliate commissions are typically calculated based on the trading activity of the referred clients. The specific commission structure may vary depending on the terms of the affiliate program. Commissions are usually paid out on a regular basis, such as monthly or weekly, and can be withdrawn via various payment methods supported by TradeLive AI .') </p>
                         </div>  
                     </div>
                 </div>
@@ -245,13 +245,13 @@
 
                 <a class="ask_click" data-bs-toggle="collapse" href="#who_are_forex_trading_market_participants"
                     role="button" aria-expanded="false" aria-controls="who_are_forex_trading_market_participants">
-                    @lang('Can I promote TradeLive AI through multiple marketing channels?')
+                    @lang('Can I promote TradeLive AI  through multiple marketing channels?')
                 </a>
 
                 <div class="collapse multi-collapse" id="who_are_forex_trading_market_participants">
                     <div class="p-3">
                         <div class="panel-body gray">
-                            <p>@lang('Yes, as an affiliate, you can promote TradeLive AI through multiple marketing channels such as websites, blogs, social media, email marketing, and more. However, it\'s important to adhere to the guidelines and policies outlined in the affiliate agreement to ensure ethical and compliant promotional activities.') </p>
+                            <p>@lang('Yes, as an affiliate, you can promote TradeLive AI  through multiple marketing channels such as websites, blogs, social media, email marketing, and more. However, it\'s important to adhere to the guidelines and policies outlined in the affiliate agreement to ensure ethical and compliant promotional activities.') </p>
                             </div>
                     </div>
                 </div>
