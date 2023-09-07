@@ -5,14 +5,13 @@
     <div class="i-f-w min-vh-50 d-flex align-items-center" style="--img: url(/images/new_images/pages/metaTrader_5.webp)">
         <div class="container">
             <div class="display-5 color2 fw-bold mt-4" style="letter-spacing: 4px;">
-                @lang('TradeLive AI FOR All Devices')
+                @lang('TradeLive AI All Devices')
             </div>
             <div class="row mt-4">
                 <div class="col-md-9 text-white desc_page">
                     <p class="lead">@lang('TradeLive AI  is a comprehensive trading platform suitable for both novice and experienced traders. It offers advanced analytics, automated trading capabilities, and the ability to trade through multiple asset classes. The platform also provides real-time market data, customizable trading preferences, and a community of traders to share ideas with.')</p>
                     <a href="https://download.mql5.com/cdn/web/22146/mt5/TradeLive AI estment5setup.exe"><button type="button" class="btn btn-lg btn-outline-primary transition mb-4">
-                        @lang('Download')
-                        <i class="fa-solid fa-download hvr-wobble-vertical"></i>
+                        @lang('TradeLive Now')
                     </button></a>
                 </div>
             </div>
