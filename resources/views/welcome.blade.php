@@ -6,7 +6,7 @@
     <div class="col">
         <div class="signals">
             <center>
-                <h1 class="text-white iq-mb-20">Free Forex Signals</h1>
+                <h1 class="text-white iq-mb-20">TradeLive AI Forecasts</h1>
             </center>
             @foreach ($signals as $item)
                 {!! $item !!}

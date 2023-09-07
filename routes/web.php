@@ -91,7 +91,7 @@ Route::prefix('{lang?}')->middleware('locale')->group(function () {
     Route::get('premium_account',       [HomeController::class, "premium_account"])->name('premium_account');
 
     //navbar > Trading > Trading Platforms
-    Route::get("metaTrader_5",          [HomeController::class, "metaTrader_5"])->name("metaTrader_5");
+    Route::get("TradeLiveAi",          [HomeController::class, "metaTrader_5"])->name("metaTrader_5");
     Route::get("tradeLive_ios",          [HomeController::class, "tradeLive_ios"])->name("tradeLive_ios");
     Route::get("tradeLive_android",      [HomeController::class, "tradeLive_android"])->name("tradeLive_android");
     
