@@ -122,7 +122,8 @@
                     @lang('Locate on Google Maps')
                 </h2>
             </center>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116291.72898652013!2d54.51287461956678!3d24.377249287543986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e4724773662f7%3A0xc3e57ade689f9c02!2sMazyad%20Mall!5e0!3m2!1sen!2seg!4v1686746365411!5m2!1sen!2seg" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.5042237325247!2d55.20467117425621!3d25.118638534880308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6bc1af8e1daf%3A0x6388c09f82918589!2sThe%20Iridium%20Building!5e0!3m2!1sen!2seg!4v1694076266334!5m2!1sen!2seg" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           
         </div>
     </section>
 
