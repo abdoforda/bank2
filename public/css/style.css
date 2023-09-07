@@ -856,7 +856,7 @@ footer{color:#888;}
 .links-footer ul a{text-decoration:none;color:#ddd;font-weight:300;}
 .links-footer ul a:hover{color:#e9e9e9;}
 .titlemax{color:#bbb;font-size:0.8rem;}
-.desk-footer p{margin:0;}
+.desk-footer p{margin:0; line-height: 18px;}
 @media (max-width: 767.98px){
 .social-icons{display:table;margin:auto;}
 .img06{margin:0px 6px;}
@@ -864,6 +864,9 @@ footer{color:#888;}
 
 footer p{
   color: #a7a7a7;
+}
+footer ul li {
+  margin-bottom: -5px;
 }
 :root{
   --color-green:#f9b707;
