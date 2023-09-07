@@ -5,7 +5,7 @@
     <div class="i-f-w min-vh-50 d-flex align-items-center" style="--img: url(/images/new_images/pages/metaTrader_5.webp)">
         <div class="container">
             <div class="display-5 color2 fw-bold mt-4" style="letter-spacing: 4px;">
-                @lang('TradeLive AI All Devices')
+                @lang('TradeLive AI for All Devices')
             </div>
             <div class="row mt-4">
                 <div class="col-md-9 text-white desc_page">
