@@ -591,7 +591,6 @@ document.addEventListener('DOMContentLoaded', render_ago);
                 <div class="col-12 pt-3 pb-0">
                     <div class="row">
                         <div class="col-sm-8 d-flex align-items-center img_in_footer text-center text-sm-start overflow-auto">
-                            <img class="m-2" src="https://cloud.xm-cdn.com/assets/img/common/logo/meta-quotes.png?v1.1" width="136" height="26" alt="metaquotes">
                             <img class="m-2" src="/images/shap/icon-site.png" height="26" alt="metaquotes">
                             <img class="m-2" src="/images/shap/trustpilot.png" height="28" alt="metaquotes">
                         </div>
