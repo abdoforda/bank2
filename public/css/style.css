@@ -863,6 +863,7 @@ footer{color:#888;}
 }
 footer ol li {
   line-height: 20px;
+  list-style: disc !important;
 }
 footer p{
   color: #a7a7a7;
