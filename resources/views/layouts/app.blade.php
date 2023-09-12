@@ -476,6 +476,69 @@ document.addEventListener('DOMContentLoaded', render_ago);
                     <div class="col-lg-2 col-md-3 col-sm-6 col-6 mt-3">
                         <ul>
                             <li>
+                                <strong>Technology</strong>
+                                <div class="dis5"></div>
+                            </li>
+                            <li><a href="/financial_news">Financial News</a></li>
+                            <li><a href="/technical_analysis_articles">Analysis Articles</a></li>
+                            <li><a href="/technical_analysis_videos">Analysis Videos</a></li>
+                            <li><a href="/webinars">Webinars</a></li>
+                        </ul>
+                    </div>
+
+                    
+
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 mt-3">
+                        <ul>
+                            <li>
+                                <strong>Markets</strong>
+                                <div class="dis5"></div>
+                            </li>
+                            <li><a href="/forex">Forex</a></li>
+                            <li><a href="/indices">Indices</a></li>
+                            <li><a href="/commodities">Commodities</a></li>
+                            <li><a href="/metals">Metals</a></li>
+                            <li><a href="/cryptocurrencies">Crypto</a></li>
+                            <li><a href="/shares">Share</a></li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 mt-3">
+                        <ul>
+                            <li>
+                                <strong>Trading</strong>
+                                <div class="dis5"></div>
+                            </li>
+                            <li><a href="/TradeLiveAi">TradeLive AI</a></li>
+                            <li><a href="/tradeLive_ios">TradeLive AI IOS</a></li>
+                            <li><a href="/tradeLive_android">TradeLive AI Android</a></li>
+                            <li><a href="/deposit_withdrawal_methods">Deposit & Withdrawal Methods</a></li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 mt-3">
+                        <ul>
+                            <li>
+                                <strong>Partnership</strong>
+                                <div class="dis5"></div>
+                            </li>
+                            <li><a href="#aaaaaaaaaaaaa">Introducing Brokers</a></li>
+                            <li><a href="/cpa_affiliate">Affiliate Program</a></li>
+                            <li><a href="/ib_commission">IB Commission</a></li>
+                            <li><a href="/white_label">White label</a></li>
+
+
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 mt-3">
+                        <ul>
+                            <li>
                                 <strong>TradeLive AI </strong>
                                 <div class="dis5"></div>
                             </li>
@@ -508,76 +571,13 @@ document.addEventListener('DOMContentLoaded', render_ago);
                     <div class="col-lg-2 col-md-3 col-sm-6 col-6 mt-3">
                         <ul>
                             <li>
-                                <strong>Markets</strong>
+                                <strong>Regulation</strong>
                                 <div class="dis5"></div>
                             </li>
-                            <li><a href="/forex">Forex</a></li>
-                            <li><a href="/indices">Indices</a></li>
-                            <li><a href="/commodities">Commodities</a></li>
-                            <li><a href="/metals">Metals</a></li>
-                            <li><a href="/cryptocurrencies">Crypto</a></li>
-                            <li><a href="/shares">Share</a></li>
-
-
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 mt-3">
-                        <ul>
-                            <li>
-                                <strong>Accounts Types</strong>
-                                <div class="dis5"></div>
-                            </li>
-                            <li><a href="https://portal.TradeLive AI inv.com/en/auth/register">Demo Account</a></li>
-                            <li><a href="https://portal.TradeLive AI inv.com/en/auth/register">standard Account</a></li>
-                            <li><a href="https://portal.TradeLive AI inv.com/en/auth/register">TradeLive AI  Account</a></li>
-                            <li><a href="https://portal.TradeLive AI inv.com/en/auth/register">Premium Account</a></li>
-                            <li><a href="https://portal.TradeLive AI inv.com/en/auth/register">Client Portal</a></li>
-
-
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 mt-3">
-                        <ul>
-                            <li>
-                                <strong>Partnership</strong>
-                                <div class="dis5"></div>
-                            </li>
-                            <li><a href="#aaaaaaaaaaaaa">Introducing Brokers</a></li>
-                            <li><a href="/cpa_affiliate">Affiliate Program</a></li>
-                            <li><a href="/ib_commission">IB Commission</a></li>
-                            <li><a href="/white_label">White label</a></li>
-
-
-
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 mt-3">
-                        <ul>
-                            <li>
-                                <strong>Market Research</strong>
-                                <div class="dis5"></div>
-                            </li>
-                            <li><a href="/financial_news">Financial News</a></li>
-                            <li><a href="/technical_analysis_articles">Analysis Articles</a></li>
-                            <li><a href="/technical_analysis_videos">Analysis Videos</a></li>
-                            <li><a href="/webinars">Webinars</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 mt-3">
-                        <ul>
-                            <li>
-                                <strong>Education</strong>
-                                <div class="dis5"></div>
-                            </li>
-                            <li><a href="https://portal.TradeLive AI inv.com/en/auth/register">Open Account</a></li>
-                            <li><a href="https://portal.TradeLive AI inv.com/en/auth/register">Start Trading</a></li>
-                            <li><a href="/support">TradeLive AI &nbsp;FAQ</a></li>
-
-
+                            <li><a href="/terms_and_agreement">Terms and Agreement</a></li>
+                            <li><a href="/safety_of_your_funds">Safety Of Your Funds</a></li>
+                            <li><a href="/legal_forms_documents">Legal Forms & Documents</a></li>
+                            <li><a href="/cookies_policy">Cookies Policy</a></li>
                         </ul>
                     </div>
 
@@ -621,7 +621,7 @@ document.addEventListener('DOMContentLoaded', render_ago);
                         <p>
                             We, Euro-Caribbean Trustees Ltd., of Kingstown, St. Vincent &amp; the Grenadines, being the duly appointed Registered Agent of TradeLive AI  Investment LLC hereby confirm that as at the date of this Certificate:<br>
                         </p>
-                        <ol style="list-style: disc">
+                        <ol style="list-style: disc; position: relative; top: 9px;">
                             <p></p>
                             <li>The Company is in good legal standing.</li>
                             <li>The Registered Office address of the Company is: Euro House, Richmond Hill Road, Kingstown, VC0100, Saint Vincent and&nbsp;the&nbsp;Grenadines.</li>
@@ -647,7 +647,7 @@ document.addEventListener('DOMContentLoaded', render_ago);
                         |
                         <a class="small" href="/risk_warnings">Risk Warnings</a> |
                         <a class="small" href="/cookies_policy">Cookies Policy</a> |
-                        <a class="small" href="/privacy_policy">PRIVACY POLICY</a>
+                        <a class="small" href="/privacy_policy">Privacy Policy</a>
                     </p>
                 </div>
                 <div class="col-sm-3 col-md-2 d-sm-block d-none">

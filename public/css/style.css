@@ -861,7 +861,9 @@ footer{color:#888;}
 .social-icons{display:table;margin:auto;}
 .img06{margin:0px 6px;}
 }
-
+footer ol li {
+  line-height: 20px;
+}
 footer p{
   color: #a7a7a7;
 }
