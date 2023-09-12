@@ -616,17 +616,20 @@ document.addEventListener('DOMContentLoaded', render_ago);
                 <div class="widget-area col-xs-12 col-sm-12 col-md-12 col-lg-10">
                     <div id="block-10" class="widget hr widget_block small">
                         <div class="titlemax mb-0">
-                            <strong>Incumbency Certificate</strong>
+                            <strong>Incumbency Certificate:</strong>
                         </div>
                         <p>
-                            We, Euro-Caribbean Trustees Ltd., of Kingstown, St. Vincent &amp; the Grenadines, being the duly appointed Registered Agent of TradeLive AI  Investment LLC hereby confirm that as at the date of this Certificate:<br>
+                            @lang('We, Euro-Caribbean Trustees Ltd., of Kingstown, St. Vincent & the Grenadines, being the duly appointed Registered Agent of TradeLive AI LLC hereby confirm that as at the date of this Certificate:')
+                            <br>
                         </p>
                         <ol style="list-style: disc; position: relative; top: 9px;">
                             <p></p>
-                            <li>The Company is in good legal standing.</li>
-                            <li>The Registered Office address of the Company is: Euro House, Richmond Hill Road, Kingstown, VC0100, Saint Vincent and&nbsp;the&nbsp;Grenadines.</li>
-                            <li>TradeLive AI  Investment FZE, Our Address in Dubai: the Iridium building, Office No 227.039 Umm-Suqeim St. Al Barsha-&nbsp;Dubai&nbsp;-&nbsp;UAE</li>
-                            <li>The Company was incorporated in St. Vincent &amp; the Grenadines under the Limited Liability Companies Act Chapter 151 of Saint Vincent and the Grenadines 2009 (the Act), on the 5 th October 2021, and its Limited Liability Company Number is 1465 LLC 2021.</li>
+                            <li>@lang('The Company is in good legal standing.')</li>
+                            <li>@lang('The Registered Office address of the Company is: Euro House, Richmond Hill Road, Kingstown, VC0100, Saint Vincent and the Grenadines.')</li>
+                            <li>@lang('The Company was incorporated in St. Vincent & the Grenadines under the Limited Liability Companies Act Chapter 151 of Saint Vincent and the Grenadines 2009 (the Act), on the 5th October 2021, and its Limited Liability Company Number is 1465 LLC 2021.')</li>
+                            <li>@lang('Our Address in the UAE: TradeLive AI LLC, the Iridium building, Office No 227.039 Umm-Suqeim St. Al Barsha- Dubai - UAE')</li>
+                            <li>@lang('')</li>
+                            <li>@lang('')</li>
                         </ol>
                         <div class="titlemax mb-0">
                             <strong>Risk Warning:</strong>
